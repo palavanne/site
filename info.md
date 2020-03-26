@@ -4,12 +4,10 @@
 
 ## MAI
 
-| date | villes | Equipe | Information | Fiche Logistique |
-|------|--------|--------|-------------|------------------|
-| 16 mai | NEVERS | Titulaires | Départ le jour même + Fabrik'Récup | [Fiche Logistique](https://www.dropbox.com/xxxxxx) |
-| 20 mai | SEVRANS |Titulaires | Départ la veille | [Fiche Logistique](https://www.dropbox.com/yyyy) |
+| date   | villes  | Equipe     | Information                        | Fiche Logistique                                   |
+|--------|---------|------------|------------------------------------|----------------------------------------------------|
+| 16 mai | NEVERS  | Titulaires | Départ le jour même + Fabrik'Récup | [Fiche Logistique](https://www.dropbox.com/xxxxxx) |
+| 20 mai | SEVRANS | Titulaires | Départ la veille                   | [Fiche Logistique](https://www.dropbox.com/yyyy)   |
 
-## JUIN
+http://www.tablesgenerator.com/markdown_tables#
 
-
-dkjklsjql
