@@ -1,5 +1,3 @@
 # site-pkp
 
-
-
-Site du groupe
+Site du groupe PKP
