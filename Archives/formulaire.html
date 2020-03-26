@@ -1,0 +1,44 @@
+/*--formulaire mail--*/
+
+<div class="container">
+
+    <form action="post_contact.php" method="post">
+        
+    <label for="inputname">Nom</label>
+    <input type="text" id="inputname" name="name" placeholder="Votre nom">
+
+    <label for="inputemail">Mail</label>
+    <input type="text" id="inputemail" name="email" placeholder="Votre adresse email">
+
+    <label for="inputmessage">Message</label>
+    <textarea id="inputmessage" name="message" placeholder="Votre message" style="height:200px"></textarea>
+
+    <input type="submit" value="Envoyer">
+        
+    </form>
+</div>
+
+/*--CSS--*/
+
+input[type=text], select, textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+    background-color: rgb(19, 76, 233);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #3091e0;
+}
