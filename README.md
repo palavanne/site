@@ -1,3 +1,3 @@
-# site-pkp
+# Site PKP
 
 Site du groupe PKP
