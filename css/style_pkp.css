@@ -133,7 +133,7 @@ ul{
     top: 0%;
     width: 100%;
     height: 100%;
-    background: url(/src/img/pkpfront.jpg) no-repeat ;
+    background: url(../src/img/pkpfront.jpg) no-repeat ;
     background-size: cover;
     background-position: top;
     z-index: 1;
@@ -178,7 +178,7 @@ h1 {
     color: rgb(255, 255, 255);
     background-color: rgb(32, 32, 32);
     padding: 100px;
-    background: url(/src/img/options.jpg);
+    background: url(../src/img/options.jpg);
     background-size: cover;
     background-position: center;
 }

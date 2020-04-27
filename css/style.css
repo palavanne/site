@@ -204,17 +204,17 @@ ul{
     padding: 50px;
 }
 .column-2 {
-    background-image: url(/src/img/pkp-2.jpg);
+    background-image: url(../src/img/pkp-2.jpg);
     background-size: cover;
     background-position: center;
 }
 .column-3 {
-    background-image: url(/src/img/pkp-5.jpg);
+    background-image: url(../src/img/pkp-5.jpg);
     background-size: cover;
     background-position: center;
 }
 .column-6 {
-    background-image: url(/src/img/groupe-3.JPG);
+    background-image: url(../src/img/groupe-3.JPG);
     background-size: cover;
     background-position: center;
 }
@@ -261,7 +261,7 @@ ul{
     top: 0%;
     width: 100%;
     height: 100%;
-    background: url(/src/img/pkpfront.jpg) no-repeat;
+    background: url(../src/img/pkpfront.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     z-index: 1;
