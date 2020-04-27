@@ -198,19 +198,19 @@ h1 {
 .column-2 {
     margin: 2px;
     overflow: hidden;
-    background-image: url("/src/img/gallerie_pkp/pkp-1.jpg");
+    background-image: url("../src/img/gallerie_pkp/pkp-1.jpg");
     background-size: cover;
     background-position: center;
 }
 .column-3 {
     margin: 2px;
-    background-image: url("/src/img/pkp-5.jpg");
+    background-image: url("../src/img/pkp-5.jpg");
     background-size: cover;
     background-position: center;
 }
 .column-6 {
     margin: 2px;
-    background-image: url("/src/img/groupe-3.JPG");
+    background-image: url("../src/img/groupe-3.JPG");
     background-size: cover;
     background-position: center;
 }
