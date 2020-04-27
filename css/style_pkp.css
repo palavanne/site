@@ -1,0 +1,450 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4rem;
+    font-size: 16px;
+    color: var(--color);
+    font-family: 'Open sans', sans-serif;
+    background-color: var(--bg-color);
+}
+h2 {
+    font-size: 50px;
+    color: var(--theme-color);
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+h3 {
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--theme-color);
+    padding: 10px 0px;
+}
+
+/*--VARIABLES--*/
+
+:root {
+    --container: 100%;
+    --bg-color: rgb(250, 250, 250);
+    --color: rgb(49, 49, 49);
+    --theme-color: rgb(63, 35, 185);
+    --duration: 0.4s;
+}
+
+/* MENU */
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    padding: 13px;
+    transition: 0.5s;
+    z-index: 100;
+}
+.background-color {
+    color: rgb(31, 31, 31);
+    padding: 0 13px 0 13px;
+    height: 50px;
+    background-color: rgba(31, 31, 31, 0.9);
+    box-shadow: 1px 1px 50px -20px rgba(0, 0, 0, 0.7);
+}
+.header-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 13px;
+    margin: 0 0 0 20px;
+    float: left;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.header-nav {
+    margin: 0px auto;
+    float: right;
+}
+ul{
+    margin: 13px;
+}
+.header-nav a {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.header a:hover {
+    color: rgb(214, 214, 214);
+}
+.header-nav li {
+    display: inline-block;
+}
+.image-hamburger {
+    width: 35px;
+    height: 25px;
+}
+.image-close {
+    width: 30px;
+    height: 30px;
+
+}
+.show-menu-btn, .hide-menu-btn {
+    transition: 0.3s;
+    cursor: pointer;
+    display: none;
+    margin-top: 13px;
+    margin-right: 25px;
+    display: none;
+}
+.show-menu-btn {
+    float: right;
+}
+#chk {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+
+/* Bannière d'accueil */
+
+.block {
+    width: 100%;
+    height: 100vh;
+}
+.banner-opacity {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+.banner {
+    content: "";
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: url(/src/img/pkpfront.jpg) no-repeat ;
+    background-size: cover;
+    background-position: top;
+    z-index: 1;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.title {
+    position: absolute;
+    width: 45%;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    line-height: 3em;
+    color: rgb(255, 255, 255);
+    z-index: 20;
+}
+.block .title .button {
+    font-size: 20px;
+    color: inherit;
+    text-decoration: none;
+    padding: 15px 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.block .title .button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255,255);
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+}
+.one, .four, .six {
+    padding: 100px;
+}
+.two {
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 32);
+    padding: 100px;
+    background: url(/src/img/options.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.five, .seven {
+    padding: 100px;
+    background-color: rgb(240, 240, 240);
+}
+.column-type {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.column-1, .column-4, .column-5 {
+    padding: 50px;
+}
+.column-2 {
+    margin: 2px;
+    overflow: hidden;
+    background-image: url("/src/img/gallerie_pkp/pkp-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.column-3 {
+    margin: 2px;
+    background-image: url("/src/img/pkp-5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.column-6 {
+    margin: 2px;
+    background-image: url("/src/img/groupe-3.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Infos clés */
+
+.options {
+    max-width: 1200px;
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+    margin: 0 auto;
+}
+.options h2 {
+    text-align: left;
+}
+.options a, i {
+    color: var(--theme-color);
+    margin-right: 10px;
+}
+
+/* Gallerie photo */
+
+.image {
+    padding: 4px 2px;
+}
+.inner-width {    
+    padding-left: calc(50% - var(--container)/2);
+    padding-right: calc(50% - var(--container)/2);
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.gallery-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.gallery-section .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-section .image {
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.gallery-section .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.gallery-section .image:hover img {
+    transform: scale(1.2);
+} 
+
+/* Vidéo */
+
+.teaser {
+    position: relative;
+    height: 0;
+    padding-top: 56.25%;
+    overflow: hidden;
+    padding: 100px, 100px 0 100px;
+}
+.teaser iframe {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    transform: translateX(12.5%);
+    top: 0;
+    left: 0;
+}
+
+/* Agenda */
+
+.agenda {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+.container .agenda td {
+    color: rgb(30, 30, 30);
+    line-height: 2.5em;
+}
+.container .agenda td a {
+    color: rgb(30, 30, 30);
+}
+.container .agenda tr:hover {
+    background-color: rgb(220, 220, 220);
+}
+.btn-block {
+    text-align: center;
+}
+.btn-archives {
+    display: inline-block;
+    color: var(--theme-color);
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid var(--theme-color);
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.btn-archives:hover {
+    color: rgb(240, 240, 240);
+    background-color: var(--theme-color);
+}
+
+/* Références */
+
+.references {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.column-left {
+    text-align: right;
+    padding-right: 20px;
+    border-right: 1px solid rgb(49, 49, 49);
+}
+.column-right {
+    padding-left: 20px;
+}
+
+/* Contact */
+
+.contact {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.column-left-contact p {
+    line-height: 2em;
+}
+
+/* Bouton réseaux sociaux */
+
+.btn-social-facebook {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px -10px rgb(60, 60, 60);
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.btn-social-youtube {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px -10px rgb(60, 60, 60);
+    margin: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.btn-social-facebook i, .btn-social-youtube i {
+    color: var(--theme-color);
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0;
+}
+.btn-social-facebook:hover, .btn-social-youtube:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+/* Formulaire de contact*/
+
+.contact-section {
+    margin: 0 auto;
+    width: 100%;
+}
+.contact-form {
+    width: 100%;
+}
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    font-size: 14px;
+    color: rgb(41, 41, 41);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    padding: 20px 40px;
+    outline: none;
+    transition: 0.5s;
+}
+.contact-form-text:focus {
+    box-shadow: 0 0 5px 1px var(--theme-color);
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 200px;
+}
+.contact-form-btn {
+    float: right;
+    border: 0;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    color: var(--theme-color);
+    border: 2px solid var(--theme-color);
+    border-radius: 5px;
+    padding: 12px 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contact-form-btn:hover {
+    background-color: var(--theme-color);
+    color: rgb(255, 255, 255);
+    border: 2px solid var(--theme-color);
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    border-top: 1px solid rgb(184, 184, 184);
+    background-color: rgb(240, 240, 240);
+}
+.footer p {
+    margin: 0;
+    padding: 10px;
+}
