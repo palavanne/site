@@ -24,6 +24,7 @@ function createRow(presta) {
     if (presta.lien !== '') {
         var lien = document.createElement('a')
         lien.href = presta.lien
+        lien.classList = 'link-presta'
         lien.innerHTML = presta.evenement
         
         var td = document.createElement('td')
