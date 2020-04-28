@@ -19,38 +19,26 @@ function createRow(presta) {
     var tr = document.createElement('tr')
     tr.classList = 'row'
 
-    if (presta.spectacle === 'Les Pourkoapas') {
+    if (presta.spectacle !== '') {
         var cell = document.createElement('td')
 
         var lienSpectacle = document.createElement('a')
         lienSpectacle.href = 'pourkoapas.html'
-        lienSpectacle.classList = 'link-spectacle'
+        lienSpectacle.classList = 'link-agenda'
         lienSpectacle.innerHTML = presta.spectacle
         cell.appendChild(lienSpectacle)
 
         tr.appendChild(cell)
 
-    } else if (presta.spectacle === 'La Moufle') {
-        var cell = document.createElement('td')
-
-        var lienSpectacle = document.createElement('a')
-        lienSpectacle.href = 'moufle.html'
-        lienSpectacle.classList = 'link-spectacle'
-        lienSpectacle.innerHTML = presta.spectacle
-        cell.appendChild(lienSpectacle)
-
-        tr.appendChild(cell)
-    } else {
-        
     }
 
     tr.appendChild(createCell(presta.date))
     tr.appendChild(createCell(presta.ville))
 
-    if (presta.lien !== '' && presta.spetacle !== '') {
+    if (presta.lien !== '') {
         var lien = document.createElement('a')
         lien.href = presta.lien
-        lienSpectacle.classList = 'link-presta'
+        lien.classList = 'link-website'
         lien.innerHTML = presta.evenement
         
         var td = document.createElement('td')
@@ -71,3 +59,4 @@ function createCell(val) {
 
     return td
 }
+
