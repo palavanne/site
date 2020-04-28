@@ -304,8 +304,8 @@ h1 {
     color: rgb(30, 30, 30);
     line-height: 2.5em;
 }
-.container .agenda td a {
-    color: rgb(30, 30, 30);
+.container .agenda .link-presta {
+    color: rgb(97, 146, 18);
 }
 .container .agenda tr:hover {
     background-color: rgb(220, 220, 220);
