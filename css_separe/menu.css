@@ -21,8 +21,11 @@
     padding: 13px;
     margin: 0 0 0 20px;
     float: left;
-    color: rgb(255, 255, 255);
+    color: rgb(210, 210, 210);
     text-decoration: none;
+}
+.header-title:hover {
+    color: rgb(255, 255, 255);
 }
 .header-nav {
     margin: 0px auto;
@@ -35,12 +38,12 @@ ul{
     font-size: 14px;
     font-weight: bold;
     margin: 0 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(210, 210, 210);
     text-decoration: none;
     transition: 0.3s;
 }
 .header a:hover {
-    color: rgb(214, 214, 214);
+    color: rgb(255, 255, 255);
 }
 .header-nav li {
     display: inline-block;

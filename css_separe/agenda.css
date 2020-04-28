@@ -13,11 +13,11 @@
     padding-left: 20px;
     line-height: 2.5em;
 }
-.container .agenda .link-spectacle {
-    color: rgb(165, 96, 96);
+.container .agenda .link-agenda {
+    color: rgb(120, 120, 120);
 }
-.container .agenda .link-presta {
-    color: rgb(97, 146, 18);
+.container .agenda .link-website {
+    color: rgb(0, 0, 0);
 }
 .container .agenda tr:hover {
     background-color: rgb(220, 220, 220);
