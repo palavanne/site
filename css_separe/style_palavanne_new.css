@@ -1,0 +1,172 @@
+/* MAIN */
+
+.container {
+    padding: 100px;
+    margin: 0 auto;
+}
+.background-color-white {
+    background-color: rgb(250, 250, 250);
+}
+.background-color-grey {
+    background-color: rgb(240, 240, 240);
+}
+.title-section {
+    font-size: 50px;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+.title-sub-section {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+/* Bannière d'accueil */
+
+.banner-img {
+    background: url(../src/img/gallerie_pkp/pkp-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title {
+    position: absolute;
+    width: 75%;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(255, 255, 255);
+    line-height: 3.2em;
+    text-align: center;
+    z-index: 20;
+}
+.block .title .catch-phrase {
+    font-size: 50px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* PRESENTATION */
+
+.column-type {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+}
+.column-top-left, .column-bottom-right {
+    padding: 50px;
+}
+.column-top-right {
+    background-image: url(../src/img/pkp-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.column-bottom-left {
+    background-image: url(../src/img/pkp-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Spectacles */
+
+.pestacles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Contact */
+
+.contact {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 0 auto;
+}
+.contact .contact-contain {
+    line-height: 2em;
+}
+
+/* Bouton réseaux sociaux */
+
+.btn-social-facebook {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px -10px rgb(60, 60, 60);
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.btn-social-youtube {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px -10px rgb(60, 60, 60);
+    margin: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.btn-social-facebook i, .btn-social-youtube i {
+    color: rgb(90, 90, 90);
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0;
+}
+.btn-social-facebook:hover, .btn-social-youtube:hover {
+    background-color: rgb(250, 250, 250);
+}
+
+/* Formulaire de contact*/
+
+.contact-section {
+    margin: 0 auto;
+    width: 100%;
+}
+.contact-form {
+    width: 100%;
+}
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    font-size: 14px;
+    color: rgb(40, 40, 40);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    padding: 20px 40px;
+    outline: none;
+    transition: 0.5s;
+}
+.contact-form-text:focus {
+    box-shadow: 0 0 5px 1px rgb(90, 90, 90);
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 200px;
+}
+.contact-form-btn {
+    float: right;
+    border: 0;
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+    border: 2px solid rgb(90, 90, 90);
+    border-radius: 5px;
+    padding: 12px 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contact-form-btn:hover {
+    background-color: rgb(90, 90, 90);
+    color: rgb(250, 250, 250);
+}

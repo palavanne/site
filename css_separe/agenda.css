@@ -1,0 +1,24 @@
+/* Agenda */
+
+.agenda {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    font-weight: bold;
+    background-color: rgb(230, 230, 230);
+}
+.container .agenda td {
+    padding-left: 20px;
+    line-height: 2.5em;
+}
+.container .agenda .link-spectacle {
+    color: rgb(165, 96, 96);
+}
+.container .agenda .link-presta {
+    color: rgb(97, 146, 18);
+}
+.container .agenda tr:hover {
+    background-color: rgb(220, 220, 220);
+}
