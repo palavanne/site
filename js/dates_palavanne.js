@@ -16,17 +16,13 @@ fetch('./json/prestas-palavanne.json')
 })
 
 function createRow(presta) {
-    var tr = document.createElement('tr')
+    var tr = document.createElement('div')
     tr.classList = 'row'
 
     if (presta.spectacle !== '') {
-        var cell = document.createElement('td')
-
-        var lienSpectacle = document.createElement('a')
-        lienSpectacle.href = 'pourkoapas.html'
-        lienSpectacle.classList = 'link-agenda'
-        lienSpectacle.innerHTML = presta.spectacle
-        cell.appendChild(lienSpectacle)
+        var cell = document.createElement('div')
+        cell.className = 'cell'
+        cell.innerHTML = presta.spectacle
 
         tr.appendChild(cell)
 
@@ -38,10 +34,10 @@ function createRow(presta) {
     if (presta.lien !== '') {
         var lien = document.createElement('a')
         lien.href = presta.lien
-        lien.classList = 'link-website'
+        lien.classList = 'link-agenda'
         lien.innerHTML = presta.evenement
         
-        var td = document.createElement('td')
+        var td = document.createElement('div')
         td.appendChild(lien)
 
         tr.appendChild(td)
@@ -54,9 +50,10 @@ function createRow(presta) {
 }
 
 function createCell(val) {
-    var td = document.createElement('td')
-    td.innerHTML = val
+    var cell = document.createElement('div')
+    cell.innerHTML = val
+    cell.className = 'cell'
 
-    return td
+    return cell
 }
 
