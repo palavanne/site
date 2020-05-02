@@ -82,7 +82,7 @@ ul{
         right: 0;
         top: 0;
         text-align: center;
-        transition: 0.5s;
+        transition: 0.3s;
     }
     .image-close {
         display: block;
