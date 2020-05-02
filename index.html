@@ -25,20 +25,15 @@
     <body>
         <header class="header">
             <a href="#top" class="header-title">Collectif PALAVANNE</a>
-            <input type="checkbox" id="chk">
-            <label for="chk" class="show-menu-btn">
             <img src="src/img/hamburger.png" class="image-hamburger" alt="">
-            </label>
-            <nav class="header-nav">
+            <nav class="header-nav close">
                 <ul>
-                    <li><a href="#collectif" title="">LE COLLECTIF</a></li>
-                    <li><a href="#spectacles" title="">LES SPECTACLES</a></li>
-                    <li><a href="#agenda" title="">AGENDA</a></li>
-                    <li><a href="#contact" title="Nous contacter">CONTACT</a></li>
+                    <li><a href="#collectif" class="nav-link" title="">LE COLLECTIF</a></li>
+                    <li><a href="#spectacles" class="nav-link" title="">LES SPECTACLES</a></li>
+                    <li><a href="#agenda" class="nav-link" title="">AGENDA</a></li>
+                    <li><a href="#contact" class="nav-link" title="Nous contacter">CONTACT</a></li>
                 </ul>
-                <label for="chk" class="hide-menu-btn">
-                <img src="src/img/close.png" class="image-close" alt="">
-                </label>
+                <img src="src/img/close.png" class="nav-link image-close" alt="">
             </nav>
         </header>
         <div class="block">
@@ -188,7 +183,8 @@
         <footer class="footer background-color-grey">
             <p>© Palavanne - 2020 | Politique de confidentialité</p>
         </footer>
-        <script src="js/dates_palavanne.js"></script>
-        <script src="js/scroll.js"></script>
     </body>
+    <script src="./js/dates_palavanne.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/menu.js"></script>
 </html>
