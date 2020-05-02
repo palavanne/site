@@ -1,9 +1,10 @@
 /*--CARD--*/
 
+
 .pestacles {
+    width: 980px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: 33% 33% 33%;
     margin: 0 auto;
 }
 
@@ -11,11 +12,13 @@
     width: 300px;
     height: 400px;
     background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
     border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 18px;
 }
 .card img {
     opacity: 0.9;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
     border-radius: 5px;
     transition: 0.4s;
 }
@@ -82,5 +85,12 @@
 }
 .card:hover img {
     opacity: 0.3;
-    box-shadow: 1px 1px 20px 2px rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1180px) {
+    .pestacles {
+        width: 670px;
+        grid-template-columns: 50% 50%;
+    }
+    
 }

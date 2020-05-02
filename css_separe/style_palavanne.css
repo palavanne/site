@@ -70,14 +70,6 @@
 
 /* Spectacles */
 
-.pestacles {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 
 /* Contact */
 
