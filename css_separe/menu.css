@@ -54,22 +54,13 @@ ul{
     width: 35px;
     height: 25px;
     display: none;
+    cursor: pointer;
 }
 .image-close {
     width: 30px;
     height: 30px;
     display: none;
-}
-.show-menu-btn, .hide-menu-btn {
-    transition: 0.3s;
     cursor: pointer;
-    display: none;
-    margin-top: 13px;
-    margin-right: 25px;
-    display: none;
-}
-.show-menu-btn {
-    float: right;
 }
 
 
@@ -116,5 +107,11 @@ ul{
     }
     .close {
         right: -100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header .header-nav ul {
+        padding: 0;
     }
 }

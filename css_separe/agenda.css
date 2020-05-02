@@ -6,19 +6,39 @@
     margin: 0 auto;
 }
 .row {
+    display: grid;
+    grid-template-columns: 20% 20% 30% 30%;
     font-weight: bold;
     background-color: rgb(230, 230, 230);
+    margin-bottom: 2px;
 }
-.container .agenda td {
-    padding-left: 20px;
-    line-height: 2.5em;
+.container .agenda .cell {
+    line-height: 1em;
+    padding: 10px;
 }
 .container .agenda .link-agenda {
-    color: rgb(120, 120, 120);
-}
-.container .agenda .link-website {
     color: rgb(0, 0, 0);
+    padding: 10px;
 }
-.container .agenda tr:hover {
+.container .agenda .row:hover {
     background-color: rgb(220, 220, 220);
+}
+
+
+@media screen and (max-width: 900px) {
+    .container .agenda .cell {
+        font-size: 12px;
+        line-height: 1em;
+    }
+    .container .agenda .link-agenda {
+        font-size: 12px;
+        line-height: 1em;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .row {
+        grid-template-columns: 50% 50%;
+    }
 }

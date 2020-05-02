@@ -35,15 +35,29 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: rgb(255, 255, 255);
-    line-height: 3.2em;
     text-align: center;
     z-index: 20;
 }
-.block .title .catch-phrase {
+.catch-phrase {
     font-size: 50px;
-    margin: 0px;
+    margin: 0;
     text-transform: uppercase;
-    font-weight: 900;
+    line-height: 1em;
+}
+.block .title .button {
+    display: inline-block;
+    font-size: 20px;
+    color: inherit;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.block .title .button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255,255);
 }
 
 /* PRESENTATION */
@@ -71,17 +85,6 @@
 /* Spectacles */
 
 
-/* Contact */
-
-.contact {
-    max-width: 1200px;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin: 0 auto;
-}
-.contact .contact-contain {
-    line-height: 2em;
-}
 
 /* Bouton réseaux sociaux */
 
@@ -115,6 +118,18 @@
 }
 .btn-social-facebook:hover, .btn-social-youtube:hover {
     background-color: rgb(250, 250, 250);
+}
+
+/* Contact */
+
+.contact {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 0 auto;
+}
+.contact .contact-contain {
+    line-height: 2em;
 }
 
 /* Formulaire de contact*/
@@ -161,4 +176,60 @@ textarea.contact-form-text{
 .contact-form-btn:hover {
     background-color: rgb(90, 90, 90);
     color: rgb(250, 250, 250);
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 900px) {
+
+
+    .block .title .catch-phrase {
+        font-size: 40px;
+    }
+    .container {
+        padding: 70px 30px;
+    }
+    .column-type {
+        display: block;
+    }
+    .title-section {
+        font-size: 40px;
+        line-height: 1em;
+        margin: 30px;
+    }
+    .column-top-left, .column-bottom-right {
+        padding: 0px;
+    }
+
+    .contact {
+        display: block;
+    }
+   .title-sub-section {
+        text-align: center;
+    }
+    .contact .contact-contain {
+        line-height: 1.5em;
+        text-align: center;
+    }
+    .column-left-contact {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .block .title .catch-phrase {
+        line-height: 1.2em;
+        font-size: 30px;
+    }
+    .title-section {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+    .title-sub-section {
+        text-transform: uppercase;
+        margin: 0;
+        padding: 10px 0px;
+    }
 }
