@@ -5,7 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="desciption" content="Spectalce de rue sur le développement durable">
-        <link rel="stylesheet" href="css/style_fr.css">
+        <link rel="stylesheet" href="css_separe/style-fr.css">
+        <link rel="stylesheet" href="css_separe/reset.css">
+        <link rel="stylesheet" href="css_separe/menu.css">
+        <link rel="stylesheet" href="css_separe/full-width-banner.css">
+        <link rel="stylesheet" href="css_separe/contact.css">
+        <link rel="stylesheet" href="css_separe/footer.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/42eee18e28.js" crossorigin="anonymous"></script>
@@ -14,64 +19,61 @@
     <body>
         <header class="header">
                 <a href="index.html" class="header-title">COLLECTIF PALAVANNE</a>
-                <input type="checkbox" id="chk">
-                <label for="chk" class="show-menu-btn">
                 <img src="src/img/hamburger.png" class="image-hamburger" alt="">
-                </label>
-            <nav class="header-nav">
+            <nav class="header-nav close">
                 <ul>
-                    <li><a href="#ateliers" title="Les ateliers">LES ATELIERS</a></li>
-                    <li><a href="#contact" title="Infio">INFOS CLÉS</a></li>
-                    <li><a href="#contact" title="Nous contacter">CONTACT</a></li>
+                    <li><a href="#ateliers" class="nav-link" title="Les ateliers">LES ATELIERS</a></li>
+                    <li><a href="#contact" class="nav-link" title="Infio">INFOS CLÉS</a></li>
+                    <li><a href="#contact" class="nav-link" title="Nous contacter">CONTACT</a></li>
                 </ul>
-                <label for="chk" class="hide-menu-btn">
-                <img src="src/img/close.png" class="image-close" alt="">
-                </label>
+                <img src="src/img/close.png" class="nav-link image-close" alt="">
             </nav>
         </header>
         <div class="block">
             <div class="banner" id="top"></div>
             <div class="title">
-                <h1>La Fabrik'Récup</h1>
-                <hr>
-                <h4>Ateliers de fabrication d'objets à partir de matériaux de récupération</h4>
+                <span class="title-project">La Fabrik'Récup</span>
+                <h3 class="catch-phrase">Ateliers de fabrication d'objets à partir de matériaux de récupération</h3>
                 <a href="#ateliers" class="button"><strong>Découvrir les ateliers</strong></a>
             </div>
         </div>
         <div class="container" id="ateliers">
-            <h2>Les ateliers « Fabrik'Récup »</h2>
-            <div class="column-type">
-                <div class="column-1">
-                    <h3>L'art de donner une seconde vie à chaque objet</h3>
-                    <p>Ces ateliers accessible à toutes et à tous, sont animés par des intervenants (membres des Pourkoapas) qui sont là pour vous guider dans votre réalisation en proposant des idées, des alternatives, et pourquoi pas utiliser les « trucs et astuces » piochés dans le reste du monde.</p>
+            <div class="title-section">Les ateliers « Fabrik'Récup »</div>
+            <div class="">
+                <div class="">
+                    <h2>L'art de donner une seconde vie à chaque objet</h2>
+                    <p>Le collectif Palavanne propose des ateliers de fabrication d'objets uniquement à partir de matériaux de récupération.</p>
+                    <p>Ces ateliers accessible à toutes et à tous et animés par des intervenants membres des Pourkoapas, peuvent s'orienter sur plusieurs thématiques : comme la fabrication d'instruments de musique, de jeux et jouets, d'accessoires de spectacle, de masques et coiffes, ainsi que divers objets et accessoires du quotidien.</p>
+                    <h3>Notre philosophie</h3>
                     <p>Le plaisir de faire soi-même, en utilisant des outils simples et la nécessité de réduire nos déchets, sont les motivations premières de « La Fabrik' Récup »</p>
-                    <p>L'atelier peut s'orienter sur plusieurs thématiques, que ce soit la fabrication d'instruments de musique, de jeux et jouets, d'accessoires de spectacle, de masques et coiffes, ainsi que divers objets et accessoires du quotidien.</p>
                     <h3>Bricoler : c'est aussi aiguiser sa curiosité pour comprendre comment les choses fonctionnent.</h3>
                     <p>Au travers de ces ateliers pédagogiques, on découvre de manière ludique des principes mécaniques et une logique de fonctionnement. Les participants ne repartent pas seulement avec leur réalisation mais aussi avec tout le savoir qui l'entoure, ne serait-ce que pour la maintenance ou simplement pour le reproduire.</p>
                     <p>Bricoler c'est aussi simplifier au mieux l’assemblage des objets à l’aide d’élastiques, de chambres à air, de rayons de vélo ou de petites visseries, et utiliser des outils simples et accessibles à tous (en fonction des âges) ce qui rendra d’avantage chacun acteur de sa réalisation.</p>
                     <h3>Découvrez les milles et une façons d'assembler sans colle ni scotch.</h3>
-                    <p>La colle et le ruban adhésif (produits toxiques et polluants), sont à proscrire de l’atelier « Fabrik’récup ». Hormis le fait de réfléchir à des techniques d’assemblage autres, s’ajoute la satisfaction sur la rapidité d'exécution sans avoir des temps de mise sous presse ou l’attente de séchage : « Coller, c’est figer ! ». L’instrument réalisé est de ce fait démontable, mais aussi réajustable et modulable à souhait.</p>
-                </div>
-                <div class="column-2">
-                    <h3>Infos clés</h3>
-                    <p><strong>Ateliers accessibles à partir de 8 ans.</strong></p>
-                    <p>Deux tables, quelques chaises et une prise de courant standard seront nécessaires au bon fonctionnement de l'atelier.</p>
-                    <p>L'ensemble des outils servant à la confection sont fournis par « La Fabrik'récup ».</p>
-                    <p>Les participants aux ateliers peuvent également apporter de la matière première issue de leur récupération, voire un de leurs objets personnels en vue d'une revalorisation artisanale.</p>
-                    <p>Le ou les intervenant(s) apporteront des matériaux et matériels de récupération (préalablement nettoyés!).</p>
-                    <p>Les ateliers peuvent être proposés conjointement à une prestation des <a href="pourkoapas.html">POURKOAPAS</a>.</p>
-                    <a href="src/pdf/dossier_pkp.pdf" target="_blank"><i class="far fa-file-pdf"></i> TÉLÉCHARGER LE DOSSIER</a>
+                    <p>La colle et le ruban adhésif (produits toxiques et polluants), sont à proscrire de l’atelier « Fabrik’récup ».
+                    <p>Coller, c’est figer !</p>
+                    <p>Hormis le fait de réfléchir à des techniques d’assemblage autres, s’ajoute la satisfaction d'une exécution rapide, sans avoir des temps de mise sous presse ou l’attente de séchage. L’objet réalisé est de ce fait démontable, mais aussi réajustable et modulable à souhait.</p>
                 </div>
             </div>
         </div>
-        <div class="container two">
+        <div class="container">
+            <h3>Infos clés</h3>
+            <p><strong>Ateliers accessibles à partir de 8 ans.</strong></p>
+            <p>Deux tables, quelques chaises et une prise de courant standard seront nécessaires au bon fonctionnement de l'atelier.</p>
+            <p>L'ensemble des outils servant à la confection sont fournis par « La Fabrik'récup ».</p>
+            <p>Les participants aux ateliers peuvent également apporter de la matière première issue de leur récupération, voire un de leurs objets personnels en vue d'une revalorisation artisanale.</p>
+            <p>Le ou les intervenant(s) apporteront des matériaux et matériels de récupération (préalablement nettoyés).</p>
+            <p>Les ateliers peuvent être proposés conjointement à une prestation des <a href="pourkoapas.html">Pourkoapas</a>.</p>
+            <a href="src/pdf/dossier_pkp.pdf" target="_blank"><i class="far fa-file-pdf"></i> TÉLÉCHARGER LE DOSSIER</a>
+        </div>
+        <div class="container">
             <div>
                 <h3>« La Fabrik'récup » a été référencée :</h3>
                 <p>Dans le livre de Marie-Hélène Chaplain et Aline Perrier <strong>« L'art de la récup »</strong> paru en 2011 aux éditions « Tournez la page ».</p>
                 <p>Dans le journal <strong>« Ressources »</strong> de janvier 2014 du syndicat de traitement des déchets « Organom » du département de l’Ain.</p>
             </div>
         </div>
-        <div class="container three">
+        <div class="container">
             <h3>Quelques exemples d'interventions :</h3>
             <div class="column-references">
                 <div class="column-left">
@@ -91,17 +93,17 @@
                 </div>
             </div>
         </div>
-        <div class="container four" id="contact">
-            <h2>CONTACTEZ-NOUS</h2>
-            <div class="column-contact">
-                <div class="column-left">
+        <div class="container" id="contact">
+            <h2 class="title-section">CONTACTEZ-NOUS</h2>
+            <div class="contact">
+                <div class="column-left-contact">
                     <h3>Adresse</h3>
                     <p>Collectif Palavanne<br />
                     Maison de la vie associative<br />
                     2 boulevard Irèbe Joliot Curie<br />
                     01000 BOURG-EN-BRESSE</p>
                 </div>
-                <div class="column-right">
+                <div class="column-right-contact">
                     <h3>Diffusion</h3>
                     <p>Patrick CORNUT<br />
                     06 11 22 33 44<br />
@@ -113,5 +115,6 @@
         <footer class="footer">
             <p>© Palavanne 2020</p>
         </footer>
+        <script src="/js/menu.js"></script>
     </body>
 </html>

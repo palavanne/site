@@ -21,11 +21,8 @@
     margin-left: 20px;
     padding: 13px;
     float: left;
-    color: rgb(210, 210, 210);
+    color: rgb(250, 250, 250);
     text-decoration: none;
-}
-.header-title:hover {
-    color: rgb(255, 255, 255);
 }
 .header-nav {
     margin: 0px auto;
@@ -38,12 +35,10 @@ ul{
     font-size: 14px;
     font-weight: bold;
     margin: 0 10px;
-    color: rgb(210, 210, 210);
+    padding: 14px 0;
+    color: rgb(250, 250, 250);
     text-decoration: none;
     transition: 0.3s;
-}
-.header a:hover {
-    color: rgb(255, 255, 255);
 }
 .header-nav li {
     display: inline-block;
@@ -76,14 +71,20 @@ ul{
     .header-nav {
         position: fixed;
         padding: 30px;
-        width: 100%;
+        width: 300px;
         height: 100vh;
         background: #333;
         right: 0;
         top: 0;
         text-align: center;
-        transition: 0.3s;
+        transition: 0.5s;
     }
+    .header-title {
+        margin-left: 0px;
+    }
+    .header .header-nav ul {
+        padding: 0;
+    }   
     .image-close {
         display: block;
         top: 20px;
@@ -102,11 +103,11 @@ ul{
     }
 }
 
-@media screen and (max-width: 900px) {
-    .header-title {
-        margin-left: 0px;
-    }
-    .header .header-nav ul {
-        padding: 0;
+@media screen and (max-width: 500px) {
+    .header-nav {
+        position: fixed;
+        padding: 30px;
+        width: 100%;
+        height: 100vh;
     }
 }
