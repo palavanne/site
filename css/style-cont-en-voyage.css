@@ -1,7 +1,7 @@
 .banner {
     width: 100%;
     height: 100%;
-    background: url("../src/img/banner/conte.jpg") no-repeat;
+    background: url("../src/img/banner/banner-conte.jpg") no-repeat;
     background-size: cover;
     background-position: top;
 }

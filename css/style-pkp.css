@@ -1,7 +1,7 @@
 /* Bannière d'accueil */
 
 .banner-img {
-    background: url("../src/img/banner/pkpfront.jpg") no-repeat;
+    background: url("../src/img/banner/banner-pkp.jpg") no-repeat;
     background-size: cover;
     background-position: top;
 }
@@ -81,12 +81,12 @@
 }
 .column-top-right {
     overflow: hidden;
-    background-image: url("../src/img/hymne.jpg");
+    background-image: url("../src/img/pkp-column-top-right.jpg");
     background-size: cover;
     background-position: center;
 }
 .column-middle-top-left {
-    background-image: url("../src/img/pkp-2.jpg");
+    background-image: url("../src/img/pkp-column-middle-right.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -99,12 +99,12 @@
     padding: 50px;
 }
 .column-middle-bottom-right {
-    background-image: url("../src/img/gallerie-pkp/pkp-1.jpg");
+    background-image: url("../src/img/pkp-column-middle-left.jpg");
     background-size: cover;
     background-position: center;
 }
 .column-bottom-left {
-    background-image: url("../src/img/pkp-4.jpg");
+    background-image: url("../src/img/pkp-column-bottom-left.jpg");
     background-size: cover;
     background-position: center;
 }
