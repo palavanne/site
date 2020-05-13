@@ -5,55 +5,66 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="desciption" content="Spectalce de rue sur le développement durable">
-        <link rel="stylesheet" href="css/style_cv.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/menu.css">
+        <link rel="stylesheet" href="/css/full-width-banner.css">
+        <link rel="stylesheet" href="/css/gallery.css">
+        <link rel="stylesheet" href="/css/contact.css">
+        <link rel="stylesheet" href="/css/footer.css">
+        <link rel="stylesheet" href="/css/style-cont-en-voyage.css">
+
+        <!-- FONT -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+        
+        <!-- GALLERY -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-        <script src="https://kit.fontawesome.com/42eee18e28.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+        <!-- FONT -->
+        <script src="https://kit.fontawesome.com/42eee18e28.js" crossorigin="anonymous"></script>
+
         <title>CONT'EN VOYAGE</title>
     </head>
     <body>
         <header class="header">
                 <a href="index.html" class="header-title">COLLECTIF PALAVANNE</a>
-                <input type="checkbox" id="chk">
-                <label for="chk" class="show-menu-btn">
-                <img src="src/img/hamburger.png" class="image-hamburger" alt="">
-                </label>
-            <nav class="header-nav">
+                <img src="src/img/menu/hamburger.png" class="image-hamburger" alt="">
+            <nav class="header-nav close">
                 <ul>
-                    <li><a href="#spectacle" title="Présentation du spectacle">LE SPECTACLE</a></li>
-                    <li><a href="#gallery" title="Médias">PHOTOS</a></li>
-                    <!-- <li><a href="#agenda" title="Agenda">AGENDA</a></li> -->
-                    <li><a href="#contact" title="Nous contacter">CONTACT</a></li>
+                    <li><a href="#spectacle" class="nav-link" title="Présentation du spectacle">LE SPECTACLE</a></li>
+                    <li><a href="#gallery" class="nav-link" title="Médias">PHOTOS</a></li>
+                    <li><a href="#contact" class="nav-link" title="Nous contacter">CONTACT</a></li>
                 </ul>
                 <label for="chk" class="hide-menu-btn">
-                <img src="src/img/close.png" class="image-close" alt="">
+                <img src="src/img/menu/close.png" class="image-close nav-link" alt="">
                 </label>
             </nav>
         </header>
         <div class="block">
             <div class="banner" id="top"></div>
             <div class="title">
-                <h1>CONT'EN VOYAGE</h1>
-                <h4>" Embrasse trois fois la lune et le conte t'emenera... "</h4>
+                <span class="title-project">CONT'EN VOYAGE</span>
+                <span class="catch-phrase">" Embrasse trois fois la lune et le conte t'emenera... "</span>
                 <a href="#spectacle" class="button"><strong>Découvrir le spectacle</strong></a>
             </div>
         </div>
-        <div class="container one" id="spectacle">
-            <h2>LE SPECTACLE</h2>
+        <div class="container" id="spectacle">
+            <h2 class="sub-title">LE SPECTACLE</h2>
             <div class="column-type">
-                <div class="column-1">
-                    <h3>« Embrasse trois fois la lune et le conte t’emmènera… »</h3>
+                <div class="column-left">
+                    <h3 class="sub-sub-title">« Embrasse trois fois la lune et le conte t’emmènera… »</h3>
                     <p>Une femme rencontre le conte, les histoires logées dans la lune. Elle est invitée au voyage. Elle vous propose de partir pour les montagnes arméniennes, l'Amazonie péruvienne, le monde glacé des Inuits, les bords du Gange et la savane africaine.</p>
                     <p>Vous serez transportés dans d’étranges histoires avec des personnages singuliers et captivants. Cinq récits contés, joués, mis en jeux d’ombres et diablement rythmés.</p>
                     <p>A chaque conte ses couleurs musicales : Des arpèges au marimba; des mélodies orientalisantes à la flûte traversière et un large panel de percussions ethniques.</p>
                     <p>Dans une alliance entre tradition et modernité, fraîcheur et audace, ces compositions originales sont là, au service des histoires afin de rehausser les émotions et de nous transporter dans les différentes cultures dont les contes sont issus.</p>
                     <p>Nous espérons par ce spectacle « Cont’en Voyage » emmener les enfants vers d’autres contrées, d’autres visions du monde, d’autres musiques.</p>
                 </div>
-                <div class="column-2">
-                    <h3>Infos clés</h3>
+                <div class="column-right">
+                    <h3 class="sub-sub-title">Infos clés</h3>
                     <p>
                         <strong>2 artistes</strong><br />
                         <strong>Spectacle pour enfants de 6 à 11 ans</strong>.<br />
@@ -65,89 +76,88 @@
                 </div>
             </div>
         </div>
-        <div class="container two">
+        <div class="container-options">
             <div class="options">
-                <h3>Interventions en milieu scolaire</h3><hr>
+                <h3 class="sub-title-option">Interventions en milieu scolaire</h3>
                 <p>C’est un spectacle qui peut être un point d’appui à un travail en classe.</p>
                 <p>Un travail peut être fait en amont de la représentation.</p>
                 <p>Il défend des valeurs humanistes et de tolérance.</p>
                 <p>Il est une découverte du monde.</p>
             </div>
         </div>
-        </div>
-        <div class="container three" id="gallery">
-                <h2>GALLERIE PHOTO</h2>
+        <div class="container black" id="gallery">
+            <h2 class="sub-title">GALLERIE PHOTO</h2>
             <div class="gallery-section">
                 <div class="inner-width">
                     <div class="gallery">
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-4.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-4.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-4.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-4.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-8.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-8.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-8.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-8.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-7.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-7.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-7.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-7.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-3.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-3.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-3.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-3.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-00.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-00.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-00.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-00.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-6.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-6.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-6.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-6.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-7.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-7.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-7.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-7.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-8.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-8.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-8.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-8.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-1.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-1.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-1.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-1.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-7.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-7.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-7.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-7.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-8.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-8.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-8.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-8.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column">
-                            <a href="src/img/gallery_cv/conte-en-voyage-1.jpg" class="image">
-                            <img src="src/img/gallery_cv/conte-en-voyage-1.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-1.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-1.jpg" alt="">
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container four">
-            <h2>Ils nous ont accueilli</h2>
-            <div class="references">
-                <div class="column-left">
+        <div class="container">
+            <h2 class="sub-title">Ils nous ont accueilli</h2>
+            <div class="column-references">
+                <div class="column-left-references">
                     <p>
                         Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»<br />
                         École de Liergues (69)<br />
@@ -163,7 +173,7 @@
                         Centre Social « Arc en ciel » à St-Fons<br />
                     </p>
                 </div>
-                <div class="column-right">
+                <div class="column-right-references">
                     <p>
                         École d'Arinthod (39)<br />
                         Comité des Fêtes de Vosbles (39)<br />
@@ -181,8 +191,8 @@
                 </div>
             </div>
         </div>
-        <div class="container four" id="contact">
-            <h2>CONTACTEZ-NOUS</h2>
+        <div class="container black color-white" id="contact">
+            <h2 class="sub-title">CONTACTEZ-NOUS</h2>
             <div class="column-contact">
                 <div class="column-left">
                     <h3>Adresse</h3>
@@ -199,19 +209,11 @@
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <p>© Palavanne | Politique de confidentialité</p>
+        <footer class="footer black color-white">
+            <p>© Palavanne</p>
         </footer>
+        <script src="/js/menu.js"></script>
         <script src="js/scroll.js"></script>
-        <script src="js/dates_cv.js"></script>
-        <script>
-            $(".gallery").magnificPopup({
-                delegate: 'a',
-                type: 'image',
-                gallery:{
-                    enabled: true
-                }
-            });
-        </script>
+        <script src="/js/gallery.js"></script>
     </body>
 </html>
