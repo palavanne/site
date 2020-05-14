@@ -83,10 +83,6 @@
     background-position: center;
 }
 
-/* Spectacles */
-
-
-
 /* Bouton réseaux sociaux */
 
 .btn-social-facebook {
@@ -125,7 +121,6 @@
 
 @media screen and (max-width: 900px) {
 
-
     .block .title .catch-phrase {
         font-size: 40px;
     }
@@ -143,7 +138,6 @@
     .column-top-left, .column-bottom-right {
         padding: 0px;
     }
-
     .contact {
         display: block;
     }
