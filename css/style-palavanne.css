@@ -68,16 +68,21 @@
     grid-template-columns: 50% 50%;
     margin: 0 auto;
 }
-.column-top-left, .column-bottom-right {
+.column-top-left, .column-middle-right, .column-bottom-left {
     padding: 50px;
     background-color: #fff;
 }
 .column-top-right {
-    background-image: url(../src/img/pkp-2.jpg);
+    background-image: url(../src/img/groupe-2.jpg);
     background-size: cover;
     background-position: center;
 }
-.column-bottom-left {
+.column-middle-left {
+    background-image: url(../src/img/groupe-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.column-bottom-right {
     background-image: url(../src/img/pkp-5.jpg);
     background-size: cover;
     background-position: center;
