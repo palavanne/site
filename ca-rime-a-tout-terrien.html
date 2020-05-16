@@ -5,115 +5,125 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="desciption" content="Spectalce de rue sur le développement durable">
-        <link rel="stylesheet" href="css/style.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/menu.css">
+        <link rel="stylesheet" href="/css/full-width-banner.css">
+        <link rel="stylesheet" href="/css/gallery.css">
+        <link rel="stylesheet" href="/css/contact.css">
+        <link rel="stylesheet" href="/css/footer.css">
+        <link rel="stylesheet" href="/css/style-cratt.css">
+
+        <!-- FONT -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+        
+        <!-- GALLERY -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-        <title>CA RIME A TOUT TERRIEN</title>
+
+        <!-- FONT -->
+        <script src="https://kit.fontawesome.com/42eee18e28.js" crossorigin="anonymous"></script>
+
+        <title>CONT'EN VOYAGE</title>
     </head>
     <body>
         <header class="header">
                 <a href="index.html" class="header-title">COLLECTIF PALAVANNE</a>
-                <input type="checkbox" id="chk">
-                <label for="chk" class="show-menu-btn">
-                <img src="src/img/hamburger.png" class="image-hamburger" alt="">
-                </label>
-            <nav class="header-nav">
+                <img src="src/img/menu/hamburger.png" class="image-hamburger" alt="">
+            <nav class="header-nav close">
                 <ul>
-                    <li><a href="#spectacle" title="Présentation du spectacle">LE SPECTACLE</a></li>
-                    <li><a href="#gallery" title="Médias">PHOTOS</a></li>
-                    <li><a href="#contact" title="Nous contacter">CONTACT</a></li>
+                    <li><a href="#spectacle" class="nav-link" title="Présentation du spectacle">LE SPECTACLE</a></li>
+                    <li><a href="#gallery" class="nav-link" title="Médias">PHOTOS</a></li>
+                    <li><a href="#contact" class="nav-link" title="Nous contacter">CONTACT</a></li>
                 </ul>
                 <label for="chk" class="hide-menu-btn">
-                <img src="src/img/close.png" class="image-close" alt="">
+                <img src="src/img/menu/close.png" class="image-close nav-link" alt="">
                 </label>
             </nav>
         </header>
         <div class="block">
-            <div class="banner-cratt" id="top"></div>
-            <div class="titre-projet">
-                <h1>Ça rime à tout Terrien</h1>
-                <hr>
-                <span class="phrase-cv">Assis à l'ombre de l'arbre des sages, écoutons !</span>
+            <div class="banner" id="top"></div>
+            <div class="title">
+                <span class="title-project">CA RIME A TOUT TERRIEN</span>
+                <span class="catch-phrase">Catch phrase</span>
+                <a href="#spectacle" class="button"><strong>Découvrir le spectacle</strong></a>
             </div>
         </div>
-        <div class="container">
-            <h2 id="spectacle">LE SPECTACLE</h2>
-            <hr>
+        <div class="container" id="spectacle">
+            <h2 class="sub-title">LE SPECTACLE</h2>
             <div class="column-type">
                 <div class="column-left">
-                    <h3>Assis à l’ombre de l’arbre des Sages, écoutons !</h3>
-                    <p>Ces contes sont tous portés par des êtres magiques bienfaisants : l'arbre, le perroquet, le sage...</p>
-                    <p>Laissons nous, Terriens que nous sommes, toucher dans notre coeur.</p>
-                    <p>Que ces histoires résonnent avec la tolérance, l'amour et le respect de notre unique planète...</p>
-                    <p>la Terre.</p>
+                    <h3 class="sub-sub-title">Phrase d'accueil</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, consectetur sequi. Quaerat dolor ratione tenetur. Provident nam voluptates fuga suscipit incidunt pariatur autem fugiat, exercitationem odio maxime ut laborum quo.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, consectetur sequi. Quaerat dolor ratione tenetur. Provident nam voluptates fuga suscipit incidunt pariatur autem fugiat, exercitationem odio maxime ut laborum quo.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, consectetur sequi. Quaerat dolor ratione tenetur. Provident nam voluptates fuga suscipit incidunt pariatur autem fugiat, exercitationem odio maxime ut laborum quo.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, consectetur sequi. Quaerat dolor ratione tenetur. Provident nam voluptates fuga suscipit incidunt pariatur autem fugiat, exercitationem odio maxime ut laborum quo.</p>
                 </div>
                 <div class="column-right">
-                    <div class="options-cv">
-                        <h3>Infos clés</h3><hr>
-                        <p>1 artiste</p>
-                        <p>Spectacle pour enfants de 6 à 11 ans</p>
-                        <p>Durée du spectacle : 1h15 avec entracte</p>
-                        <a href="src/pdf/conte-en-voyage.pdf" target="_blank">Télécharger le dossier du spectacle</a>
-                        <h3>Interventions en milieu scolaire</h3><hr>
-                        <p>C’est un spectacle qui peut être un point d’appui à un travail en classe.</p>
-                        <p>Un travail au préalable peut être fait en amont de la représentation.</p>
-                        <p>Il défend des valeurs humanistes et de tolérance.</p>
-                        <p>Il est une découverte du monde.</p>
-                    </div>
+                    <h3 class="sub-sub-title">Infos clés</h3>
+                    <p>
+                        <strong>1 artiste</strong><br />
+                        <strong>Spectacle pour enfants de 6 à 11 ans</strong>.<br />
+                        Durée du spectacle : <strong>1h00</strong><br />
+                    </p>
+                    <a href="src/pdf/conte-en-voyage.pdf" target="_blank"><i class="far fa-file-pdf"></i> TÉLÉCHARGER LE DOSSIER</a>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <h2 id="gallery">GALLERIE PHOTO</h2>
-            <hr>
+        <div class="container-options">
+            <div class="options">
+                <h3 class="sub-title-option">Interventions en milieu scolaire</h3>
+                <p>Ce spectacle peut être un point d’appui à un travail en classe et un travail en amont de la représentation peut être proposé.</p>
+                <p>Il défend des valeurs humanistes et de tolérance.</p>
+                <p>Il permet une découverte du monde et ses différentes traditions.</p>
+            </div>
+        </div>
+        <div class="container grey" id="gallery">
+            <h2 class="sub-title">GALLERIE PHOTO</h2>
             <div class="gallery-section">
                 <div class="inner-width">
                     <div class="gallery">
-                        <div class="column-cv">
-                            <a href="src/img/cv/conte-en-voyage-1.jpg" class="image">
-                            <img src="src/img/cv/conte-en-voyage-1.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-1.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-1.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column-cv">
-                            <a href="src/img/cv/conte-en-voyage-8.jpg" class="image">
-                            <img src="src/img/cv/conte-en-voyage-8.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-3.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-3.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column-cv">
-                            <a href="src/img/cv/conte-en-voyage-7.jpg" class="image">
-                            <img src="src/img/cv/conte-en-voyage-7.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-4.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-4.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column-cv">
-                            <a href="src/img/cv/conte-en-voyage-4.jpg" class="image">
-                            <img src="src/img/cv/conte-en-voyage-4.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-6.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-6.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column-cv">
-                            <a href="src/img/cv/conte-en-voyage-00.jpg" class="image">
-                            <img src="src/img/cv/conte-en-voyage-00.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-7.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-7.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column-cv">
-                            <a href="src/img/cv/conte-en-voyage-6.jpg" class="image">
-                            <img src="src/img/cv/conte-en-voyage-6.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-8.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-8.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column-cv">
-                            <a href="src/img/cv/conte-en-voyage-7.jpg" class="image">
-                            <img src="src/img/cv/conte-en-voyage-7.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-9.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-9.jpg" alt="">
                             </a>
                         </div>
-                        <div class="column-cv">
-                            <a href="src/img/cv/conte-en-voyage-8.jpg" class="image">
-                            <img src="src/img/cv/conte-en-voyage-8.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="column-cv">
-                            <a href="src/img/cv/conte-en-voyage-1.jpg" class="image">
-                            <img src="src/img/cv/conte-en-voyage-1.jpg" alt="">
+                        <div class="column-gallery">
+                            <a href="src/img/gallery-cv/conte-en-voyage-10.jpg" class="image">
+                            <img src="src/img/gallery-cv/conte-en-voyage-10.jpg" alt="">
                             </a>
                         </div>
                     </div>
@@ -121,27 +131,65 @@
             </div>
         </div>
         <div class="container">
-            <h2 id="contact">CONTACTEZ-NOUS</h2>
-            <hr>
-            <h3>Adresse</h3>
-            <p>Collectif Palavanne</p>
-            <p>Maison de la vie associative</p>
-            <p>2 boulevard Irèbe Joliot Curie</p>
-            <p>01000 BOURG-EN-BRESSE</p>
-            <h3>Diffusion</h3>
-            <p>Maryline ANDIA-DESTOR</p>
-            <p>06 03 88 80 76</p>
-            <p><a href="mailto:diffusion@palavanne.com">diffusion@palavanne.com</a></p>
+            <h2 class="sub-title">Ils nous ont accueilli</h2>
+            <div class="column-references">
+                <div class="column-left-references">
+                    <p>
+                        Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»<br />
+                        École de Liergues (69)<br />
+                        Médiathèque de Champagnole dans le cadre «Les nuits de lectures»<br />
+                        École de Laiz (01)<br />
+                        Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)<br />
+                        MJC d’Ambérieux pour école Jean Jaurès<br />
+                        Médiathèque de Belley<br />
+                        Médiathèque de St-Martin-de-Bavel<br />
+                        Comité des Fêtes de Simandre<br />
+                        Collège de Feurs (pour les Cm2 et 6ème)<br />
+                        Collège St Pierre à Bourg-en-Bresse (pour les 6ème)<br />
+                        Centre Social « Arc en ciel » à St-Fons<br />
+                    </p>
+                </div>
+                <div class="column-right-references">
+                    <p>
+                        École d'Arinthod (39)<br />
+                        Comité des Fêtes de Vosbles (39)<br />
+                        L'ancien théâtre de la citadelle<br />
+                        Théâtre de Bourg-en-Bresse (Salle Jean Vilar)<br />
+                        La Tannerie<br />
+                        Lycée les Sardières (Comité d'entreprise)<br />
+                        Cie « La Petite Montagne » au Biolopin (39)<br />
+                        Ceysériat (Comité d'entreprise)<br />
+                        Médiathèque de Nantua<br />
+                        Théâtre de St Amour (39)<br />
+                        Village Vacances à Maisod (39)<br />
+                        Médiathèque de la Station de ski de l’Alpes d'Huez
+                    </p>
+                </div>
+            </div>
         </div>
-        <footer class="footer">© Palavanne 2020</footer>
-        <script>
-            $(".gallery").magnificPopup({
-                delegate: 'a',
-                type: 'image',
-                gallery:{
-                    enabled: true
-                }
-            });
-        </script>
+        <div class="container grey" id="contact">
+            <h2 class="sub-title">CONTACTEZ-NOUS</h2>
+            <div class="contact">
+                <div class="column-left">
+                    <h3>Adresse</h3>
+                    <p>Collectif Palavanne<br />
+                    Maison de la vie associative<br />
+                    2 boulevard Irèbe Joliot Curie<br />
+                    01000 BOURG-EN-BRESSE</p>
+                </div>
+                <div class="column-right">
+                    <h3>Diffusion</h3>
+                    <p>Maryline ANDIA-DESTOR<br />
+                    06 03 88 80 76</p>
+                    <p>diffusion@palavanne.com</p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer grey">
+            <p>© Palavanne</p>
+        </footer>
+        <script src="/js/menu.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="/js/gallery.js"></script>
     </body>
 </html>

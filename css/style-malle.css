@@ -13,7 +13,7 @@
     top: 60%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1;
+    z-index: 1000;
 }
 .title-project {
     display: block;
@@ -44,7 +44,7 @@
 
 .sub-title {
     font-size: 50px;
-    color: rgb(255, 72, 0);
+    color: rgb(90, 90, 90);
     text-align: center;
     margin: 0 0 50px 0;
 }
@@ -92,7 +92,7 @@
 .sub-title-option {
     font-size: 20px;
     text-transform: uppercase;
-    color: rgb(255, 72, 0);
+    color: rgb(90, 90, 90);
     padding-bottom: 10px;
     border-bottom: 1px solid rgb(0, 0, 0);
 }
