@@ -29,6 +29,7 @@
         if (presta.lien !== '') {
             let lien = document.createElement('a')
             lien.href = presta.lien
+            lien.setAttribute('target', '_blank')
             lien.classList = 'btn-agenda'
             lien.innerHTML = 'Plus d\'infos'
             
