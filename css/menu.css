@@ -5,7 +5,7 @@
     height: 70px;
     padding: 13px;
     transition: 0.5s;
-    z-index: 100;
+    z-index: 1000;
 }
 .background-color {
     color: rgb(31, 31, 31);

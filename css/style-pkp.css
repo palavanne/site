@@ -1,65 +1,26 @@
-/* Bannière d'accueil */
+/* Banner */
 
-.banner-img {
-    background: url("../src/img/banner/banner-pkp.jpg") no-repeat;
+.banner .img {
+    background-image: url("/src/img/banner/banner-pkp.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
-.title {
-    position: absolute;
-    width: 45%;
-    top: 70%;
-    left: 5%;
-    transform: translateY(-50%);
-    line-height: 3em;
-    color: rgb(255, 255, 255);
-    z-index: 20;
+.banner .presentation-phrase {
+    top: 50%;
+    left: 50px;
+    width: 50%;
 }
-.block .title .button {
-    font-size: 20px;
-    font-weight: bold;
-    color: inherit;
-    text-decoration: none;
-    padding: 20px 30px;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-.block .title .button:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255,255);
-}
-.block .title .button:hover .fa-play {
-    color: rgb(0, 0, 0);
-}
-.block .title .catch-phrase {
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin: 0 0 20px 0;
+
+/* Section */
+
+.section {
+    width: 100%;
+    padding: 100px;
 }
 .title-section {
     font-size: 50px;
     text-align: center;
     margin: 0 0 50px 0;
-}
-.title-sub-section {
-    text-transform: uppercase;
-    margin: 0;
-    padding: 10px 0px;
-}
-.button .fa-play {
-    margin-left: 25px;
-    color: rgb(255, 255,255);
-    transition: 0.3s;
-}
-
-/* Container */
-
-.container {
-    width: 100%;
-    padding: 100px;
 }
 .background-color-white {
     background-color: rgb(255, 255, 255);
@@ -67,139 +28,31 @@
 .background-color-grey {
     background-color: rgb(240, 240, 240);
 }
-.column-type {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-.column-top-left {
-    background-color: rgb(255, 255, 255);
-    padding: 50px;
-}
-.column-top-right {
-    overflow: hidden;
+/* Image du damier */
+
+.image-pourkoapas-top {
     background-image: url("../src/img/pkp-column-top-right.jpg");
-    background-size: cover;
-    background-position: center;
 }
-.column-middle-top-left {
+.image-pourkoapas-middle-left {
     background-image: url("../src/img/pkp-column-middle-right.jpg");
-    background-size: cover;
-    background-position: center;
 }
-.column-middle-top-right {
-    background-color: rgb(255, 255, 255);
-    padding: 50px;
-}
-.column-middle-bottom-left {
-    background-color: rgb(255, 255, 255);
-    padding: 50px;
-}
-.column-middle-bottom-right {
+.image-pourkoapas-middle-right {
     background-image: url("../src/img/pkp-column-middle-left.jpg");
-    background-size: cover;
-    background-position: center;
 }
-.column-middle-bottom-right a {
-    color: rgb(90, 90, 90);
-}
-.column-bottom-left {
+.image-pourkoapas-bottom {
     background-image: url("../src/img/pkp-column-bottom-left.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.column-bottom-right {
-    background-color: rgb(255, 255, 255);
-    padding: 50px;
-}
-.column-bottom-right a {
-    text-decoration: none;
 }
 
 /* Infos clés */
 
-.options {
-    max-width: 1200px;
+.infos {
+    max-width: 1080px;
     font-size: 20px;
     text-align: center;
     margin: 0 auto;
 }
-.options a, i {
+.link-with-icon a, i {
     text-decoration: none;
-    color: rgb(90, 90, 90);
-}
-
-/* AGENDA */
-
-.link-presta {
-    color: rgb(0, 0, 0);
-}
-.btn-block {
-    text-align: center;
-}
-.btn-archives {
-    display: inline-block;
-    color: rgb(90, 90, 90);
-    text-decoration: none;
-    padding: 10px;
-    border: 2px solid rgb(90, 90, 90);
-    border-radius: 5px;
-    margin-top: 30px;
-    transition: 0.3s;
-}
-.btn-archives:hover {
-    color: rgb(240, 240, 240);
-    background-color: rgb(90, 90, 90);
-}
-
-/* Références */
-
-.column {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.column-left-references {
-    text-align: right;
-    padding-right: 20px;
-    border-right: 1px solid rgb(49, 49, 49);
-}
-.column-right-references {
-    padding-left: 20px;
-    text-align: left;
-}
-
-/* Bouton réseaux sociaux */
-
-.btn-social-facebook {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 15px -10px rgb(60, 60, 60);
-    margin: 0 10px 0 0;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.btn-social-youtube {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 15px -10px rgb(60, 60, 60);
-    margin: 0;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.btn-social-facebook i, .btn-social-youtube i {
-    color: rgb(90, 90, 90);
-    line-height: 50px;
-    font-size: 20px;
-    margin: 0;
-}
-.btn-social-facebook:hover, .btn-social-youtube:hover {
-    background-color: rgb(230, 230, 230);
+    color: rgb(90, 90 ,90);
 }

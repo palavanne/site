@@ -1,124 +1,73 @@
 .banner {
-    width: 100%;
-    height: 100%;
     background: url("../src/img/banner/banner-conte.jpg") no-repeat;
     background-size: cover;
     background-position: top;
 }
-.title {
-    position: absolute;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+.presentation-phrase {
     text-align: center;
     top: 65%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1;
-}
-.title-project {
-    font-size: 50px;
-    font-weight: bold;
-}
-/* .catch-phrase {
-    display: block;
-    line-height: 1.2em;
-    margin-top: 20px;
-    margin-bottom: 30px;
-} */
-.button {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    padding: 20px 20px;
-    transition: .2s;
 }
 
-.button:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-}
-
-.sub-title {
+.title {
     font-size: 50px;
     color: rgb(255, 72, 0);
     text-align: center;
     margin: 0 0 50px 0;
 }
 
-.black {
-    background-color: rgb(30, 30, 30);
-}
-.color-white {
-    color: rgb(255, 255, 255);
-}
-
-
-.container {
+.section {
     width: 100%;
     padding: 100px;
 }
-.container-options {
-    width: 100%;
-    padding: 0 100px 100px 100px;
-}
-.sub-sub-title {
+.sub-title {
     font-size: 20px;
     text-transform: uppercase;
     color: rgb(255, 72, 0);
     margin: 0 0 30px 0;
 }
-.sub-title-option {
-    font-size: 20px;
-    text-transform: uppercase;
-    color: rgb(255, 72, 0);
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgb(0, 0, 0);
-}
-.column-type {
+.columns-third {
     display: grid;
     grid-template-columns: 65% 35%;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1080px;
 }
-.column-references {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    line-height: 2em;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-.column-left {
+.column-two-third {
     text-align: right;
     padding: 0 20px 0 0;
     border-right: 1px solid rgb(0, 0, 0);
 }
-.column-right {
+.column-one-third {
     padding: 0 20px;
     line-height: 2em;
 }
-.column-right a {
+.column-one-third a {
     text-decoration: none;
-    color: rgb(90, 90, 90);
-}
-.column-left-references {
-    text-align: right;
-    padding-right: 20px;
-    border-right: 1px solid rgb(0, 0, 0);
-}
-.column-right-references {
-    text-align: left;
-    padding-left: 20px;
+    color: rgb(255, 72, 0);
 }
 
 /* Infos clés */
 
-.options {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+.infos {
+    max-width: 1080px;
     text-align: center;
-    box-shadow: 0px 0px 20px -10px;
+    padding: 30px 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 auto;
+}
+.infos .sub-title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/* Color */
+
+.color-white {
+    color: rgb(255, 255, 255);
+}
+
+.black {
+    background-color: rgb(30, 30, 30);
 }

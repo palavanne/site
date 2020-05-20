@@ -5,7 +5,7 @@ buttonOpen.addEventListener('click', function () {
     document.querySelector('.youtube-video').contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
 })
 
-const btnClose = document.querySelector('.close-modal')
+const btnClose = document.querySelector('.btn-close')
 btnClose.addEventListener('click', function () {
     const modal = document.querySelector('.modal')
     modal.classList.add('hidden')

@@ -1,10 +1,10 @@
 /* Gallerie photo */
 
 .image {
-    padding: 4px 2px;
+    padding: 6px 2px;
 }
 .inner-width {
-    max-width: 1200px;
+    max-width: 1080px;
 }
 .column-gallery {
     flex: 25%;
@@ -12,7 +12,7 @@
     padding: 0 4px;
 }
 .gallery-section {
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 .gallery-section .gallery {
@@ -31,5 +31,5 @@
     transition: 0.4s;
 }
 .gallery-section .image:hover img {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }

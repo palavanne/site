@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="desciption" content="Spectacle de rue sur le développement durable">
+    
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/full-width-banner.css">
+    <link rel="stylesheet" href="css/damier.css">
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/agenda.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/follow.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style-pkp.css">
 
@@ -46,36 +49,36 @@
             <img src="src/img/menu/close.png" class="nav-link image-close" alt="">
         </nav>
     </header>
-    <div class="block" id="top">
-        <div class="banner banner-img" id="top"></div>
+    <div class="banner" id="top">
+        <div class="img"></div>
         <div class="banner-opacity"></div>
-        <div class="title">
+        <div class="presentation-phrase">
             <p class="catch-phrase">Une brocante musicale à l'affût de chineurs mélomanes</p>
-            <span class="button">REGARDER LE TEASER<i class="fas fa-play"></i></span>
+            <p class="button">REGARDER LE TEASER<i class="fas fa-play"></i></p>
         </div>
     </div>
     <div class="modal hidden">
-        <div class="modal-opacity"></div>
-        <div class="teaser-modal" id="teaser">
-            <img src="src/img/menu/close.png" class="close-modal" alt="" srcset="">
+        <div class="modal-background-opacity"></div>
+        <div class="teaser" id="teaser">
+            <img src="src/img/menu/close.png" class="btn-close" alt="" srcset="">
             <iframe width="900" height="506" class="player youtube-video"
                 src="https://www.youtube.com/embed/29pGVEAHnzs?enablejsapi=1&version=3&playerapiid=ytplayer"
                 frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="container background-color-grey" id="spectacle">
+    <section class="section background-color-grey" id="spectacle">
         <h2 class="title-section">LE SPECTACLE</h2>
-        <div class="column-type">
-            <div class="column-top-left">
+        <div class="damier">
+            <div class="text-damier">
                 <h3 class="title-sub-section">Un spectacle musical jouant pour une éco-logique</h3>
                 <p>Cinq étranges personnages donnent une seconde vie aux objets du quotidien. La brigade de
                     déconstipation, assermentée par Dame Nature, se déploie dans votre ville.</p>
                 <p>Refusant la surconsommation et le gaspillage ambiant, elle nous interpelle sur les alternatives
                     qu’offre la récupération au détour d’une mélodie, d’une chanson...</p>
             </div>
-            <div class="column-top-right"></div>
-            <div class="column-middle-top-left"></div>
-            <div class="column-middle-top-right">
+            <div class="image-damier image-pourkoapas-top"></div>
+            <div class="image-damier image-pourkoapas-middle-left"></div>
+            <div class="text-damier">
                 <h3 class="title-sub-section">Recyclage et récupération</h3>
                 <p>Dans ce spectacle tout public, « Les Pourkoapas » jouent avec des instruments de musique créés à
                     partir de matériaux et objets de récupération, en somme, des rejets matériels de nos consomations.
@@ -83,7 +86,7 @@
                 <p>Ils arpentent le macadam à l’affut des passants, jouant la carte de la proximité avec le public.
                     Faisant corps avec leurs « alambiques » à roulettes, les voilà parés d’une bien étrange façon.</p>
             </div>
-            <div class="column-middle-bottom-left">
+            <div class="text-damier">
                 <h3 class="title-sub-section">Les instrumentariums</h3>
                 <p>Un piano de casseroles, un membranophone ainsi qu’une « armada » de percussions ménagères donnent
                     naissance à des personnages « mi-homme mi-machine ».</p>
@@ -91,20 +94,23 @@
                     transforment en
                     masques de toute beauté.</p>
             </div>
-            <div class="column-middle-bottom-right"></div>
-            <div class="column-bottom-left"></div>
-            <div class="column-bottom-right">
+            <div class="image-damier image-pourkoapas-middle-right"></div>
+            <div class="image-damier image-pourkoapas-bottom"></div>
+            <div class="text-damier">
                 <h3 class="title-sub-section">Le répertoire</h3>
                 <p>Une succession de pastiches, jingles, refrains évocateurs et rythmes colorés. Au-delà d’un simple «
                     détournement d’objets », c’est une véritable brocante musicale jouant pour une éco-logique.</p>
                 <p>Les Pourkoapas présentent un spectacle musical de rue aux contours doux et loufoques qui se regarde,
                     s’écoute et se vit dans un esprit résolument festif.</p>
-                <a href="presse.html"><i class="fas fa-newspaper"></i> REVUE DE PRESSE</a>
+                <div class="link-with-icon">
+                    <i class="fas fa-newspaper"></i>
+                    <a href="presse.html">REVUE DE PRESSE</a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container background-color-white">
-        <div class="options">
+    </section>
+    <section class="section background-color-white">
+        <div class="infos">
             <h2 class="title-section">Infos clés</h2>
             <h4>Spectacle tout public.</h4>
             <p>5 artistes</p>
@@ -112,12 +118,14 @@
             <p>De jour comme de nuit avec éclairages intégrés aux instrumentariums.</p>
             <p>Les ateliers <a href="fabrik-recup.html">"Fabrik'Récup"</a> peuvent être proposés en plus du spectacle.
             </p>
-            
-            <a href="src/pdf/dossier_pkp.pdf" target="_blank"><i class="far fa-file-pdf"></i> TÉLÉCHARGER LE DOSSIER</a>
+            <div class="link-with-icon">
+                <i class="far fa-file-pdf"></i>
+                <a href="src/pdf/dossier_pkp.pdf" target="_blank">TÉLÉCHARGER LE DOSSIER</a>
+            </div>
         </div>
 
-    </div>
-    <div class="container background-color-grey" id="gallery">
+    </section>
+    <section class="section background-color-grey" id="gallery">
         <h2 class="title-section">GALLERIE PHOTO</h2>
         <div class="gallery-section">
             <div class="inner-width">
@@ -185,58 +193,57 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container background-color-white" id="agenda">
+    </section>
+    <section class="section background-color-white" id="agenda">
         <h2 class="title-section">AGENDA</h2>
         <div class="agenda">
         </div>
-        <div class="btn-block">
-            <a href="archives.html" class="btn-archives">Voir les dates passées</a>
+        <div class="archives">
+            <a href="archives.html" class="btn">Voir les dates passées</a>
         </div>
-    </div>
-    <div class="container background-color-grey">
+    </section>
+    <section class="section background-color-grey">
         <h2 class="title-section">RÉFÉRENCES</h2>
-        <div class="column">
-            <div class="column-left-references">
-                <p>24e Festival « Au Bonheur des Mômes » (74)</p>
-                <p>Festival « Potes de marmot’s » (05)</p>
-                <p>La place aux marmots (74)
-                <p>
-                <p>Le carnaval de Montélimar (26)</p>
-                <p>Salon de la Récup’, Kervignac (56)</p>
-                <p>Ecofestival en Noxe (10)</p>
-                <p>Festival « Sortilèges » (Belgique)</p>
-                <p>Semaine Européenne de la Réduction des Déchets (46)</p>
-                <p>Festival « Carrers dels musics », Villareal (Espagne)</p>
-                <p>Les pestacles du Père Noël (74)</p>
-                <p>Semaine Européenne de Réduction des Déchets, Cahors (46)</p>
+        <div class="columns">
+            <div class="column-left">
+                <p>24e Festival « Au Bonheur des Mômes » (74)<br>
+                Festival « Potes de marmot’s » (05)<br>
+                La place aux marmots (74)
+                Le carnaval de Montélimar (26)<br>
+                Salon de la Récup’, Kervignac (56)<br>
+                Ecofestival en Noxe (10)<br>
+                Festival « Sortilèges » (Belgique)<br>
+                Semaine Européenne de la Réduction des Déchets (46)<br>
+                Festival « Carrers dels musics », Villareal (Espagne)<br>
+                Les pestacles du Père Noël (74)<br>
+                Semaine Européenne de Réduction des Déchets, Cahors (46)<br>
             </div>
-            <div class="column-right-references">
-                <p>Festival « Boule de Notes », Les Ménuires (73)</p>
-                <p>Fête du Parc du Marais Poitevin (85)</p>
-                <p>Fête de la Saint-Nicolas (54)</p>
-                <p>Forum du citoyen et du développement durable (83)</p>
-                <p>Festival « Objectif 21 » (64)</p>
-                <p>Le Bioscope (68)</p>
-                <p>Festivals « Nature en fête Miramas » (13)</p>
-                <p>Festival « Lot of Saveurs » (46)</p>
-                <p>Foreztival (42)</p>
-                <p>Festiv’ @lterre (71)</p>
-                <p>Fête du lac d’Annecy (74)</p>
+            <div class="column-right">
+                <p>Festival « Boule de Notes », Les Ménuires (73)<br>
+                Fête du Parc du Marais Poitevin (85)<br>
+                Fête de la Saint-Nicolas (54)<br>
+                Forum du citoyen et du développement durable (83)<br>
+                Festival « Objectif 21 » (64)<br>
+                Le Bioscope (68)<br>
+                Festivals « Nature en fête Miramas » (13)<br>
+                Festival « Lot of Saveurs » (46)<br>
+                Foreztival (42)<br>
+                Festiv’ @lterre (71)<br>
+                Fête du lac d’Annecy (74)</p>
             </div>
         </div>
-    </div>
-    <div class="container background-color-white" id="contact">
+    </section>
+    <section class="section background-color-white" id="contact">
         <h2 class="title-section">CONTACTEZ-NOUS</h2>
-        <div class="contact">
-            <div class="column-left-contact">
+        <div class="columns">
+            <div class="column-left">
                 <h3 class="title-sub-section">Adresse</h3>
-                <p>Collectif Palavanne<br />
+                <p>Collectif Palavanne<br>
                     Maison de la vie associative<br />
                     2 boulevard Irène Joliot Curie<br />
                     01000 BOURG-EN-BRESSE</p>
             </div>
-            <div class="column-right-contact">
+            <div class="column-right">
                 <h3 class="title-sub-section">Diffusion</h3>
                 <p>Sylvain BOUTON<br />
                     06 11 22 33 44<br />
@@ -244,13 +251,13 @@
             </div>
         </div>
         <div class="follow">
-            <h3 class="title-sub-section">Suivez-nous</h3><br />
+            <h3 class="title-sub-section">Suivez-nous</h3>
             <a href="https://fr-fr.facebook.com/palavanne/" target="_blank" class="btn-social-facebook"><i
                     class="fab fa-facebook-f"></i></a>
             <a href="https://www.youtube.com/channel/UCtbnjMXNhbsDJnUh7qMdHSQ" target="_blank"
                 class="btn-social-youtube"><i class="fab fa-youtube"></i></a>
         </div>
-    </div>
+    </section>
     <footer class="footer background-color-white">
         <p>© Palavanne - 2020</p>
     </footer>

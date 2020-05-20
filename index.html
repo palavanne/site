@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/full-width-banner.css">
+    <link rel="stylesheet" href="css/damier.css">
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/agenda.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/follow.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style-palavanne.css">
 
@@ -40,18 +42,18 @@
             <img src="src/img/menu/close.png" class="nav-link image-close" alt="">
         </nav>
     </header>
-    <div class="block">
-        <div class="banner banner-img" id="top"></div>
+    <div class="banner" id="top">
+        <div class="img"></div>
         <div class="banner-opacity"></div>
-        <div class="title">
-            <h1 class="catch-phrase">Spectacles vivants sur le développement durable</h1>
-            <a href="#spectacles" class="button"><strong>Découvrez nos spectacles</strong></a>
+        <div class="presentation-phrase">
+            <p class="catch-phrase">Spectacles vivants sur le développement durable</p>
+            <a href="#spectacles" class="button">Découvrez nos spectacles</a>
         </div>
     </div>
-    <div class="container background-color-grey " id="collectif">
+    <section class="section background-color-grey " id="collectif">
         <h2 class="title-section">PRÉSENTATION</h2>
-        <div class="column-type">
-            <div class="column-top-left">
+        <div class="damier">
+            <div class="text-damier">
                 <h3 class="title-sub-section">De toutes les couleurs</h3>
                 <p>Le collectif Palavanne ("De toutes les couleurs" en tamoul) est créé en 1999 afin de supporter le duo
                     "Bodhi", duo de musique s'inspirant de diverses traditions musicales (Chants Qawwali, musique Arabo
@@ -59,9 +61,9 @@
                 <p>De nombreux projets s'en suivront : sortie de plusieurs albums, création du "Duo des Marais",
                     spectacle jeune public "Les musiques du Voyage"...</p>
             </div>
-            <div class="column-top-right"></div>
-            <div class="column-middle-left"></div>
-            <div class="column-middle-right">
+            <div class="image-top-right image-damier"></div>
+            <div class="image-middle-left image-damier"></div>
+            <div class="text-damier">
                 <h3 class="title-sub-section">Le développement durable</h3>
                 <p>C'est en 2005, de retour du Brésil, que Patrick CORNUT fondera " Les Pourkoapas ", un spectacle
                     musical de rue dans lequel les musiciens jouent avec des instruments de musique créés à partir de
@@ -70,15 +72,15 @@
                     de la réutilisation et de la solidarité.</p>
                 <!-- <p>En somme, les valeurs d'un développement durable.</p> -->
             </div>
-            <div class="column-bottom-left">
+            <div class="text-damier">
                 <h3 class="title-sub-section">Nos spectacles</h3>
                 <p>Dans la lignés des " Pourkoapas " , sont créés les ateliers " Fabrik'Récup ", ateliers dans lesquels
                     les personnes viennent fabriquer leurs propres objets à partir de matériaux de récupération.</p>
                 <p>Cont'en voyages...</p>
             </div>
-            <div class="column-bottom-right"></div>
-            <div class="column-bottom-right"></div>
-            <div class="column-bottom-left">
+            <div class="image-bottom-right image-damier"></div>
+            <div class="image-bottom-right image-damier"></div>
+            <div class="text-damier">
                 <h3 class="title-sub-section">Aujourd'hui...</h3>
                 <p>Le collectif est un " petit producteur " artistique, friand de brassage, désireux d'ouvrir des
                     chemins de traverse. Les artistes vous invitent à découvrir leurs créations originales au travers de
@@ -87,15 +89,15 @@
                     permettant du lien entre les hommes et proposant un regard sur la société.</p>
             </div>
         </div>
-    </div>
-    <div class="container background-color-white" id="spectacles">
+    </section>
+    <section class="section background-color-white" id="spectacles">
         <h2 class="title-section">LES SPECTACLES</h2>
         <div class="pestacles">
             <div class="card">
                 <div class="card-front">
                     <img src="src/img/card/pkpfront-300.jpg" alt="">
                 </div>
-                <div class="content pkp">
+                <div class="content">
                     <!-- <i class="fas fa-chevron-up chevron-pkp"></i> -->
                     <h3 class="title-card">Les Pourkoapas</h3>
                     <p>Spectacle musical de rue<br>
@@ -177,22 +179,22 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container background-color-grey" id="agenda">
+    </section>
+    <section class="section background-color-grey" id="agenda">
         <h2 class="title-section">AGENDA PALAVANNE</h2>
         <div class="agenda"></div>
-    </div>
-    <div class="container background-color-white" id="contact">
+    </section>
+    <section class="section background-color-white" id="contact">
         <h2 class="title-section">CONTACTEZ-NOUS</h2>
-        <div class="contact">
-            <div class="column-left-contact">
+        <div class="columns">
+            <div class="column-left">
                 <h3 class="title-sub-section">Adresse</h3>
                 <p>Collectif Palavanne<br />
                     Maison de la vie associative<br />
                     2 boulevard Irène Joliot Curie<br />
                     01000 BOURG-EN-BRESSE</p>
             </div>
-            <div class="column-right-contact">
+            <div class="column-right">
                 <h3 class="title-sub-section">Coordination</h3>
                 <p class="contact-contain">Patrick CORNUT<br />
                     Tél : 07 55 44 33 22<br />
@@ -206,7 +208,7 @@
             <a href="https://www.youtube.com/channel/UCtbnjMXNhbsDJnUh7qMdHSQ" target="_blank"
                 class="btn-social-youtube"><i class="fab fa-youtube"></i></a>
         </div>
-    </div>
+    </section>
     <footer class="footer background-color-white">
         <p>© Palavanne - 2020</p>
     </footer>
