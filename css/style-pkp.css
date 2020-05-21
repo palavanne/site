@@ -1,7 +1,7 @@
 /* Banner */
 
 .banner .img {
-    background-image: url("/src/img/banner/banner-pkp.jpg");
+    background-image: url("../src/img/banner/banner-pkp.jpg");
     background-size: cover;
     background-position: center;
 }
