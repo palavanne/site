@@ -89,6 +89,17 @@
     },
     {
         "spectacle": "Les Pourkoapas",
+        "date": "14 juillet",
+        "annee": "2020",
+        "ville": "Les Menuires (73)",
+        "evenement": "Fête nationale",
+        "lien": "https://lesmenuires.com/fr/",
+        "equipe": "Equipe titulaire",
+        "infos": "Infos à venir",
+        "option": false
+    },
+    {
+        "spectacle": "Les Pourkoapas",
         "date": "16 juillet",
         "annee": "2020",
         "ville": "Val-d'Isère",
