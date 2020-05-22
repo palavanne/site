@@ -1,5 +1,5 @@
 .banner {
-    background: url("../src/img/banner/banner-fabrik-recup.jpg") no-repeat;
+    background: url(".././img/banner/banner-fabrik-recup.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -60,7 +60,7 @@
 /* Damier */
 
 .image-fabrik {
-    background-image: url("../src/img/banner/banner-fabrik-recup.jpg");
+    background-image: url(".././img/banner/banner-fabrik-recup.jpg");
 }
 
 .infos {

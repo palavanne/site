@@ -1,7 +1,7 @@
 /* Banner */
 
 .banner .img {
-    background-image: url("../src/img/banner/banner-palavanne.jpg");
+    background-image: url(".././img/banner/banner-palavanne.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -39,13 +39,13 @@
 /* Image du damier */
 
 .image-top-right {
-    background-image: url("../src/img/pkp-11.jpg");
+    background-image: url(".././img/pkp-11.jpg");
 }
 .image-middle-left {
-    background-image: url("../src/img/guillaume.jpg");
+    background-image: url(".././img/guillaume.jpg");
 }
 .image-bottom-right {
-    background-image: url("../src/img/pkp-5.jpg");
+    background-image: url(".././img/pkp-5.jpg");
 }
 
 /* Contact */

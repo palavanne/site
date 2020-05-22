@@ -1,5 +1,5 @@
 .banner {
-    background: url("../src/img/banner/banner-conte.jpg") no-repeat;
+    background: url(".././img/banner/banner-conte.jpg") no-repeat;
     background-size: cover;
     background-position: top;
 }

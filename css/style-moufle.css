@@ -1,5 +1,5 @@
 .banner {
-    background: url("../src/img/banner/banner-la-mouflle.jpg") no-repeat;
+    background: url(".././img/banner/banner-la-mouflle.jpg") no-repeat;
     background-size: cover;
     background-position: top;
 }
