@@ -1,5 +1,5 @@
 .banner {
-    background: url("../src/img/banner/banner-conte.jpg") no-repeat;
+    background: url("../src/img/banner/banner-la-mouflle.jpg") no-repeat;
     background-size: cover;
     background-position: top;
 }
@@ -43,6 +43,9 @@
     line-height: 2em;
 }
 .column-one-third a {
+    color: rgb(90, 90, 90);
+}
+.column-one-third a {
     text-decoration: none;
 }
 
@@ -69,4 +72,13 @@
 
 .black {
     background-color: rgb(30, 30, 30);
+}
+
+/* Contact */
+
+.columns .border-white {
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.columns .border-black {
+    border-right: 1px solid rgb(0, 0, 0);
 }

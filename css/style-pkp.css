@@ -56,3 +56,13 @@
     text-decoration: none;
     color: rgb(90, 90 ,90);
 }
+
+
+/* Contact */
+
+.columns .border-white {
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.columns .border-black {
+    border-right: 1px solid rgb(0, 0, 0);
+}
