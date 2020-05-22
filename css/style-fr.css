@@ -75,10 +75,17 @@
 .book {
     display: grid;
     grid-template-columns: 80% 20%;
+    width: 1080px;
+    margin: 0 auto;
 }
 .img-book {
     max-width: 1080px;
     text-align: center;
+}
+
+.max-width {
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 /* Contact */
