@@ -1,7 +1,7 @@
 /* Banner */
 
 .banner .img {
-    background-image: url(".././img/banner/banner-pkp.jpg");
+    background-image: url("../img/banner/banner-pkp.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -32,16 +32,16 @@
 /* Image du damier */
 
 .image-pourkoapas-top {
-    background-image: url(".././img/pkp-column-top-right.jpg");
+    background-image: url("../img/pkp-column-top-right.jpg");
 }
 .image-pourkoapas-middle-left {
-    background-image: url(".././img/pkp-column-middle-right.jpg");
+    background-image: url("../img/pkp-column-middle-right.jpg");
 }
 .image-pourkoapas-middle-right {
-    background-image: url(".././img/pkp-column-middle-left.jpg");
+    background-image: url("../img/pkp-column-middle-left.jpg");
 }
 .image-pourkoapas-bottom {
-    background-image: url(".././img/pkp-column-bottom-left.jpg");
+    background-image: url("../img/pkp-column-bottom-left.jpg");
 }
 
 /* Infos clés */

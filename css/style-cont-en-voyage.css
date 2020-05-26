@@ -1,5 +1,5 @@
 .banner {
-    background: url(".././img/banner/banner-conte.jpg") no-repeat;
+    background: url("../img/banner/banner-conte.jpg") no-repeat;
     background-size: cover;
     background-position: top;
 }
@@ -40,6 +40,8 @@
 }
 .column-one-third {
     padding: 0 20px;
+}
+.column-one-third p {
     line-height: 2em;
 }
 .column-one-third a {
