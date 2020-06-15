@@ -8,18 +8,18 @@
 
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/full-width-banner.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/damier.css">
     <link rel="stylesheet" href="./css/gallery.css">
     <link rel="stylesheet" href="./css/agenda.css">
-    <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/follow.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/style-pkp.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 
     <!-- GALLERRY -->
@@ -38,7 +38,7 @@
 
 <body>
     <header class="header">
-        <a href="#top" class="header-title" title="Accueil">LES POURKOAPAS</a>
+        <a href="./index.html" class="header-title" title="Accueil">COLLECTIF PALAVANNE</a>
         <img src="./img/menu/hamburger.png" class="image-hamburger" alt="">
         <nav class="header-nav close">
             <ul>
@@ -50,7 +50,7 @@
             <img src="./img/menu/close.png" class="nav-link image-close" alt="">
         </nav>
     </header>
-    <div class="banner" id="top">
+    <div class="banner img-pourkoapas" id="top">
         <div class="img"></div>
         <div class="banner-opacity"></div>
         <div class="presentation-phrase">
@@ -67,199 +67,212 @@
                 frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
-    <section class="section background-color-grey" id="spectacle">
-        <h2 class="title-section">LE SPECTACLE</h2>
-        <div class="damier">
-            <div class="text-damier">
-                <h3 class="title-sub-section">Un spectacle musical jouant pour une éco-logique</h3>
-                <p>Cinq étranges personnages donnent une seconde vie aux objets du quotidien. La brigade de
-                    déconstipation, assermentée par Dame Nature, se déploie dans votre ville.</p>
-                <p>Refusant la surconsommation et le gaspillage ambiant, elle nous interpelle sur les alternatives
-                    qu’offre la récupération au détour d’une mélodie, d’une chanson...</p>
+    <section class="section has-background-color-grey" id="spectacle">
+        <div class="section-wrapper">
+            <h2 class="title">LE SPECTACLE</h2>
+            <div class="damier">
+                <div class="text-damier">
+                    <h3>Un spectacle musical jouant pour une éco-logique</h3>
+                    <p>Cinq étranges personnages donnent une seconde vie aux objets du quotidien. La brigade de
+                        déconstipation, assermentée par Dame Nature, se déploie dans votre ville.</p>
+                    <p>Refusant la surconsommation et le gaspillage ambiant, elle nous interpelle sur les alternatives
+                        qu’offre la récupération au détour d’une mélodie, d’une chanson...</p>
+                </div>
+                <div class="image-damier image-pourkoapas-top"></div>
+                <div class="image-damier image-pourkoapas-middle-left"></div>
+                <div class="text-damier">
+                    <h3>Recyclage et récupération</h3>
+                    <p>Dans ce spectacle tout public, « Les Pourkoapas » jouent avec des instruments de musique créés à
+                        partir de matériaux et objets de récupération, en somme, des rejets matériels de nos
+                        consomations.
+                    </p>
+                    <p>Ils arpentent le macadam à l’affut des passants, jouant la carte de la proximité avec le public.
+                        Faisant corps avec leurs « alambiques » à roulettes, les voilà parés d’une bien étrange façon.
+                    </p>
+                </div>
+                <div class="text-damier">
+                    <h3>Les instrumentariums</h3>
+                    <p>Un piano de casseroles, un membranophone ainsi qu’une « armada » de percussions ménagères donnent
+                        naissance à des personnages « mi-homme mi-machine ».</p>
+                    <p id="repertoire">Tuyaux de douche et cd’s deviennent chapeau médusant, ustensiles de cuisine se
+                        transforment en
+                        masques de toute beauté.</p>
+                </div>
+                <div class="image-damier image-pourkoapas-middle-right"></div>
+                <div class="image-damier image-pourkoapas-bottom"></div>
+                <div class="text-damier">
+                    <h3>Le répertoire</h3>
+                    <p>Une succession de pastiches, jingles, refrains évocateurs et rythmes colorés. Au-delà d’un simple
+                        «
+                        détournement d’objets », c’est une véritable brocante musicale jouant pour une éco-logique.</p>
+                    <p>Les Pourkoapas présentent un spectacle musical de rue aux contours doux et loufoques qui se
+                        regarde,
+                        s’écoute et se vit dans un esprit résolument festif.</p>
+                    <div class="link-with-icon">
+                        <i class="fas fa-newspaper"></i>
+                        <a href="presse.html">REVUE DE PRESSE</a>
+                    </div>
+                </div>
             </div>
-            <div class="image-damier image-pourkoapas-top"></div>
-            <div class="image-damier image-pourkoapas-middle-left"></div>
-            <div class="text-damier">
-                <h3 class="title-sub-section">Recyclage et récupération</h3>
-                <p>Dans ce spectacle tout public, « Les Pourkoapas » jouent avec des instruments de musique créés à
-                    partir de matériaux et objets de récupération, en somme, des rejets matériels de nos consomations.
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-wrapper has-text-align-center">
+                <h2 class="title">Infos clés</h2>
+                <h4>Spectacle tout public.</h4>
+                <p>5 artistes</p>
+                <p>Spectacle de 1h30 avec possibilité de scinder en 2x45 min ou 3x30min,</p>
+                <p>De jour comme de nuit avec éclairages intégrés aux instrumentariums.</p>
+                <p>Les ateliers <a href="fabrik-recup.html">"Fabrik'Récup"</a> peuvent être proposés en plus du
+                    spectacle.
                 </p>
-                <p>Ils arpentent le macadam à l’affut des passants, jouant la carte de la proximité avec le public.
-                    Faisant corps avec leurs « alambiques » à roulettes, les voilà parés d’une bien étrange façon.</p>
-            </div>
-            <div class="text-damier">
-                <h3 class="title-sub-section">Les instrumentariums</h3>
-                <p>Un piano de casseroles, un membranophone ainsi qu’une « armada » de percussions ménagères donnent
-                    naissance à des personnages « mi-homme mi-machine ».</p>
-                <p id="repertoire">Tuyaux de douche et cd’s deviennent chapeau médusant, ustensiles de cuisine se
-                    transforment en
-                    masques de toute beauté.</p>
-            </div>
-            <div class="image-damier image-pourkoapas-middle-right"></div>
-            <div class="image-damier image-pourkoapas-bottom"></div>
-            <div class="text-damier">
-                <h3 class="title-sub-section">Le répertoire</h3>
-                <p>Une succession de pastiches, jingles, refrains évocateurs et rythmes colorés. Au-delà d’un simple «
-                    détournement d’objets », c’est une véritable brocante musicale jouant pour une éco-logique.</p>
-                <p>Les Pourkoapas présentent un spectacle musical de rue aux contours doux et loufoques qui se regarde,
-                    s’écoute et se vit dans un esprit résolument festif.</p>
                 <div class="link-with-icon">
-                    <i class="fas fa-newspaper"></i>
-                    <a href="presse.html">REVUE DE PRESSE</a>
+                    <i class="far fa-file-pdf"></i>
+                    <a href="./pdf/dossier_pkp.pdf" target="_blank">TÉLÉCHARGER LE DOSSIER</a>
                 </div>
-            </div>
         </div>
     </section>
-    <section class="section background-color-white">
-        <div class="infos">
-            <h2 class="title-section">Infos clés</h2>
-            <h4>Spectacle tout public.</h4>
-            <p>5 artistes</p>
-            <p>Spectacle de 1h30 avec possibilité de scinder en 2x45 min ou 3x30min,</p>
-            <p>De jour comme de nuit avec éclairages intégrés aux instrumentariums.</p>
-            <p>Les ateliers <a href="fabrik-recup.html">"Fabrik'Récup"</a> peuvent être proposés en plus du spectacle.
-            </p>
-            <div class="link-with-icon">
-                <i class="far fa-file-pdf"></i>
-                <a href="./pdf/dossier_pkp.pdf" target="_blank">TÉLÉCHARGER LE DOSSIER</a>
-            </div>
-        </div>
-
-    </section>
-    <section class="section background-color-grey" id="gallery">
-        <h2 class="title-section">GALLERIE PHOTO</h2>
-        <div class="gallery-section">
-            <div class="inner-width">
-                <div class="gallery">
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-1.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-1.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-2.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-2.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-3.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-3.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-4.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-4.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-5.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-5.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-6.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-6.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-7.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-7.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-8.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-8.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-9.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-9.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-10.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-10.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-11.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-11.jpg" alt="Photo du groupe">
-                        </a>
-                    </div>
-                    <div class="column-gallery">
-                        <a href="./img/gallerie-pkp/pkp-12.jpg" class="image">
-                            <img src="./img/gallerie-pkp/pkp-12.jpg" alt="Photo du groupe">
-                        </a>
+    <section class="section has-background-color-grey" id="gallery">
+        <div class="section-wrapper">
+            <h2 class="title">GALLERIE PHOTO</h2>
+            <div class="gallery-section">
+                <div class="inner-width">
+                    <div class="gallery">
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-1.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-1.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-2.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-2.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-3.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-3.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-4.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-4.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-5.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-5.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-6.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-6.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-7.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-7.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-8.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-8.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-9.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-9.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-10.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-10.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-11.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-11.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
+                        <div class="column-gallery">
+                            <a href="./img/gallerie-pkp/pkp-12.jpg" class="image">
+                                <img src="./img/gallerie-pkp/pkp-12.jpg" alt="Photo du groupe">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section background-color-white" id="agenda">
-        <h2 class="title-section">AGENDA</h2>
-        <div class="agenda">
-        </div>
-        <div class="archives">
-            <a href="archives.html" class="btn">Voir les dates passées</a>
-        </div>
-    </section>
-    <section class="section background-color-grey">
-        <h2 class="title-section">RÉFÉRENCES</h2>
-        <div class="columns">
-            <div class="column-left border-black">
-                <p>24e Festival « Au Bonheur des Mômes » (74)<br>
-                Festival « Potes de marmot’s » (05)<br>
-                La place aux marmots (74)
-                Le carnaval de Montélimar (26)<br>
-                Salon de la Récup’, Kervignac (56)<br>
-                Ecofestival en Noxe (10)<br>
-                Festival « Sortilèges » (Belgique)<br>
-                Semaine Européenne de la Réduction des Déchets (46)<br>
-                Festival « Carrers dels musics », Villareal (Espagne)<br>
-                Les pestacles du Père Noël (74)<br>
-                Semaine Européenne de Réduction des Déchets, Cahors (46)<br>
-            </div>
-            <div class="column-right">
-                <p>Festival « Boule de Notes », Les Ménuires (73)<br>
-                Fête du Parc du Marais Poitevin (85)<br>
-                Fête de la Saint-Nicolas (54)<br>
-                Forum du citoyen et du développement durable (83)<br>
-                Festival « Objectif 21 » (64)<br>
-                Le Bioscope (68)<br>
-                Festivals « Nature en fête Miramas » (13)<br>
-                Festival « Lot of Saveurs » (46)<br>
-                Foreztival (42)<br>
-                Festiv’ @lterre (71)<br>
-                Fête du lac d’Annecy (74)</p>
+    <section class="section" id="agenda">
+        <div class="section-wrapper">
+            <h2 class="title">AGENDA</h2>
+            <div class="agenda"></div>
+            <div class="archives">
+                <a href="archives.html" class="btn">Voir les dates passées</a>
             </div>
         </div>
     </section>
-    <section class="section background-color-white" id="contact">
-        <h2 class="title-section">CONTACTEZ-NOUS</h2>
-        <div class="columns">
-            <div class="column-left border-black">
-                <h3 class="title-sub-section">Adresse</h3>
-                <p>Collectif Palavanne<br>
-                    Maison de la vie associative<br />
-                    2 boulevard Irène Joliot Curie<br />
-                    01000 BOURG-EN-BRESSE</p>
+    <section class="section has-background-color-grey">
+        <div class="section-wrapper">
+            <h2 class="title">RÉFÉRENCES</h2>
+            <div class="columns ">
+                <div class="column column has-border-right-black has-text-align-right has-line-height">
+                    <p>24e Festival « Au Bonheur des Mômes » (74)<br>
+                        Festival « Potes de marmot’s » (05)<br>
+                        La place aux marmots (74)
+                        Le carnaval de Montélimar (26)<br>
+                        Salon de la Récup’, Kervignac (56)<br>
+                        Ecofestival en Noxe (10)<br>
+                        Festival « Sortilèges » (Belgique)<br>
+                        Semaine Européenne de la Réduction des Déchets (46)<br>
+                        Festival « Carrers dels musics », Villareal (Espagne)<br>
+                        Les pestacles du Père Noël (74)<br>
+                        Semaine Européenne de Réduction des Déchets, Cahors (46)<br>
+                </div>
+                <div class="column has-line-height">
+                    <p>Festival « Boule de Notes », Les Ménuires (73)<br>
+                        Fête du Parc du Marais Poitevin (85)<br>
+                        Fête de la Saint-Nicolas (54)<br>
+                        Forum du citoyen et du développement durable (83)<br>
+                        Festival « Objectif 21 » (64)<br>
+                        Le Bioscope (68)<br>
+                        Festivals « Nature en fête Miramas » (13)<br>
+                        Festival « Lot of Saveurs » (46)<br>
+                        Foreztival (42)<br>
+                        Festiv’ @lterre (71)<br>
+                        Fête du lac d’Annecy (74)</p>
+                </div>
             </div>
-            <div class="column-right">
-                <h3 class="title-sub-section">Diffusion</h3>
-                <p>Sylvain BOUTON<br />
-                    06 11 22 33 44<br />
-                    contact@pourkoapas.com</p>
-            </div>
-        </div>
-        <div class="follow">
-            <h3 class="title-sub-section">Suivez-nous</h3>
-            <a href="https://fr-fr.facebook.com/palavanne/" target="_blank" class="btn-social-facebook"><i
-                    class="fab fa-facebook-f"></i></a>
-            <a href="https://www.youtube.com/channel/UCtbnjMXNhbsDJnUh7qMdHSQ" target="_blank"
-                class="btn-social-youtube"><i class="fab fa-youtube"></i></a>
         </div>
     </section>
-    <footer class="footer background-color-white">
+    <section class="section" id="contact">
+        <div class="section-wrapper">
+            <h2 class="title">CONTACTEZ-NOUS</h2>
+            <div class="columns">
+                <div class="column has-border-right-black has-text-align-right has-line-height">
+                    <h3>Adresse</h3>
+                    <p>Collectif Palavanne<br>
+                        Maison de la vie associative<br />
+                        2 boulevard Irène Joliot Curie<br />
+                        01000 BOURG-EN-BRESSE</p>
+                </div>
+                <div class="column has-line-height">
+                    <h3>Diffusion</h3>
+                    <p>Sylvain BOUTON<br />
+                        06 11 22 33 44<br />
+                        contact@pourkoapas.com</p>
+                </div>
+            </div>
+            <div class="follow">
+                <h3>Suivez-nous</h3>
+                <a href="https://fr-fr.facebook.com/palavanne/" target="_blank" class="btn-social-facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/channel/UCtbnjMXNhbsDJnUh7qMdHSQ" target="_blank"
+                    class="btn-social-youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
         <p>© Palavanne - 2020</p>
     </footer>
     <script src="./js/scroll.js"></script>

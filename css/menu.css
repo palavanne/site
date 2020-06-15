@@ -63,7 +63,7 @@ ul{
 /* RESPONSIVE */
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 780px) {
 
     .image-hamburger {
         display: block;
@@ -103,11 +103,43 @@ ul{
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
+    .image-hamburger {
+        display: block;
+        width: 30px;
+        height: 20px;
+        margin: 15px 5px 0 0;
+    }
     .header-nav {
         position: fixed;
         padding: 30px;
         width: 100%;
-        height: 100vh;
+        background: #333;
+        right: 0;
+        top: 0;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .header-title {
+        margin-left: 0px;
+    }
+    .header .header-nav ul {
+        padding: 0;
+    }   
+    .image-close {
+        display: block;
+        top: 20px;
+        right: 25px;
+    }
+    .header-nav li {
+        display: block;
+        padding: 40px;
+        border-bottom: 1px solid rgb(70, 70,70);
+    }
+    .header-nav li a:hover {
+        background-color: #333;
+    }
+    .close {
+        top: -100%;
     }
 }

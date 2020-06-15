@@ -1,13 +1,11 @@
 /*--CARD--*/
 
 
-.pestacles {
-    max-width: 1200px;
+.spectacles-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    margin: 0 auto;
 }
 
 .card {

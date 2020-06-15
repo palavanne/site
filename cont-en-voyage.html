@@ -12,9 +12,8 @@
   <link rel="stylesheet" href="./css/menu.css" />
   <link rel="stylesheet" href="./css/full-width-banner.css" />
   <link rel="stylesheet" href="./css/gallery.css" />
-  <link rel="stylesheet" href="./css/contact.css" />
   <link rel="stylesheet" href="./css/footer.css" />
-  <link rel="stylesheet" href="./css/style-cont-en-voyage.css" />
+  <link rel="stylesheet" href="./css/style.css">
 
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
@@ -46,18 +45,19 @@
       </label>
     </nav>
   </header>
-  <div class="banner">
+  <div class="banner img-cev">
     <div class="img" id="top"></div>
     <div class="presentation-phrase">
-      <p class="title-project">CONT'EN VOYAGE</p>
+      <h1 class="title-project">CONT'EN VOYAGE</h1>
       <a href="#spectacle" class="button"><strong>Découvrir le spectacle</strong></a>
     </div>
   </div>
   <section class="section" id="spectacle">
-    <h2 class="title">LE SPECTACLE</h2>
+    <div class="section-wrapper">
+    <h2 class="title is-orange">LE SPECTACLE</h2>
     <div class="columns-third">
-      <div class="column-two-third">
-        <h3 class="sub-title">
+      <div class="column has-border-right-black has-text-align-right">
+        <h3 class="is-orange">
           « Embrasse trois fois la lune et le conte t’emmènera… »
         </h3>
         <p>
@@ -88,9 +88,9 @@
           musiques.
         </p>
       </div>
-      <div class="column-one-third">
-        <h3 class="sub-title">Infos clés</h3>
-        <p>
+      <div class="column">
+        <h3 class="is-orange">Infos clés</h3>
+        <p class="has-line-height">
           <strong>2 artistes</strong><br />
           <strong>Spectacle pour enfants de 6 à 11 ans</strong>.<br />
           Durée du spectacle : <strong>1h00</strong><br />
@@ -100,10 +100,12 @@
         <a href="./pdf/conte-en-voyage.pdf" target="_blank"><i class="far fa-file-pdf"></i> TÉLÉCHARGER LE DOSSIER</a>
       </div>
     </div>
+  </div>
   </section>
-  <section class="section">
+  <section class="section has-background-color-light-black is-white has-text-align-center">
+    <div class="section-wrapper">
     <div class="infos">
-      <h3 class="sub-title">Interventions en milieu scolaire</h3>
+      <h3 class="title is-orange">Interventions en milieu scolaire</h3>
       <p>
         Ce spectacle peut être un point d’appui à un travail en classe et un
         travail en amont de la représentation peut être proposé.
@@ -111,9 +113,11 @@
       <p>Il défend des valeurs humanistes et de tolérance.</p>
       <p>Il permet une découverte du monde et ses différentes traditions.</p>
     </div>
+  </div>
   </section>
-  <section class="section black" id="gallery">
-    <h2 class="title">GALLERIE PHOTO</h2>
+  <section class="section" id="gallery">
+    <div class="section-wrapper">
+    <h2 class="title is-orange">GALLERIE PHOTO</h2>
     <div class="gallery-section">
       <div class="inner-width">
         <div class="gallery">
@@ -160,11 +164,13 @@
         </div>
       </div>
     </div>
+  </div>
   </section>
-  <section class="section">
-    <h2 class="title">Ils nous ont accueilli</h2>
+  <section class="section has-background-color-light-black is-white">
+    <div class="section-wrapper">
+    <h2 class="title is-orange">Ils nous ont accueilli</h2>
     <div class="columns">
-      <div class="column-left border-black">
+      <div class="column has-border-right-white has-text-align-right has-line-height">
         <p>
           Théatre de Bourg-en-Bresse dans le cadre de «La fête de la
           nature»<br />
@@ -181,7 +187,7 @@
           Centre Social « Arc en ciel » à St-Fons<br />
         </p>
       </div>
-      <div class="column-right">
+      <div class="column has-line-height">
         <p>
           École d'Arinthod (39)<br />
           Comité des Fêtes de Vosbles (39)<br />
@@ -198,11 +204,13 @@
         </p>
       </div>
     </div>
+  </div>
   </section>
-  <section class="section black color-white" id="contact">
-    <h2 class="title">CONTACTEZ-NOUS</h2>
+  <section class="section color-white" id="contact">
+    <div class="section-wrapper">
+    <h2 class="title is-orange">CONTACTEZ-NOUS</h2>
     <div class="columns">
-      <div class="column-left border-white">
+      <div class="column has-border-right-black has-text-align-right has-line-height">
         <h3>Adresse</h3>
         <p>
           Collectif Palavanne<br />
@@ -211,7 +219,7 @@
           01000 BOURG-EN-BRESSE
         </p>
       </div>
-      <div class="column-right">
+      <div class="column has-line-height">
         <h3>Diffusion</h3>
         <p>
           Maryline ANDIA-DESTOR<br />
@@ -220,8 +228,9 @@
         </p>
       </div>
     </div>
+  </div>
   </section>
-  <footer class="footer black color-white">
+  <footer class="footer color-white">
     <p>© Palavanne</p>
   </footer>
   <script src="./js/menu.js"></script>
