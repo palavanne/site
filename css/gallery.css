@@ -1,51 +1,31 @@
 /* Gallerie photo */
 
 .image {
-  padding: 6px 2px;
+    padding: 4px;
 }
 .inner-width {
-  max-width: 1080px;
+    max-width: 1000px;
 }
 .column-gallery {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+    flex: 25%;
 }
 .gallery-section {
-  max-width: 1080px;
-  margin: 0 auto;
 }
 .gallery-section .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .gallery-section .image {
-  display: flex;
-  overflow: hidden;
-  cursor: pointer;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
 }
-.gallery-section .image img {
-  width: 100%;
-  height: 100%;
-  transition: 0.4s;
+.gallery-section .image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
 }
 .gallery-section .image:hover img {
-  transform: scale(1.1);
-}
-
-@media screen and (max-width: 780px) {
-  .column-gallery {
-    flex: 50%;
-    max-width: 50%;
-    padding: 0 4px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .column-gallery {
-    flex: 100%;
-    max-width: 100%;
-    padding: 0 4px;
-  }
+    transform: scale(1.1);
 }

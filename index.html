@@ -1,254 +1,1329 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="desciption" content="Spectalce de rue sur le développement durable">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/menu.css">
-    <link rel="stylesheet" href="./css/full-width-banner.css">
-    <link rel="stylesheet" href="./css/damier.css">
-    <link rel="stylesheet" href="./css/card.css">
-    <link rel="stylesheet" href="./css/agenda.css">
-    <link rel="stylesheet" href="./css/follow.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
 
-    <!-- FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="stylesheet" href="./css/text.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/presentation.css">
+  <link rel="stylesheet" href="./css/page.css">
+  <link rel="stylesheet" href="./css/gallery.css">
+  <link rel="stylesheet" href="./css/modal.css">
+  <link rel="stylesheet" href="./css/agenda.css">
 
-    <!-- ICONS -->
-    <script src="https://kit.fontawesome.com/42eee18e28.js" crossorigin="anonymous"></script>
+  <!-- GALLERRY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 
-    <title>Spectacles vivants sur le développement durable</title>
+  <!-- ICONS -->
+  <script src="https://kit.fontawesome.com/42eee18e28.js" crossorigin="anonymous"></script>
+
+  <title>COLLECTIF PALAVANNE</title>
 </head>
 
 <body>
-    <header class="header">
-        <a href="#top" class="header-title">Collectif PALAVANNE</a>
-        <img src="./img/menu/hamburger.png" class="image-hamburger" alt="">
-        <nav class="header-nav close">
-            <ul>
-                <li><a href="#collectif" class="nav-link" title="">LE COLLECTIF</a></li>
-                <li><a href="#spectacles" class="nav-link" title="">LES SPECTACLES</a></li>
-                <li><a href="#agenda" class="nav-link" title="">AGENDA</a></li>
-                <li><a href="#contact" class="nav-link" title="Nous contacter">CONTACT</a></li>
-            </ul>
-            <img src="./img/menu/close.png" class="nav-link image-close" alt="">
-        </nav>
-    </header>
-    <div class="banner img-palavanne" id="top">
-        <div class="banner-opacity"></div>
-        <div class="presentation-phrase">
-            <p class="catch-phrase">Spectacles vivants sur le développement durable</p>
-            <a href="#spectacles" class="button">Découvrez nos spectacles</a>
-        </div>
-    </div>
-    <section class="section has-background-color-grey" id="collectif">
-        <div class="section-wrapper">
-            <h2 class="title">PRÉSENTATION</h2>
-            <div class="damier">
-                <div class="text-damier">
-                    <h3>De toutes les couleurs</h3>
-                    <p>Le collectif Palavanne ("De toutes les couleurs" en tamoul) est créé en 1999 afin de supporter le
-                        duo
-                        "Bodhi", duo de musique s'inspirant de diverses traditions musicales (Chants Qawwali, musique
-                        Arabo
-                        andalouse, Turque, indiennes...)</p>
-                    <p>De nombreux projets s'en suivront : sortie de plusieurs albums, création du "Duo des Marais",
-                        spectacle jeune public "Les musiques du Voyage"...</p>
-                </div>
-                <div class="image-damier image-palavanne-one"></div>
-                <div class="image-damier image-palavanne-two"></div>
-                <div class="text-damier">
-                    <h3>Le développement durable</h3>
-                    <p>C'est en 2005, de retour du Brésil, que Patrick CORNUT fondera " Les Pourkoapas ", un spectacle
-                        musical de rue dans lequel les musiciens jouent avec des instruments de musique créés à partir
-                        de
-                        matériaux et objets de récupération.</p>
-                    <p>C'est le point départ de l'orientation actuelle du collectif : transmettre les valeurs du
-                        recyclage,
-                        de la réutilisation et de la solidarité.</p>
-                    <!-- <p>En somme, les valeurs d'un développement durable.</p> -->
-                </div>
-                <div class="text-damier">
-                    <h3>Nos spectacles</h3>
-                    <p>Dans la lignés des " Pourkoapas " , sont créés les ateliers " Fabrik'Récup ", ateliers dans
-                        lesquels
-                        les personnes viennent fabriquer leurs propres objets à partir de matériaux de récupération.</p>
-                    <p>"Cont'en Voyage", "Ça Rime à Tout Terrrien" et "La Mouffle" permettent de véhiculer ces valeurs
-                        via
-                        les contes à un public plus jeune.</p>
-                </div>
-                <div class="image-damier image-palavanne-three"></div>
-                <div class="image-damier image-palavanne-four"></div>
-                <div class="text-damier">
-                    <h3>Pour résumer</h3>
-                    <p>Le collectif est un "petit producteur" artistique, friand de brassage, désireux d'ouvrir des
-                        chemins de traverse. Les artistes vous invitent à découvrir leurs créations originales au
-                        travers de
-                        spectacles musicaux, théatrals et contes.</p>
-                    <p>Nous souhaitons valoriser l’art non comme un simple produit de consommation, mais comme un acte
-                        permettant du lien entre les Hommes et proposant un regard sur la société.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section" id="spectacles">
-        <div class="section-wrapper">
-            <h2 class="title">LES SPECTACLES</h2>
-            <div class="spectacles-wrapper">
-                <div class="card">
-                    <div class="card-front">
-                        <img src="./img/card/pkpfront-300.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3 class="title-card">Les Pourkoapas</h3>
-                        <p>Spectacle musical de rue<br>
-                            (Tout public)</p>
-                        <a href="pourkoapas.html" class="text-link">
-                            <p class="card-text">Dans ce spectacle, « Les Pourkoapas » jouent avec des instruments de
-                                musique
-                                créés à partir de matériaux et objets de récupération. Une véritable brocante musicale
-                                jouant
-                                pour une éco-logique.</p>
-                        </a>
-                        <div class="btn-card"><a href="pourkoapas.html">En savoir +</a></div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-front">
-                        <img src="./img/card/conte-300.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3 class="title-card">Cont'en Voyage</h3>
-                        <p>Contes en musique<br>(Jeune public)</p>
-                        <a href="cont-en-voyage.html" class="text-link">
-                            <p class="card-text">Ce spectacle vous propose de partir pour les montagnes arméniennes,
-                                l'Amazonie
-                                péruvienne, le monde glacé des Inuits, les bords du Gange et la savane africaine. Cinq
-                                récits
-                                contés, mis en jeux d’ombres et diablement rythmés.</p>
-                        </a>
-                        <div class="btn-card"><a href="cont-en-voyage.html">En savoir +</a></div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-front">
-                        <img src="./img/card/solo-cornuto-300.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3 class="title-card">La Mouffle</h3>
-                        <p>Conte en musique<br>(3-6 ans)</p>
-                        <a href="moufle.html" class="text-link">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse
-                                tenetur
-                                autem, delectus suscipit mollitia sint, accusamus quas magnam eius cum vitae nobis
-                                commodi.
-                                Doloribus sapiente deleniti magnam provident at.</p>
-                        </a>
-                        <div class="btn-card"><a href="moufle.html">En savoir +</a></div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-front">
-                        <img src="./img/card/malle-magique-300.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3 class="title-card">La Malle Magique</h3>
-                        <p>Théatre musical<br>(Jeune public)</p>
-                        <a href="la-malle-magique.html" class="text-link">
-                            <p class="card-text">Deux aventuriers musiciens, reviennent d'un long voyage avec une
-                                étrange
-                                malle
-                                "magique". Au fil de ce spectacle, ils vont découvrir un étrange héritage : fabriquer
-                                des
-                                instruments de musique à partir d'objets de récupération !</p>
-                        </a>
-                        <div class="btn-card"><a href="la-malle-magique.html">En savoir +</a></div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-front">
-                        <img src="./img/card/cratt-300.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3 class="title-card">Ca rime à tout et rien</h3>
-                        <p>Contes<br>(Jeune public)</p>
-                        <a href="ca-rime-a-tout-terrien.html" class="text-link">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse
-                                tenetur
-                                autem, delectus suscipit mollitia sint, accusamus quas magnam eius cum vitae nobis
-                                commodi.
-                                Doloribus sapiente deleniti magnam provident at.</p>
-                        </a>
-                        <div class="btn-card"><a href="ca-rime-a-tout-terrien.html">En savoir +</a></div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-front">
-                        <img src="./img/card/fabrik-recup-300.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3 class="title-card">La Fabrik'Récup</h3>
-                        <p>La Fabrik'Récup<br>(Tout public)</p>
-                        <a href="fabrik-recup.html" class="text-link">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse
-                                tenetur
-                                autem, delectus suscipit mollitia sint, accusamus quas magnam eius cum vitae nobis
-                                commodi.
-                                Doloribus sapiente deleniti magnam provident at.</p>
-                        </a>
-                        <div class="btn-card"><a href="fabrik-recup.html">En savoir +</a></div>
-                    </div>
-                </div>
 
+  <div class="modal hidden">
+    <div class="modal-background-opacity"></div>
+    <img src="./img/close.png" class="btn-close" alt="cross">
+    <div class="teaser" id="teaser">
+      <iframe width="900" height="506" class="player youtube-video"
+        src="https://www.youtube.com/embed/29pGVEAHnzs?enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="page-wrapper presentation">
+      <div class="page">
+        <section class="section">
+          <h1 class="title-section-else">PRÉSENTATION</h1>
+          <h3>De toutes les couleurs</h3>
+          <p>Le collectif Palavanne ("De toutes les couleurs" en tamoul) est créé en 1999 afin de supporter le
+            duo
+            "Bodhi", duo de musique s'inspirant de diverses traditions musicales (Chants Qawwali, musique
+            Arabo
+            andalouse, Turque, indiennes...)</p>
+          <p>De nombreux projets s'en suivront : sortie de plusieurs albums, création du "Duo des Marais",
+            spectacle jeune public "Les musiques du Voyage"...</p>
+          <h3>Le développement durable</h3>
+          <p>C'est en 2005, de retour du Brésil, que Patrick CORNUT fondera " Les Pourkoapas ", un spectacle
+            musical de rue dans lequel les musiciens jouent avec des instruments de musique créés à partir
+            de
+            matériaux et objets de récupération.</p>
+          <p>C'est le point départ de l'orientation actuelle du collectif : transmettre les valeurs du
+            recyclage,
+            de la réutilisation et de la solidarité.</p>
+          <h3>Nos spectacles</h3>
+          <p>Dans la lignés des " Pourkoapas " , sont créés les ateliers " Fabrik'Récup ", ateliers dans
+            lesquels
+            les personnes viennent fabriquer leurs propres objets à partir de matériaux de récupération.</p>
+          <p>"Cont'en Voyage", "Ça Rime à Tout Terrrien" et "La Mouffle" permettent de véhiculer ces valeurs
+            via
+            les contes à un public plus jeune.</p>
+          <h3>Pour résumer</h3>
+          <p>Le collectif est un "petit producteur" artistique, friand de brassage, désireux d'ouvrir des
+            chemins de traverse. Les artistes vous invitent à découvrir leurs créations originales au
+            travers de
+            spectacles musicaux, théatrals et contes.</p>
+          <p>Nous souhaitons valoriser l’art non comme un simple produit de consommation, mais comme un acte
+            permettant du lien entre les Hommes et proposant un regard sur la société.</p>
+        </section>
+        <h2 class="title-section-else">HISTORIQUE</h2>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year orange">2020</span><span class="point"></span>
             </div>
+            <div class="case">
+              <h3 class="padding-left orange">Nouveau site</h3>
+              <p class="padding-left">Nouveau site bientôt en ligne.</p>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="section has-background-color-grey" id="agenda">
-        <div class="section-wrapper">
-            <h2 class="title">AGENDA PALAVANNE</h2>
-            <div class="agenda"></div>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year green">2020</span><span class="point"></span>
+            </div>
+            <div class="case">
+              <h3 class="padding-left green">Nouveaux instrumentariums</h3>
+              <p class="padding-left">Nouveau design des instrumentariums des Pourkoapas</p>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="section" id="contact">
-        <div class="section-wrapper">
-            <h2 class="title">CONTACTEZ-NOUS</h2>
-            <div class="columns">
-                <div class="column has-text-align-right has-border-right-black has-line-height">
-                    <h3>Adresse</h3>
-                    <p>Collectif Palavanne<br />
-                        Maison de la vie associative<br />
-                        2 boulevard Irène Joliot Curie<br />
-                        01000 BOURG-EN-BRESSE</p>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year brown">2016</span><span class="point"></span>
+            </div>
+            <div class="case">
+              <h3 class="padding-left brown">Nouvel mouture du spectacle</h3>
+              <p class="padding-left">Renouvellement complet du spectacle : nouveaux instrumentariums,
+                nouveaux costumes et nouveau répertoire.</p>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year grey">2008</span><span class="point"></span>
+            </div>
+            <div class="case">
+              <h3 class="padding-left grey">Nouvel mouture du spectacle</h3>
+              <p class="padding-left">Nouveaux site internet et nouveau logo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year blue">2007</span><span class="point"></span>
+            </div>
+            <div class="case">
+              <p class="padding-left">
+                Les Pourkoapas trouvent leur équilibre à cinq musiciens : Patrick Cornut, Fabien Boyer,
+                Alain Garoby, Sylvain Bouton et Jorge Costagliola.
+                Simon Defives propose des ateliers et un spectacle solo auprès d'enfants et de personnes
+                handicapées.
+                Nicolas Galliot devient technicien son et lumières de plusieurs spectacles Palavanne,
+                Mélanie Michel commence á faire tourner les Pourkoapas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year red">2005</span><span class="point"></span>
+            </div>
+            <div class="case">
+              <h3 class="padding-left red">Création du spectacle " Les Pourkoapas "</h3>
+              <p class="padding-left">
+                Premières notes du spectacle de rue "Les Pourkoapas", dirigé par Patrick Cornut.
+                Participation de Lionel et Cédric au spectacle Invitation au vent dirigé par Hervé
+                Baron.
+                Fabien Boyer anime à son tour des ateliers auprès de jeunes et d'handicapés.
+                Journée "Carte Blanche à Palavanne" organisée à La Tannerie à Bourg-en-Bresse.</p>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year brown">2003</span><span class="point"></span>
+            </div>
+            <div class="case">
+              <h3 class="padding-left brown">Les Musiques du Voyages</h3>
+              <p class="padding-left">Création par Patrick et Lionel du spectacle pour enfants " Les
+                musiques du Voyage "".</p>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year grey">2002</span><span class="point"></span>
+            </div>
+            <div class="case">
+              <h3 class="padding-left grey">Le Vent, deuxième album de Bodhi.</h3>
+              <p class="padding-left">Les ateliers proposés par Lionel et Patrick se diversifient,
+                notamment á destination de personnes handicapées (Maison des aveugles à Lyon, plusieurs
+                ADAPEI...)</p>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year orange">2000</span><span class="point"></span>
+            </div>
+            <div class="case">
+              <h3 class="padding-left orange">Epices, premier album du duo Bodhi</h3>
+              <p class="padding-left">Rencontre de Lionel avec Prabhu Edouard, tabliste Indien et Cédric
+                Germain,percussionniste des musiques orientales grace à l'Association Anagath.
+                Le duo Bodhi devient Bodhi Beyahad ("ensemble ") en intrègrant trois autres musiciens,
+                Camille Contraire, Grigory Collomb et Emmanuel Génier.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year blue">1999</span><span class="point"></span>
+            </div>
+            <div class="case">
+              <h3 class="padding-left blue">Création de l'association Palavanne</h3>
+              <p class="padding-left">Naissance de l'Association Palavanne ("De plusieurs couleurs" en
+                langue Tamoul), pour supporter administrativement le projet de Bodhi.
+                Lionel développe au sein de l'association plusieurs ateliers de percussions pour enfants
+                et adultes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="columns-presentation">
+            <div class="case flex-align border-weight">
+              <span class="year red">1998</span><span class="point"></span>
+            </div>
+            <div class="case">
+              <h3 class="padding-left red">Création du duo "Bodhi"</h3>
+              <p class="padding-left">Lionel Rolland et Patrick Cornut créent le duo Bodhi ("éveil" en
+                Sanscrit) dont les créations s'inspirent fortement des diverses traditions musicales
+                (Chants Qawwali, musique Arabo andalouse, Turque, Indienne du sud et du nord...)</p>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">© Palavanne</footer>
+      </div>
+    </div>
+    <div class="page-wrapper pkp">
+      <div class="page">
+        <section class="section">
+          <h1 class="title-project blue">LES POURKOAPAS</h1>
+          <div class="column-third">
+            <div class="column-two-third">
+              <h3 class="blue">Un spectacle musical jouant pour une éco-logique</h3>
+              <p>Cinq étranges personnages donnent une seconde vie aux objets du quotidien. La
+                brigade de déconstipation, assermentée par Dame Nature, se déploie dans votre ville.
+              </p>
+              <p>Refusant la surconsommation et le gaspillage ambiant, elle nous interpelle sur
+                les alternatives qu’offre la récupération au détour d’une mélodie, d’une chanson...
+              </p>
+
+              <h3 class="blue">Recyclage et récupération</h3>
+              <p>Dans ce spectacle tout public, « Les Pourkoapas » jouent avec des instruments de
+                musique créés à partir de matériaux et objets de récupération, en somme, des rejets
+                matériels de nos consomations.</p>
+              <p>Ils arpentent le macadam à l’affut des passants, jouant la carte de la proximité
+                avec le public. Faisant corps avec leurs « alambiques » à roulettes, les voilà
+                parés d’une bien étrange façon.</p>
+              <h3 class="blue">Les instrumentariums</h3>
+              <p>Un piano de casseroles, un membranophone ainsi qu’une « armada » de
+                percussions ménagères
+                donnent naissance à des personnages « mi-homme mi-machine ». Tuyaux de
+                douche et cd’s
+                deviennent chapeau médusant, ustensiles de cuisine se transforment en
+                masques de toute
+                beauté.
+              </p>
+              <h3 class="blue">Le répertoire</h3>
+              <p>Une succession de pastiches, jingles, refrains évocateurs et rythmes
+                colorés. Au-delà
+                d’un
+                simple « détournement d’objets », c’est une véritable brocante musicale
+                jouant pour une
+                éco-logique.</p>
+              <p>
+                Les Pourkoapas présentent un spectacle musical de rue aux contours doux
+                et loufoques qui se regarde, s’écoute et se vit dans un esprit résolument festif.
+              </p>
+            </div>
+            <div class="column-one-third">
+              <img src="./img/miniatures/min-teaser.jpg" alt="photo du groupe" class="teaser-img">
+              <h3 class="blue">Infos clés</h3>
+              <h4>Spectacle tout public.</h4>
+              <p class="strong">5 artistes</p>
+              <p><span class="strong">Spectacle de 1h30</span> avec possibilité de scinder en
+                <span class="strong">2x45 min ou 3x30min</span>,</p>
+              <p><span class="strong">De jour comme de nuit</span> avec éclairages intégrés aux
+                instrumentariums.
+              </p>
+              <p>Les ateliers <a href="fabrik-recup.html" class="strong blue">"Fabrik'Récup"</a>
+                peuvent être proposés en plus du spectacle.
+              </p>
+              <i class="far fa-file-pdf blue"></i>
+              <a href="#" class="download blue" download>TÉLÉCHARGER LE DOSSIER</a>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section-wrapper">
+            <h2 class="title blue">GALLERIE PHOTO</h2>
+            <div class="gallery-section">
+              <div class="inner-width">
+                <div class="gallery">
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-1.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-1.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-2.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-2.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-3.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-3.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-4.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-4.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-5.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-5.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-6.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-6.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-7.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-7.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-8.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-8.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-9.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-9.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-10.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-10.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-11.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-11.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallerie-pkp/pkp-12.jpg" class="image">
+                      <img src="./img/gallerie-pkp/pkp-12.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
                 </div>
-                <div class="column has-line-height">
-                    <h3>Coordination</h3>
-                    <p class="contact-contain">Patrick CORNUT<br />
-                        Tél : 07 55 44 33 22<br />
-                        contact@pourkoapas.com</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="title blue">AGENDA</h2>
+          <div class="agenda-pourkoapas"></div>
+        </section>
+
+        <section class="section">
+          <h2 class="title blue">RÉFÉRENCES</h2>
+          <div class="columns">
+            <div class="column-half has-text-align-right">
+              <p>24e Festival « Au Bonheur des Mômes » (74)</p>
+              <p>Festival « Potes de marmot’s » (05)</p>
+              <p>La place aux marmots (74)
+              <p>Le carnaval de Montélimar (26)</p>
+              <p>Salon de la Récup’, Kervignac (56)</p>
+              <p>Ecofestival en Noxe (10)</p>
+              <p>Festival « Sortilèges » (Belgique)</p>
+              <p>Semaine Européenne de la Réduction des Déchets (46)</p>
+              <p>Festival « Carrers dels musics », Villareal (Espagne)</p>
+              <p>Les pestacles du Père Noël (74)</p>
+              <p>Semaine Européenne de Réduction des Déchets, Cahors (46)</p>
+            </div>
+            <div class="column-half">
+              <p>24e Festival « Au Bonheur des Mômes » (74)</p>
+              <p>Festival « Potes de marmot’s » (05)</p>
+              <p>La place aux marmots (74)
+              <p>Le carnaval de Montélimar (26)</p>
+              <p>Salon de la Récup’, Kervignac (56)</p>
+              <p>Ecofestival en Noxe (10)</p>
+              <p>Festival « Sortilèges » (Belgique)</p>
+              <p>Semaine Européenne de la Réduction des Déchets (46)</p>
+              <p>Festival « Carrers dels musics », Villareal (Espagne)</p>
+              <p>Les pestacles du Père Noël (74)</p>
+              <p>Semaine Européenne de Réduction des Déchets, Cahors (46)</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h1 class="title blue">DIFFUSION</h1>
+          <div class="has-text-align-center">
+            <p>Sylvain BOUTON</p>
+            <p>06 11 22 33 44</p>
+            <p>contact@pourkoapas.com</p>
+          </div>
+        </section>
+        <footer class="footer">© Palavanne 2020</footer>
+
+      </div>
+    </div>
+    <div class="page-wrapper cev">
+      <div class="page">
+        <section class="section">
+          <h2 class="title-project orange">CONT'EN VOYAGE</h2>
+          <div class="column-third">
+            <div class="column-two-third">
+              <h3 class="orange">Un spectacle musical jouant pour une éco-logique</h3>
+              <p>Cinq étranges personnages donnent une seconde vie aux objets du quotidien. La
+                brigade de déconstipation, assermentée par Dame Nature, se déploie dans votre ville.
+              </p>
+              <p>Refusant la surconsommation et le gaspillage ambiant, elle nous interpelle sur
+                les alternatives qu’offre la récupération au détour d’une mélodie, d’une chanson...
+              </p>
+
+              <h3 class="orange">Recyclage et récupération</h3>
+              <p>Dans ce spectacle tout public, « Les Pourkoapas » jouent avec des instruments de
+                musique créés à partir de matériaux et objets de récupération, en somme, des rejets
+                matériels de nos consomations.</p>
+              <p>Ils arpentent le macadam à l’affut des passants, jouant la carte de la proximité
+                avec le public. Faisant corps avec leurs « alambiques » à roulettes, les voilà
+                parés d’une bien étrange façon.</p>
+              <h3 class="orange">Les instrumentariums</h3>
+              <p>Un piano de casseroles, un membranophone ainsi qu’une « armada » de
+                percussions ménagères
+                donnent naissance à des personnages « mi-homme mi-machine ». Tuyaux de
+                douche et cd’s
+                deviennent chapeau médusant, ustensiles de cuisine se transforment en
+                masques de toute
+                beauté.
+              </p>
+              <h3 class="orange">Le répertoire</h3>
+              <p>Une succession de pastiches, jingles, refrains évocateurs et rythmes
+                colorés. Au-delà
+                d’un
+                simple « détournement d’objets », c’est une véritable brocante musicale
+                jouant pour une
+                éco-logique.</p>
+              <p>
+                Les Pourkoapas présentent un spectacle musical de rue aux contours doux
+                et loufoques qui se regarde, s’écoute et se vit dans un esprit résolument festif.
+              </p>
+            </div>
+            <div class="column-one-third">
+              <img src="./img/miniatures/min-conte.jpg" alt="">
+              <h3 class="orange">Infos clés</h3>
+              <p class="strong">2 artistes</p>
+              <p class="strong">Spectacle pour enfants de 6 à 11 ans.</p>
+              <p>Durée du spectacle : <span class="strong">1h00</span></p>
+              <p class="strong">Adaptation pour les 3 à 6 ans</p>
+              <p>Durée du spectacle : <span class="strong">45min</span></p>
+              <p>Ce spectacle peut être un point d’appui à un travail en classe et un<br>
+                travail en amont de la représentation peut être proposé.</p>
+              <i class="far fa-file-pdf orange"></i>
+              <a href="#" class="download orange" download>TÉLÉCHARGER LE DOSSIER</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="gallery">
+          <div class="section-wrapper">
+            <h2 class="title orange">GALLERIE PHOTO</h2>
+            <div class="gallery-section">
+              <div class="inner-width">
+                <div class="gallery">
+                  <div class="column-gallery">
+                    <a href="./img/gallery-cv/conte-en-voyage-1.jpg" class="image">
+                      <img src="./img/gallery-cv/conte-en-voyage-1.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallery-cv/conte-en-voyage-7.jpg" class="image">
+                      <img src="./img/gallery-cv/conte-en-voyage-7.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallery-cv/conte-en-voyage-3.jpg" class="image">
+                      <img src="./img/gallery-cv/conte-en-voyage-3.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallery-cv/conte-en-voyage-4.jpg" class="image">
+                      <img src="./img/gallery-cv/conte-en-voyage-4.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallery-cv/conte-en-voyage-1.jpg" class="image">
+                      <img src="./img/gallery-cv/conte-en-voyage-1.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallery-cv/conte-en-voyage-6.jpg" class="image">
+                      <img src="./img/gallery-cv/conte-en-voyage-6.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallery-cv/conte-en-voyage-7.jpg" class="image">
+                      <img src="./img/gallery-cv/conte-en-voyage-7.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/gallery-cv/conte-en-voyage-8.jpg" class="image">
+                      <img src="./img/gallery-cv/conte-en-voyage-8.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="follow">
-                <h3>Suivez-nous</h3><br />
-                <a href="https://fr-fr.facebook.com/palavanne/" target="_blank" class="btn-social-facebook"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a href="https://www.youtube.com/channel/UCtbnjMXNhbsDJnUh7qMdHSQ" target="_blank"
-                    class="btn-social-youtube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="title orange">AGENDA</h2>
+          <div class="agenda-cev"></div>
+        </section>
+
+        <section class="section">
+          <h1 class="title orange">ILS NOUS ONT ACCUEILLI</h1>
+          <div class="columns">
+            <div class="column-half has-text-align-right">
+              <p>Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»</p>
+              <p>École de Liergues (69)</p>
+              <p>Médiathèque de Champagnole dans le cadre «Les nuits de lectures»</p>
+              <p>École de Laiz (01)</p>
+              <p>Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)</p>
+              <p>MJC d’Ambérieux pour école Jean Jaurès</p>
+              <p>Médiathèque de Belley</p>
+              <p>Médiathèque de St-Martin-de-Bavel</p>
+              <p>Comité des Fêtes de Simandre</p>
+              <p>Collège de Feurs (pour les Cm2 et 6ème)</p>
+              <p>Collège St Pierre à Bourg-en-Bresse (pour les 6ème)</p>
+              <p>Centre Social « Arc en ciel » à St-Fons</p>
             </div>
+            <div class="column-half">
+              <p>Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»</p>
+              <p>École de Liergues (69)</p>
+              <p>Médiathèque de Champagnole dans le cadre «Les nuits de lectures»</p>
+              <p>École de Laiz (01)</p>
+              <p>Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)</p>
+              <p>MJC d’Ambérieux pour école Jean Jaurès</p>
+              <p>Médiathèque de Belley</p>
+              <p>Médiathèque de St-Martin-de-Bavel</p>
+              <p>Comité des Fêtes de Simandre</p>
+              <p>Collège de Feurs (pour les Cm2 et 6ème)</p>
+              <p>Collège St Pierre à Bourg-en-Bresse (pour les 6ème)</p>
+              <p>Centre Social « Arc en ciel » à St-Fons</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h1 class="title orange">DIFFUSION</h1>
+          <div class="has-text-align-center">
+            <p>Maryline ANDIA-DESTOR</p>
+            <p>06 03 88 80 76</p>
+            <p>diffusion@palavanne.com</p>
+          </div>
+        </section>
+        <footer class="footer">© Palavanne 2020</footer>
+
+      </div>
+    </div>
+    <div class="page-wrapper mouffle">
+      <div class="page">
+        <section class="section">
+          <h2 class="title-project green">LA MOUFFLE</h2>
+          <div class="column-third">
+            <div class="column-two-third">
+              <h3 class="green">Embrasse trois fois la lune et le conte t'emmenera...</h3>
+              <p>Une femme rencontre le conte, les histoires logées dans la lune. Elle est invitée au
+                voyage. Elle
+                vous propose de partir pour les montagnes arméniennes, l'Amazonie péruvienne, le
+                monde glacé des
+                Inuits, les bords du Gange et la savane africaine. </p>
+              <p> Vous serez transportés dans d’étranges histoires avec des personnages singuliers et
+                captivants.
+                Cinq
+                récits contés, joués, mis en jeux d’ombres et diablement rythmés. </p>
+              <p>A chaque conte ses couleurs musicales : Des arpèges au marimba; des mélodies
+                orientalisantes à la
+                flûte traversière et un large panel de percussions ethniques. </p>
+              <p>Dans une alliance entre tradition et modernité, fraîcheur et audace, ces compositions
+                originales
+                sont
+                là, au service des histoires afin de rehausser les émotions et de nous transporter
+                dans les
+                différentes cultures dont les contes sont issus. </p>
+              <p> Nous espérons par ce spectacle « Cont’en Voyage » emmener les enfants vers d’autres
+                contrées,
+                d’autres visions du monde, d’autres musiques. </p>
+              <p>Dans une alliance entre tradition et modernité, fraîcheur et audace, ces compositions
+                originales
+                sont
+                là, au service des histoires afin de rehausser les émotions et de nous transporter
+                dans les
+                différentes cultures dont les contes sont issus. </p>
+              <p> Nous espérons par ce spectacle « Cont’en Voyage » emmener les enfants vers d’autres
+                contrées,
+                d’autres visions du monde, d’autres musiques. </p>
+            </div>
+            <div class="column-one-third">
+              <img src="./img/miniatures/min-mouffle.jpg" alt="">
+              <h3 class="green">INFOS CLÉS</h3>
+              <p class="strong">1 artiste</p>
+              <p class="strong">Spectacle pour enfants de 3 à 6 ans.</p>
+              <p>Durée du spectacle : <span class="strong">35min</span></p>
+              <i class="far fa-file-pdf green"></i>
+              <a href="#" class="download green" download>TÉLÉCHARGER LE DOSSIER</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="gallery">
+          <div class="section-wrapper">
+            <h1 class="title green">GALLERIE PHOTO</h1>
+            <div class="gallery-section">
+              <div class="inner-width">
+                <div class="gallery">
+                  <div class="column-gallery">
+                    <a href="./img/card-mouffle-800.jpg" class="image">
+                      <img src="./img/card-mouffle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-mouffle-800.jpg" class="image">
+                      <img src="./img/card-mouffle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-mouffle-800.jpg" class="image">
+                      <img src="./img/card-mouffle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-mouffle-800.jpg" class="image">
+                      <img src="./img/card-mouffle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-mouffle-800.jpg" class="image">
+                      <img src="./img/card-mouffle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-mouffle-800.jpg" class="image">
+                      <img src="./img/card-mouffle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-mouffle-800.jpg" class="image">
+                      <img src="./img/card-mouffle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-mouffle-800.jpg" class="image">
+                      <img src="./img/card-mouffle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h1 class="title green">AGENDA</h1>
+          <div class="agenda-mouffle"></div>
+        </section>
+
+        <section class="section">
+          <h1 class="title green">ILS NOUS ONT ACCUEILLI</h1>
+          <div class="columns">
+            <div class="column-half has-text-align-right">
+              <p>Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»</p>
+              <p>École de Liergues (69)</p>
+              <p>Médiathèque de Champagnole dans le cadre «Les nuits de lectures»</p>
+              <p>École de Laiz (01)</p>
+              <p>Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)</p>
+              <p>MJC d’Ambérieux pour école Jean Jaurès</p>
+              <p>Médiathèque de Belley</p>
+              <p>Médiathèque de St-Martin-de-Bavel</p>
+              <p>Comité des Fêtes de Simandre</p>
+              <p>Collège de Feurs (pour les Cm2 et 6ème)</p>
+              <p>Collège St Pierre à Bourg-en-Bresse (pour les 6ème)</p>
+              <p>Centre Social « Arc en ciel » à St-Fons</p>
+            </div>
+            <div class="column-half">
+              <p>Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»</p>
+              <p>École de Liergues (69)</p>
+              <p>Médiathèque de Champagnole dans le cadre «Les nuits de lectures»</p>
+              <p>École de Laiz (01)</p>
+              <p>Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)</p>
+              <p>MJC d’Ambérieux pour école Jean Jaurès</p>
+              <p>Médiathèque de Belley</p>
+              <p>Médiathèque de St-Martin-de-Bavel</p>
+              <p>Comité des Fêtes de Simandre</p>
+              <p>Collège de Feurs (pour les Cm2 et 6ème)</p>
+              <p>Collège St Pierre à Bourg-en-Bresse (pour les 6ème)</p>
+              <p>Centre Social « Arc en ciel » à St-Fons</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h1 class="title green">DIFFUSION</h1>
+          <div class="has-text-align-center">
+            <p>Patrick Cornut</p>
+            <p>06 11 22 33 44</p>
+            <p>diffusion@palavanne.com</p>
+          </div>
+        </section>
+
+        <footer class="footer">© Palavanne 2020</footer>
+      </div>
+    </div>
+    <div class="page-wrapper align-items-center contact">
+      <div class="page has-text-align-center">
+        <h2 class="title-section-else">CONTACTEZ-NOUS</h2>
+        <h3>ADRESSE</h3>
+        <p>Collectif Palavanne</p>
+        <p>Maison de la Culture et de la Citoyenneté ( MCC )</p>
+        <p>4 allée des Brotteaux</p>
+        <p>01000 BOURG-EN-BRESSE</p>
+        <h3>COORDINATION ET DIFFUSION</h3>
+        <p>Patrick CORNUT</p>
+        <p>Tél : 07 55 44 33 22</p>
+        <p>contact@pourkoapas.com</p>
+      </div>
+    </div>
+    <div class="page-wrapper cratt">
+      <div class="page">
+        <section class="section">
+          <h2 class="title-project-cratt brown">ÇA RIME À TOUT TERRIEN</h2>
+          <div class="column-third">
+            <div class="column-two-third">
+              <h3 class="brown">Embrasse trois fois la lune et le conte t'emmenera...</h3>
+              <p>Une femme rencontre le conte, les histoires logées dans la lune. Elle est invitée au
+                voyage. Elle
+                vous propose de partir pour les montagnes arméniennes, l'Amazonie péruvienne, le
+                monde glacé des
+                Inuits, les bords du Gange et la savane africaine. </p>
+              <p> Vous serez transportés dans d’étranges histoires avec des personnages singuliers et
+                captivants.
+                Cinq
+                récits contés, joués, mis en jeux d’ombres et diablement rythmés. </p>
+              <p>A chaque conte ses couleurs musicales : Des arpèges au marimba; des mélodies
+                orientalisantes à la
+                flûte traversière et un large panel de percussions ethniques. </p>
+              <p>Dans une alliance entre tradition et modernité, fraîcheur et audace, ces compositions
+                originales
+                sont
+                là, au service des histoires afin de rehausser les émotions et de nous transporter
+                dans les
+                différentes cultures dont les contes sont issus. </p>
+              <p> Nous espérons par ce spectacle « Cont’en Voyage » emmener les enfants vers d’autres
+                contrées,
+                d’autres visions du monde, d’autres musiques. </p>
+              <p>Dans une alliance entre tradition et modernité, fraîcheur et audace, ces compositions
+                originales
+                sont
+                là, au service des histoires afin de rehausser les émotions et de nous transporter
+                dans les
+                différentes cultures dont les contes sont issus. </p>
+              <p> Nous espérons par ce spectacle « Cont’en Voyage » emmener les enfants vers d’autres
+                contrées,
+                d’autres visions du monde, d’autres musiques. </p>
+            </div>
+            <div class="column-one-third">
+              <img src="./img/miniatures/min-cratt.jpg" alt="">
+              <h3 class="brown">INFOS CLÉS</h3>
+              <p class="strong">1 artiste</p>
+              <p class="strong">Spectacle familial de contes légèrement théâtralisés pour
+                enfants à partir de 3 ans.</p>
+              <p>Durée du spectacle : <span class="strong">3/4 d'heure à 1h</span> (en fonction de lâge
+                des
+                enfants).</p>
+              <p>Le nombre et le contenu des contes pourra changer (en fonction de l'âge des enfants).</p>
+              <i class="far fa-file-pdf brown"></i>
+              <a href="#" class="download brown" download>TÉLÉCHARGER LE DOSSIER</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="gallery">
+          <div class="section-wrapper">
+            <h1 class="title brown">GALLERIE PHOTO</h1>
+            <div class="gallery-section">
+              <div class="inner-width">
+                <div class="gallery">
+                  <div class="column-gallery">
+                    <a href="./img/card-cratt-800.jpg" class="image">
+                      <img src="./img/card-cratt-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-cratt-800.jpg" class="image">
+                      <img src="./img/card-cratt-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-cratt-800.jpg" class="image">
+                      <img src="./img/card-cratt-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-cratt-800.jpg" class="image">
+                      <img src="./img/card-cratt-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-cratt-800.jpg" class="image">
+                      <img src="./img/card-cratt-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-cratt-800.jpg" class="image">
+                      <img src="./img/card-cratt-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-cratt-800.jpg" class="image">
+                      <img src="./img/card-cratt-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-cratt-800.jpg" class="image">
+                      <img src="./img/card-cratt-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h1 class="title brown">AGENDA</h1>
+          <div class="agenda-cratt"></div>
+        </section>
+
+        <section class="section">
+          <h1 class="title brown">ILS NOUS ONT ACCUEILLI</h1>
+          <div class="columns">
+            <div class="has-text-align-right">
+              <p>Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»</p>
+              <p>École de Liergues (69)</p>
+              <p>Médiathèque de Champagnole dans le cadre «Les nuits de lectures»</p>
+              <p>École de Laiz (01)</p>
+              <p>Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)</p>
+              <p>MJC d’Ambérieux pour école Jean Jaurès</p>
+              <p>Médiathèque de Belley</p>
+              <p>Médiathèque de St-Martin-de-Bavel</p>
+              <p>Comité des Fêtes de Simandre</p>
+              <p>Collège de Feurs (pour les Cm2 et 6ème)</p>
+              <p>Collège St Pierre à Bourg-en-Bresse (pour les 6ème)</p>
+              <p>Centre Social « Arc en ciel » à St-Fons</p>
+            </div>
+            <div>
+              <p>Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»</p>
+              <p>École de Liergues (69)</p>
+              <p>Médiathèque de Champagnole dans le cadre «Les nuits de lectures»</p>
+              <p>École de Laiz (01)</p>
+              <p>Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)</p>
+              <p>MJC d’Ambérieux pour école Jean Jaurès</p>
+              <p>Médiathèque de Belley</p>
+              <p>Médiathèque de St-Martin-de-Bavel</p>
+              <p>Comité des Fêtes de Simandre</p>
+              <p>Collège de Feurs (pour les Cm2 et 6ème)</p>
+              <p>Collège St Pierre à Bourg-en-Bresse (pour les 6ème)</p>
+              <p>Centre Social « Arc en ciel » à St-Fons</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h1 class="title brown">DIFFUSION</h1>
+          <div class="has-text-align-center">
+            <p>Maryline ANDIA-DESTOR</p>
+            <p>06 11 22 33 44</p>
+            <p>diffusion@palavanne.com</p>
+          </div>
+        </section>
+
+        <footer class="footer">© Palavanne 2020</footer>
+      </div>
+    </div>
+    <div class="page-wrapper fr">
+      <div class="page">
+        <section class="section">
+          <h1 class="title-project red">LA FABRIK'RÉCUP</h1>
+          <div class="column-third">
+            <div class="column-two-third">
+              <h3 class="red">L'art de donner une seconde vie à chaque objet</h3>
+              <p>Le collectif Palavanne propose des ateliers de fabrication d'objets uniquement à partir
+                de matériaux de récupération.</p>
+              <p>Ces ateliers accessible à toutes et à tous et animés par des intervenants membres des
+                Pourkoapas, peuvent s'orienter sur plusieurs thématiques : comme la fabrication
+                d'instruments de
+                musique, de jeux et jouets, d'accessoires de spectacle, de masques et coiffes, ainsi
+                que divers objets et accessoires du quotidien.</p>
+              <h3 class="red">Notre philosophie</h3>
+              <p>Le plaisir de faire soi-même, en utilisant des outils simples et la nécessité de réduire
+                nos déchets, sont les motivations premières de « La Fabrik' Récup »</p>
+              <p>Au travers de ces ateliers pédagogiques, on découvre de manière ludique des principes
+                mécaniques et une logique de fonctionnement.</p>
+              <h3 class="red">Bricoler : c'est aussi aiguiser sa curiosité pour comprendre comment les
+                choses fonctionnent.</h3>
+              <p> Les participants ne repartent pas seulement avec leur réalisation mais aussi avec tout
+                le savoir
+                qui l'entoure, ne serait-ce que pour la maintenance ou simplement pour le reproduire.
+              </p>
+              <p>Bricoler c'est aussi simplifier au mieux l’assemblage des objets à l’aide d’élastiques,
+                de
+                chambres à air, de rayons de vélo ou de petites visseries, et utiliser des outils
+                simples et
+                accessibles à
+                tous (en fonction des âges) ce qui rendra d’avantage chacun acteur de sa réalisation.
+              </p>
+              <h3 class="red">Découvrez les milles et une façons d'assembler sans colle ni scotch.</h3>
+              <p>La colle et le ruban adhésif (produits toxiques et polluants), sont à proscrire de
+                l’atelier «
+                Fabrik’récup » : coller, c’est figer !
+              <p>Hormis le fait de réfléchir à des techniques d’assemblage autres, s’ajoute la
+                satisfaction d'une
+                exécution rapide, sans avoir des temps de mise sous presse ou l’attente de séchage.
+                L’objet
+                réalisé est de ce fait démontable, mais aussi réajustable et modulable à souhait.</p>
+            </div>
+            <div class="column-one-third">
+              <img src="./img/miniatures/min-fabrik.jpg" alt="Photo du groupe">
+              <div class="section-content">
+                <h3 class="red">Infos clés</h3>
+                <p class="strong">Ateliers accessibles à partir de 8 ans.</p>
+                <p>Deux tables, quelques chaises et une prise de courant standard seront nécessaires au
+                  bon
+                  fonctionnement de
+                  l'atelier.</p>
+                <p class="strong">L'ensemble des outils servant à la confection sont fournis par « La
+                  Fabrik'récup ».</p>
+                <p>Le ou les intervenant(s) apporteront des matériaux et matériels de récupération
+                  (préalablement
+                  nettoyés).</p>
+                <p>Les ateliers peuvent être proposés conjointement à une prestation des <a href="pourkoapas.html"
+                    class="strong red">« Pourkoapas »</a>.</p>
+                <i class="far fa-file-pdf red"></i>
+                <a href="#" class="download red" download></i> TÉLÉCHARGER LE DOSSIER</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="gallery">
+          <div class="section-wrapper">
+            <h2 class="title red">GALLERIE PHOTO</h2>
+            <div class="gallery-section">
+              <div class="inner-width">
+                <div class="gallery">
+                  <div class="column-gallery">
+                    <a href="./img/card-fabrik-recup-800.jpg" class="image">
+                      <img src="./img/card-fabrik-recup-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-fabrik-recup-800.jpg" class="image">
+                      <img src="./img/card-fabrik-recup-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-fabrik-recup-800.jpg" class="image">
+                      <img src="./img/card-fabrik-recup-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-fabrik-recup-800.jpg" class="image">
+                      <img src="./img/card-fabrik-recup-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-fabrik-recup-800.jpg" class="image">
+                      <img src="./img/card-fabrik-recup-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-fabrik-recup-800.jpg" class="image">
+                      <img src="./img/card-fabrik-recup-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-fabrik-recup-800.jpg" class="image">
+                      <img src="./img/card-fabrik-recup-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-fabrik-recup-800.jpg" class="image">
+                      <img src="./img/card-fabrik-recup-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="title red">AGENDA</h2>
+          <div class="agenda-fr"></div>
+        </section>
+
+        <section class="section">
+          <h2 class="title red">ILS NOUS ONT ACCUEILLI</h2>
+          <div class="columns">
+            <div class="column-half has-text-align-right">
+              <p>Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»</p>
+              <p>École de Liergues (69)</p>
+              <p>Médiathèque de Champagnole dans le cadre «Les nuits de lectures»</p>
+              <p>École de Laiz (01)</p>
+              <p>Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)</p>
+              <p>MJC d’Ambérieux pour école Jean Jaurès</p>
+              <p>Médiathèque de Belley</p>
+              <p>Médiathèque de St-Martin-de-Bavel</p>
+              <p>Comité des Fêtes de Simandre</p>
+              <p>Collège de Feurs (pour les Cm2 et 6ème)</p>
+              <p>Collège St Pierre à Bourg-en-Bresse (pour les 6ème)</p>
+              <p>Centre Social « Arc en ciel » à St-Fons</p>
+            </div>
+            <div class="column-half">
+              <p>Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»</p>
+              <p>École de Liergues (69)</p>
+              <p>Médiathèque de Champagnole dans le cadre «Les nuits de lectures»</p>
+              <p>École de Laiz (01)</p>
+              <p>Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)</p>
+              <p>MJC d’Ambérieux pour école Jean Jaurès</p>
+              <p>Médiathèque de Belley</p>
+              <p>Médiathèque de St-Martin-de-Bavel</p>
+              <p>Comité des Fêtes de Simandre</p>
+              <p>Collège de Feurs (pour les Cm2 et 6ème)</p>
+              <p>Collège St Pierre à Bourg-en-Bresse (pour les 6ème)</p>
+              <p>Centre Social « Arc en ciel » à St-Fons</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="title red">DIFFUSION</h2>
+          <div class="has-text-align-center">
+            <p>Patrick Cornut</p>
+            <p>06 11 22 33 44</p>
+            <p>diffusion@palavanne.com</p>
+          </div>
+        </section>
+
+        <footer class="footer">© Palavanne 2020</footer>
+      </div>
+    </div>
+    <div class="page-wrapper malle">
+      <div class="page">
+        <section class="section">
+          <h1 class="title-project-malle grey">LA MALLE MAGIQUE</h1>
+          <div class="column-third">
+            <div class="column-two-third">
+              <h3 class="grey">Deux aventuriers-bricoleurs reviennent d'un long voyage avec une étrange
+                malle magique...</h3>
+              <p>Le collectif Palavanne propose des ateliers de fabrication d'objets uniquement à partir
+                de matériaux de récupération.</p>
+              <p>Ces ateliers accessible à toutes et à tous et animés par des intervenants membres des
+                Pourkoapas, peuvent s'orienter sur plusieurs thématiques : comme la fabrication
+                d'instruments de
+                musique, de jeux et jouets, d'accessoires de spectacle, de masques et coiffes, ainsi
+                que divers objets et accessoires du quotidien.</p>
+              <p>Le plaisir de faire soi-même, en utilisant des outils simples et la nécessité de réduire
+                nos déchets, sont les motivations premières de « La Fabrik' Récup »</p>
+              <p>Au travers de ces ateliers pédagogiques, on découvre de manière ludique des principes
+                mécaniques et une logique de fonctionnement.</p>
+              <p> Les participants ne repartent pas seulement avec leur réalisation mais aussi avec tout
+                le savoir
+                qui l'entoure, ne serait-ce que pour la maintenance ou simplement pour le reproduire.
+              </p>
+              <p>Bricoler c'est aussi simplifier au mieux l’assemblage des objets à l’aide d’élastiques,
+                de
+                chambres à air, de rayons de vélo ou de petites visseries, et utiliser des outils
+                simples et
+                accessibles à
+                tous (en fonction des âges) ce qui rendra d’avantage chacun acteur de sa réalisation.
+              </p>
+              <p>La colle et le ruban adhésif (produits toxiques et polluants), sont à proscrire de
+                l’atelier «
+                Fabrik’récup » : coller, c’est figer !
+              <p>Hormis le fait de réfléchir à des techniques d’assemblage autres, s’ajoute la
+                satisfaction d'une
+                exécution rapide, sans avoir des temps de mise sous presse ou l’attente de séchage.
+                L’objet
+                réalisé est de ce fait démontable, mais aussi réajustable et modulable à souhait.</p>
+            </div>
+            <div class="column-one-third">
+              <img src="./img/miniatures/min-malle.jpg" alt="Photo du groupe">
+              <div class="section-content">
+                <h3 class="grey">Infos clés</h3>
+                <p class="strong">Spectacle pour enfants à partir de 8 ans.</p>
+                <p>Durée du spectacle : <span class="strong">55min</span></p>
+                <p>Les ateliers <a href="#" class="strong grey">« Fabrik'Récup »</a> peuvent être
+                  proposés conjointement à une prestation de <span class="strong grey">« La Malle
+                    Magique »</span>.</p>
+                <i class="far fa-file-pdf grey"></i>
+                <a href="#" class="download grey" download> TÉLÉCHARGER LE DOSSIER</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="gallery">
+          <div class="section-wrapper">
+            <h2 class="title grey">GALLERIE PHOTO</h2>
+            <div class="gallery-section">
+              <div class="inner-width">
+                <div class="gallery">
+                  <div class="column-gallery">
+                    <a href="./img/card-malle-800.jpg" class="image">
+                      <img src="./img/card-malle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-malle-800.jpg" class="image">
+                      <img src="./img/card-malle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-malle-800.jpg" class="image">
+                      <img src="./img/card-malle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-malle-800.jpg" class="image">
+                      <img src="./img/card-malle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-malle-800.jpg" class="image">
+                      <img src="./img/card-malle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-malle-800.jpg" class="image">
+                      <img src="./img/card-malle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-malle-800.jpg" class="image">
+                      <img src="./img/card-malle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                  <div class="column-gallery">
+                    <a href="./img/card-malle-800.jpg" class="image">
+                      <img src="./img/card-malle-800.jpg" alt="Photo du groupe">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="title grey">AGENDA</h2>
+          <div class="agenda-malle"></div>
+        </section>
+
+        <section class="section">
+          <h2 class="title grey">ILS NOUS ONT ACCUEILLI</h2>
+          <div class="columns">
+            <div class="column-half has-text-align-right">
+              <p>Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»</p>
+              <p>École de Liergues (69)</p>
+              <p>Médiathèque de Champagnole dans le cadre «Les nuits de lectures»</p>
+              <p>École de Laiz (01)</p>
+              <p>Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)</p>
+              <p>MJC d’Ambérieux pour école Jean Jaurès</p>
+              <p>Médiathèque de Belley</p>
+              <p>Médiathèque de St-Martin-de-Bavel</p>
+              <p>Comité des Fêtes de Simandre</p>
+              <p>Collège de Feurs (pour les Cm2 et 6ème)</p>
+              <p>Collège St Pierre à Bourg-en-Bresse (pour les 6ème)</p>
+              <p>Centre Social « Arc en ciel » à St-Fons</p>
+            </div>
+            <div class="column-half">
+              <p>Théatre de Bourg-en-Bresse dans le cadre de «La fête de la nature»</p>
+              <p>École de Liergues (69)</p>
+              <p>Médiathèque de Champagnole dans le cadre «Les nuits de lectures»</p>
+              <p>École de Laiz (01)</p>
+              <p>Théâtre Gérard Maré à Chatillon-sur-Chalaronne (01)</p>
+              <p>MJC d’Ambérieux pour école Jean Jaurès</p>
+              <p>Médiathèque de Belley</p>
+              <p>Médiathèque de St-Martin-de-Bavel</p>
+              <p>Comité des Fêtes de Simandre</p>
+              <p>Collège de Feurs (pour les Cm2 et 6ème)</p>
+              <p>Collège St Pierre à Bourg-en-Bresse (pour les 6ème)</p>
+              <p>Centre Social « Arc en ciel » à St-Fons</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="title grey">DIFFUSION</h2>
+          <div class="has-text-align-center">
+            <p>Patrick Cornut</p>
+            <p>06 11 22 33 44</p>
+            <p>diffusion@palavanne.com</p>
+          </div>
+        </section>
+
+        <footer class="footer">© Palavanne 2020</footer>
+      </div>
+    </div>
+  </div>
+
+  <div class="translate">
+    <div class="banner">
+      <span class="circle-colors"></span>
+    </div>
+    <div class="circle-menu">
+      <div class="">
+        <div class="little-circle-center btn-1">COLLECTIF PALAVANNE</div>
+        <div class="little-circle btn-2">
+          <div class="little-circle-wrapper">
+            <p>PRÉSENTATION</p>
+          </div>
         </div>
-    </section>
-    <footer class="footer background-color-white">
-        <p>© Palavanne - 2020</p>
-    </footer>
+        <div class="little-circle btn-3">
+          <div class="name-right">
+            <div class="name-wrapper">
+              <p>LES POURKOAPAS</p>
+              <p class="description">Spectacle de rue (Tout public)</p>
+            </div>
+          </div>
+        </div>
+        <div class="little-circle btn-4">
+          <div class="name-right">
+            <div class="name-wrapper">
+              <p>CONT'EN VOYAGE</p>
+              <p class="description">Contes en musique (Jeune public)</p>
+            </div>
+          </div>
+        </div>
+        <div class="little-circle btn-5">
+          <div class="name-right">
+            <div class="name-wrapper">
+              <p>LA MOUFFLE</p>
+              <p class="description">Conte en musique (Très jeune public)</p>
+            </div>
+          </div>
+        </div>
+        <div class="little-circle btn-6">
+          <div class="little-circle-wrapper">
+            <p>CONTACT</p>
+          </div>
+        </div>
+        <div class="little-circle btn-7">
+          <div class="name-left">
+            <div class="name-wrapper">
+              <p>ÇA RIME À TOUT TERRIEN</p>
+              <p class="description-left">Contes (Jeune public)</p>
+            </div>
+          </div>
+        </div>
+        <div class="little-circle btn-8">
+          <div class="name-left">
+            <div class="name-wrapper">
+              <p>LA FABRIK'RÉCUP</p>
+              <p class="description-left">Ateliers de fabrication (Jeune public)</p>
+            </div>
+          </div>
+        </div>
+        <div class="little-circle btn-9">
+          <div class="name-left">
+            <div class="name-wrapper">
+              <p>LA MALLE MAGIQUE</p>
+              <p class="description-left">Théâtre en musique (Jeune public)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-top">
+        <span class="char1 js-text-top">S</span><span class="char2 js-text-top">P</span><span
+          class="char3 js-text-top">E</span><span class="char4 js-text-top">C</span><span
+          class="char5 js-text-top">T</span><span class="char6 js-text-top">A</span><span
+          class="char7 js-text-top">C</span><span class="char8 js-text-top">L</span><span
+          class="char9 js-text-top">E</span><span class="char10 js-text-top">S</span><span class="char11 js-text-top">
+        </span><span class="char12 js-text-top">V</span><span class="char13 js-text-top">I</span><span
+          class="char14 js-text-top">V</span><span class="char15 js-text-top">A</span><span
+          class="char16 js-text-top">N</span><span class="char17 js-text-top">T</span><span
+          class="char18 js-text-top">S</span><span class="char19 js-text-top">
+        </span><span class="char20 js-text-top">S</span><span class="char21 js-text-top">U</span><span
+          class="char22 js-text-top">R</span><span class="char23 js-text-top"> </span><span
+          class="char24 js-text-top">L</span><span class="char25 js-text-top">E</span>
+      </div>
+      <div class="text-bottom">
+        <span class="char26 js-text-bottom">E</span><span class="char27 js-text-bottom">L</span><span
+          class="char28 js-text-bottom">B</span><span class="char29 js-text-bottom">A</span><span
+          class="char30 js-text-bottom">R</span><span class="char31 js-text-bottom">U</span><span
+          class="char32 js-text-bottom">D</span><span class="char33 js-text-bottom"> </span><span
+          class="char34 js-text-bottom">T</span><span class="char35 js-text-bottom">N</span><span
+          class="char36 js-text-bottom">E</span><span class="char37 js-text-bottom">M</span><span
+          class="char38 js-text-bottom">M</span><span class="char39 js-text-bottom">E</span><span
+          class="char40 js-text-bottom">P</span><span class="char41 js-text-bottom">O</span><span
+          class="char42 js-text-bottom">L</span><span class="char43 js-text-bottom">E</span><span
+          class="char44 js-text-bottom">V</span><span class="char45 js-text-bottom">E</span><span
+          class="char46 js-text-bottom">D</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+  <script src="./js/agenda-pkp.js"></script>
+  <script src="./js/agenda-cev.js"></script>
+  <script src="./js/agenda-mouffle.js"></script>
+  <script src="./js/agenda-cratt.js"></script>
+  <script src="./js/agenda-malle.js"></script>
+  <script src="./js/agenda-fr.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/gallery.js"></script>
 </body>
-<script src="./js/dates-palavanne.js"></script>
-<script src="./js/scroll.js"></script>
-<script src="./js/menu.js"></script>
 
 </html>
