@@ -33,170 +33,6 @@
         "annulee": true
     },
     {
-        "spectacle": "Cont'en Voyage",
-        "date": "12 occtobre 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "Cont'en Voyage",
-        "date": "23 septembre 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "Cont'en Voyage",
-        "date": "29 août 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },    {
-        "spectacle": "La Mouffle",
-        "date": "12 occtobre 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "La Mouffle",
-        "date": "23 septembre 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "La Mouffle",
-        "date": "29 août 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "La Malle Magique",
-        "date": "12 occtobre 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "La Malle Magique",
-        "date": "23 septembre 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "La Malle Magique",
-        "date": "29 août 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "Ca Rime à Tout Terrien",
-        "date": "12 occtobre 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "Ca Rime à Tout Terrien",
-        "date": "23 septembre 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "Ca Rime à Tout Terrien",
-        "date": "29 août 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "La Fabrik'Récup",
-        "date": "12 occtobre 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "La Fabrik'Récup",
-        "date": "23 septembre 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
-        "spectacle": "La Fabrik'Récup",
-        "date": "29 août 2020",
-        "ville": "Essai",
-        "evenement": "Essai",
-        "lien": "www.cev.com",
-        "equipe": "Equipe titulaire",
-        "infos": "Départ la veille",
-        "option": false,
-        "annulee": true
-    },
-    {
         "spectacle": "Les Pourkoapas",
         "date": "19 septembre 2020",
         "ville": "Montargis (45)",
@@ -318,6 +154,72 @@
         "annulee": false
     },
     {
+        "spectacle": "Cont'en Voyage",
+        "date": "12 occtobre 2020",
+        "ville": "Bourg-en-Bresse (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "Cont'en Voyage",
+        "date": "23 septembre 2020",
+        "ville": "Lyon (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "Cont'en Voyage",
+        "date": "29 août 2020",
+        "ville": "Villefranche-sur-Saône (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "La Mouffle",
+        "date": "12 occtobre 2020",
+        "ville": "Bourg-en-Bresse (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "La Mouffle",
+        "date": "23 septembre 2020",
+        "ville": "Lyon (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "La Mouffle",
+        "date": "29 août 2020",
+        "ville": "Villefranche-sur-Saône (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
         "spectacle": "La Moufle",
         "date": "20 février 2020",
         "ville": "Viriat (01)",
@@ -327,5 +229,104 @@
         "infos": "",
         "option": false,
         "annulee": false
+    },
+    {
+        "spectacle": "La Malle Magique",
+        "date": "12 occtobre 2020",
+        "ville": "Bourg-en-Bresse (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "La Malle Magique",
+        "date": "23 septembre 2020",
+        "ville": "Lyon (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "La Malle Magique",
+        "date": "29 août 2020",
+        "ville": "Villefranche-sur-Saône (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "Ca Rime à Tout Terrien",
+        "date": "12 occtobre 2020",
+        "ville": "Bourg-en-Bresse (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "Ca Rime à Tout Terrien",
+        "date": "23 septembre 2020",
+        "ville": "Lyon (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "Ca Rime à Tout Terrien",
+        "date": "29 août 2020",
+        "ville": "Villefranche-sur-Saône (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "La Fabrik'Récup",
+        "date": "12 occtobre 2020",
+        "ville": "Bourg-en-Bresse (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "La Fabrik'Récup",
+        "date": "23 septembre 2020",
+        "ville": "Lyon (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
+    },
+    {
+        "spectacle": "La Fabrik'Récup",
+        "date": "29 août 2020",
+        "ville": "Villefranche-sur-Saône (Essai)",
+        "evenement": "Fête de fin d'année (Essai)",
+        "lien": "www.cev.com",
+        "equipe": "Equipe titulaire",
+        "infos": "Départ la veille",
+        "option": false,
+        "annulee": true
     }
 ]

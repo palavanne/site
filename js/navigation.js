@@ -1,12 +1,11 @@
-const modalPkp = document.querySelector('.pkp')
-const modalCev = document.querySelector('.cev')
-const modalMouffle = document.querySelector('.mouffle')
-const modalMalle = document.querySelector('.malle')
-const modalCratt = document.querySelector('.cratt')
-const modalFr = document.querySelector('.fr')
-const modalPresentation = document.querySelector('.presentation')
-const modalContact = document.querySelector('.contact')
-// const circleColors = document.querySelector('.circle-colors')
+const pagePkp = document.querySelector('.pkp')
+const pageCev = document.querySelector('.cev')
+const pageMouffle = document.querySelector('.mouffle')
+const pageMalle = document.querySelector('.malle')
+const pageCratt = document.querySelector('.cratt')
+const pageFr = document.querySelector('.fr')
+const pagePresentation = document.querySelector('.presentation')
+const pageContact = document.querySelector('.contact')
 const wrapper = document.querySelector('.wrapper')
 const translate = document.querySelector('.translate')
 const btn1 = document.querySelector('.btn-1')
@@ -36,7 +35,6 @@ btn1.addEventListener('click', () => {
             textBottom.classList.add('text-bottom-disapear')
         }
     }
-    // circleColors.classList.add('open')
     btn2.classList.toggle('btn-2-translate')
     btn3.classList.toggle('btn-3-translate')
     btn4.classList.toggle('btn-4-translate')
@@ -45,56 +43,54 @@ btn1.addEventListener('click', () => {
     btn7.classList.toggle('btn-7-translate')
     btn8.classList.toggle('btn-8-translate')
     btn9.classList.toggle('btn-9-translate')
-    // setTimeout(() => {
-    //     circleColors.classList.add('hidden')
-    // }, 500);
+
     if (translate.classList.contains('translate-left')) {
         translate.classList.remove('translate-left')
-        modalPkp.classList.remove('translate-page-left')
-        modalCev.classList.remove('translate-page-left')
-        modalMouffle.classList.remove('translate-page-left')
-        modalMalle.classList.remove('translate-page-left')
-        modalCratt.classList.remove('translate-page-left')
-        modalFr.classList.remove('translate-page-left')
-        modalPresentation.classList.remove('translate-page-left')
-        modalContact.classList.remove('translate-page-left')
+        pagePkp.classList.remove('translate-page-left')
+        pageCev.classList.remove('translate-page-left')
+        pageMouffle.classList.remove('translate-page-left')
+        pageMalle.classList.remove('translate-page-left')
+        pageCratt.classList.remove('translate-page-left')
+        pageFr.classList.remove('translate-page-left')
+        pagePresentation.classList.remove('translate-page-left')
+        pageContact.classList.remove('translate-page-left')
     }
 
 })
 btn2.addEventListener('click', () => {
     aminate()
-    modalPresentation.classList.add('translate-page-left')
+    pagePresentation.classList.add('translate-page-left')
 })
 btn3.addEventListener('click', () => {
     aminate()
-    modalPkp.classList.add('translate-page-left')
+    pagePkp.classList.add('translate-page-left')
 })
 btn4.addEventListener('click', () => {
     aminate()
-    modalCev.classList.add('translate-page-left')
+    pageCev.classList.add('translate-page-left')
 })
 btn5.addEventListener('click', () => {
     aminate()
-    modalMouffle.classList.add('translate-page-left')
+    pageMouffle.classList.add('translate-page-left')
 })
 btn6.addEventListener('click', () => {
     aminate()
-    modalContact.classList.add('translate-page-left')
+    pageContact.classList.add('translate-page-left')
 })
 btn7.addEventListener('click', () => {
     aminate()
-    modalCratt.classList.add('translate-page-left')
+    pageCratt.classList.add('translate-page-left')
 })
 btn8.addEventListener('click', () => {
     aminate()
-    modalFr.classList.add('translate-page-left')
+    pageFr.classList.add('translate-page-left')
 })
 btn9.addEventListener('click', () => {
     aminate()
-    modalMalle.classList.add('translate-page-left')
+    pageMalle.classList.add('translate-page-left')
 })
 
-function aminate () {
+function aminate() {
     for (const textTop of textTops) {
         if (textTop.classList.contains('text-top-disapear')) {
             textTop.classList.remove('text-top-disapear')
@@ -119,3 +115,22 @@ function aminate () {
     btn8.classList.remove('btn-8-translate')
     btn9.classList.remove('btn-9-translate')
 }
+
+const linkFabriks = document.querySelectorAll('.js-link-fabrik')
+for (const linkFabrik of linkFabriks) {
+    linkFabrik.addEventListener('click', () => {
+        pagePkp.classList.remove('translate-page-left')
+        pageMalle.classList.remove('translate-page-left')
+        pageFr.classList.add('translate-page-left')
+    })
+}
+const linkPkp = document.querySelector('.js-link-pkp')
+linkPkp.addEventListener('click', () => {
+    pageFr.classList.remove('translate-page-left')
+    pagePkp.classList.add('translate-page-left')
+})
+const linkMalle = document.querySelector('.js-link-malle')
+linkMalle.addEventListener('click', () => {
+    pageFr.classList.remove('translate-page-left')
+    pageMalle.classList.add('translate-page-left')
+})

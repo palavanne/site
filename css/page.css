@@ -1,22 +1,61 @@
+.wrapper {
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/couleurs.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.translate {
+  transition: 0.5s;
+}
+
+.translate-page-left {
+  right: 0 !important;
+}
+.page-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  right: -100%;
+  width: calc(100vw - 320px);
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 0 0 50px -20px;
+  overflow: auto;
+  z-index: 999;
+  transition: 0.5s;
+}
+.page {
+  max-width: 1000px;
+  padding: 0 2rem;
+}
 .section {
   padding: 2rem 0;
 }
 .title-project {
   font-size: 6rem;
+  line-height: 6rem;
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 2rem;
+  margin: 0px;
 }
 .title-project-cratt {
   font-size: 4rem;
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 2rem;
+  margin: 0px;
 }
 .title-project-malle {
   font-size: 4rem;
   text-align: center;
-  margin-top: 0px;
+  margin: 0px;
+}
+.catch-phrase {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  margin-top: 0;
   margin-bottom: 2rem;
 }
 .title-section-else {
@@ -49,11 +88,25 @@
   margin-left: 2rem;
   background-color: #000000;
 }
+.download {
+  color: #000000;
+}
+
+/* IMAGES */
+
+.img-presentation {
+  width: 100%;
+  margin-bottom: 1rem;
+}
 .teaser-img {
   width: 100%;
   margin-bottom: 2rem;
   cursor: pointer;
 }
+.icon {
+  width: 20px;
+}
+
 .footer {
   text-align: center;
   padding: 1rem;
