@@ -20,6 +20,10 @@
   border-radius: 50%;
   z-index: 10;
 }
+.little-circle-center h1 {
+  margin: 0;
+  font-size: 2rem;
+}
 .little-circle {
   position: absolute;
   top: 50%;
