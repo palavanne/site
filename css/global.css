@@ -5,6 +5,10 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: .9rem;
 }
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
 
 /* LAYOUT */
 
