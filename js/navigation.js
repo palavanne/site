@@ -20,7 +20,48 @@ const btn9 = document.querySelector('.btn-9')
 const textTops = document.querySelectorAll('.js-text-top')
 const textBottoms = document.querySelectorAll('.js-text-bottom')
 
+const nameRights = document.querySelectorAll('.name-right')
+const nameLefts = document.querySelectorAll('.name-left')
+
+const namePresentationContacts = document.querySelectorAll('.little-circle-wrapper')
+for (const namePresentationContact of namePresentationContacts) {
+    namePresentationContact.classList.add('hidden')
+}
+
+let tailleEcranX = window.innerWidth;
+for (const nameRight of nameRights) {
+    if (tailleEcranX < 760) {
+        nameRight.classList.add('hidden')
+    }
+}
+for (const nameLeft of nameLefts) {
+    if (tailleEcranX < 760) {
+        nameLeft.classList.add('hidden')
+    }
+}
+
 btn1.addEventListener('click', () => {
+    for (const nameRight of nameRights) {
+        if (tailleEcranX < 760) {
+            setTimeout(() => {
+                nameRight.classList.remove('hidden')
+                namePresentationContact.classList.remove('hidden')
+            }, 300);
+        }
+    }
+    for (const nameLeft of nameLefts) {
+        if (tailleEcranX < 760) {
+            setTimeout(() => {
+                nameLeft.classList.remove('hidden')
+                namePresentationContact.classList.remove('hidden')
+            }, 300);
+        }
+    }
+    for (const namePresentationContact of namePresentationContacts) {
+        setTimeout(() => {
+            namePresentationContact.classList.remove('hidden')
+        }, 300);
+    }
     for (const textTop of textTops) {
         if (textTop.classList.contains('text-top-disapear')) {
             textTop.classList.remove('text-top-disapear')
@@ -35,6 +76,7 @@ btn1.addEventListener('click', () => {
             textBottom.classList.add('text-bottom-disapear')
         }
     }
+    btn1.classList.toggle('btn-1-translate')
     btn2.classList.toggle('btn-2-translate')
     btn3.classList.toggle('btn-3-translate')
     btn4.classList.toggle('btn-4-translate')

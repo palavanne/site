@@ -1,0 +1,118 @@
+@media screen and (max-width: 760px) {
+  .circle-menu {
+    overflow: auto;
+  }
+  .little-circle {
+    box-shadow: 0 0 0px 0px rgb(0, 0, 0);
+  }
+  .little-circle-center {
+    justify-content: center;
+  }
+  .little-circle-wrapper {
+    width: 100vw;
+    height: calc(100vw * 0.4);
+  }
+
+  .btn-2 {
+    align-items: center;
+  }
+  .btn-3 {
+    background-image: url("../img/card-pkp-800.jpg");
+  }
+  .btn-4 {
+    background-image: url("../img/card-conte-800.jpg");
+  }
+  .btn-5 {
+    background-image: url("../img/card-mouffle-800.jpg");
+  }
+  .btn-7 {
+    background-image: url("../img/card-cratt-800.jpg");
+  }
+  .btn-8 {
+    background-image: url("../img/card-fabrik-recup-800.jpg");
+  }
+  .btn-9 {
+    background-image: url("../img/card-malle-800.jpg");
+  }
+
+  .btn-1-translate {
+    transform: translate(0px, calc(-50vh + 30px));
+    width: 100vw;
+    height: 60px;
+    border-radius: 0;
+  }
+  .btn-2-translate {
+    transform: translate(-50%, calc(-50vh + 70px));
+    width: 100vw;
+    height: calc(100vw * 0.4);
+    border-radius: 0;
+  }
+  .btn-3-translate {
+    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4)));
+    width: 100vw;
+    height: calc(100vw * 0.56);
+    border-radius: 0;
+  }
+  .btn-4-translate {
+    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56)));
+    width: 100vw;
+    height: calc(100vw * 0.56);
+    border-radius: 0;
+  }
+  .btn-5-translate {
+    transform: translate(-50%, 900px);
+    width: 100vw;
+    height: calc(100vw * 0.56);
+    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 2));
+    border-radius: 0;
+  }
+  .btn-6-translate {
+    transform: translate(-50%, 900px);
+    width: 100vw;
+    height: calc(100vw * 0.4);
+    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 6));
+    border-radius: 0;
+  }
+  .btn-7-translate {
+    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 3));
+    width: 100vw;
+    height: calc(100vw * 0.56);
+    border-radius: 0;
+  }
+  .btn-8-translate {
+    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 4));
+    width: 100vw;
+    height: calc(100vw * 0.56);
+    border-radius: 0;
+  }
+  .btn-9-translate {
+    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 5));
+    width: 100vw;
+    height: calc(100vw * 0.56);
+    border-radius: 0;
+  }
+
+  .name-right {
+    width: 100vw;
+    height: calc(100vw * 0.56);
+    padding-left: 0;
+    text-align: center;
+    justify-content: center;
+    transform: translate(0px, calc(100vw * 0.5 - 50% - 15px));
+    visibility: visible;
+    opacity: 1;
+  }
+  .name-left {
+    width: 100vw;
+    height: calc(100vw * 0.56);
+    padding-right: 0;
+    text-align: center;
+    justify-content: center;
+    transform: translate(0);
+    visibility: visible;
+    opacity: 1;
+  }
+  .name-left p {
+    text-align: center;
+  }
+}

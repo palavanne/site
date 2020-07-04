@@ -3,6 +3,7 @@
   overflow: hidden;
   height: 100%;
   width: 100%;
+  /* background-color: rgb(129, 129, 129); */
   background-image: url("../img/couleurs.jpg");
   background-position: center;
   background-size: cover;
@@ -30,13 +31,13 @@
 }
 .page {
   max-width: 1000px;
-  padding: 0 2rem;
+  padding: 0 3rem;
 }
 .section {
   padding: 2rem 0;
 }
 .title-project {
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 6rem;
   text-align: center;
   margin: 0px;
@@ -52,7 +53,7 @@
   margin: 0px;
 }
 .catch-phrase {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 3rem;
   text-align: center;
   margin-top: 0;
@@ -104,7 +105,8 @@
   cursor: pointer;
 }
 .icon {
-  width: 20px;
+  height: 1rem;
+  margin-right: .2rem;
 }
 
 .footer {
@@ -112,4 +114,14 @@
   padding: 1rem;
   margin-top: 2rem;
   border-top: .1rem solid rgb(200, 200, 200);
+}
+
+
+@media screen and (min-width: 1300px) {
+  .page {
+    padding: 0;
+  }
+  .page-wrapper {
+    width: calc(100vw - 400px);
+  }
 }
