@@ -2,7 +2,7 @@
 
   var prestas = []
 
-  fetch('https://raw.githubusercontent.com/palavanne/site/master/json/dates-options.json')
+  fetch('./json/prestas.json')
     .then(function (response) {
       return response.json()
     })
@@ -45,8 +45,9 @@
     divDate.appendChild(createCell(presta.date))
     divDate.appendChild(createCell(presta.ville))
 
+    const prestaAnnulee = '<strong> (annulée)<strong>'
     if (presta.annulee) {
-      divDate.appendChild(createCell(presta.evenement + ' <strong>(annulé)</strong>'))
+      divDate.appendChild(createCell(presta.evenement + prestaAnnulee))
     } else {
       divDate.appendChild(createCell(presta.evenement))
     }

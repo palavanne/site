@@ -202,6 +202,11 @@
     transform: translateX(0);
   }
 
+  .youtube-video {
+    width: 100vw;
+    height: calc(100 * 0.562);
+  }
+
   /* PRESENTATION */
 
   .columns-presentation {

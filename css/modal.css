@@ -25,3 +25,7 @@
     cursor: pointer;
     z-index: 100000;
 }
+.youtube-video {
+    width: 900px;
+    height: 506px;
+}
