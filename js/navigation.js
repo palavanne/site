@@ -20,6 +20,7 @@ const textTop = document.querySelector('.text-top')
 const textBottom = document.querySelector('.text-bottom')
 const letterTops = document.querySelectorAll('.js-letter-top')
 const letterBottoms = document.querySelectorAll('.js-letter-bottom')
+const btnHamburgers = document.querySelectorAll('.btn-menu-overlay')
 
 const nameRights = document.querySelectorAll('.name-right')
 const nameLefts = document.querySelectorAll('.name-left')
@@ -171,6 +172,18 @@ btn9.addEventListener('click', () => {
         aminate()
     }
 })
+for (const btnHamburger of btnHamburgers) {
+    btnHamburger.addEventListener('click', () => {
+        pagePkp.classList.remove('translate-page-left')
+        pageCev.classList.remove('translate-page-left')
+        pageMouffle.classList.remove('translate-page-left')
+        pageMalle.classList.remove('translate-page-left')
+        pageCratt.classList.remove('translate-page-left')
+        pageFr.classList.remove('translate-page-left')
+        pagePresentation.classList.remove('translate-page-left')
+        pageContact.classList.remove('translate-page-left')
+    })
+}
 
 function aminate() {
     for (const letterTop of letterTops) {
