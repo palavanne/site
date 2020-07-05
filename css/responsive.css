@@ -148,7 +148,7 @@
     font-size: 2rem;
     line-height: 2rem;
   }
-  .title-project-cratt, 
+  .title-project-cratt,
   .title-project-malle {
     font-size: 2rem;
     line-height: 2rem;
@@ -181,20 +181,20 @@
   .title {
     font-size: 1.5rem;
   }
-  .title::before, 
+  .title::before,
   .title::after {
     display: none;
   }
   .column-gallery {
     flex: 50%;
-}
+  }
   .agenda-grid {
     display: block;
     text-align: center;
   }
   .btn-agenda {
     float: none;
-    padding: .3rem;
+    padding: 0.3rem;
   }
   .translate-left {
     transform: translateX(0);
@@ -204,12 +204,13 @@
 
   .columns-presentation {
     grid-template-columns: 1fr 2fr;
-}
-.padding-left {
-  padding-left: 1rem;
-}
-.title-section-else {
-  font-size: 2rem;
+  }
+  .padding-left {
+    padding-left: 1rem;
+  }
+  .title-section-else {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 1300px) {
