@@ -23,56 +23,22 @@
   background-color: #fff;
   box-shadow: 0 0 50px -20px;
   overflow: auto;
-  z-index: 999;
+  z-index: 1000;
   transition: 0.5s;
 }
 .page {
   max-width: 1000px;
   padding: 0 3rem;
 }
-
-.btn-menu-overlay {
-  display: inline-block;
-  /* position: absolute;
-  top: 2.8rem;
-  right: 1rem; */
-  margin-left: 0.3rem;
-}
-.btn-menu-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 25px;
-  transform: translateY(-1.1rem);
+.icon-chevron {
+  position: absolute;
+  display: none;
+  top: 2rem;
+  left: 1rem;
+  width: 2rem;
+  height: 2rem;
   cursor: pointer;
 }
-.btn-menu {
-  content: '';
-  width: 30px;
-  height: 4px;
-  border-radius: 5px;
-  background-color: rgb(0, 0, 0);
-}
-.btn-menu::before {
-  content: '';
-  display: block;
-  width: 30px;
-  height: 4px;
-  border-radius: 5px;
-  margin-top: .5rem;
-  background-color: rgb(0, 0, 0);
-}
-.btn-menu::after {
-  content: '';
-  display: block;
-  width: 30px;
-  height: 4px;
-  border-radius: 5px;
-  margin-top: .25rem;
-  background-color: rgb(0, 0, 0);
-}
-
 .section {
   padding: 2rem 0;
 }
@@ -100,6 +66,7 @@
 .title-section-else {
   text-align: center;
   font-size: 3rem;
+  line-height: 3rem;
   margin-top: 0;
   margin-bottom: 2rem;
 }

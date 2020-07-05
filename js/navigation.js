@@ -20,7 +20,7 @@ const textTop = document.querySelector('.text-top')
 const textBottom = document.querySelector('.text-bottom')
 const letterTops = document.querySelectorAll('.js-letter-top')
 const letterBottoms = document.querySelectorAll('.js-letter-bottom')
-const btnHamburgers = document.querySelectorAll('.btn-menu-overlay')
+const btnMenuResponsives = document.querySelectorAll('.icon-chevron')
 
 const nameRights = document.querySelectorAll('.name-right')
 const nameLefts = document.querySelectorAll('.name-left')
@@ -172,8 +172,8 @@ btn9.addEventListener('click', () => {
         aminate()
     }
 })
-for (const btnHamburger of btnHamburgers) {
-    btnHamburger.addEventListener('click', () => {
+for (const btnMenuResponsive of btnMenuResponsives) {
+    btnMenuResponsive.addEventListener('click', () => {
         pagePkp.classList.remove('translate-page-left')
         pageCev.classList.remove('translate-page-left')
         pageMouffle.classList.remove('translate-page-left')
