@@ -1,3 +1,6 @@
+.menu {
+  transition: 0.5s;
+}
 .circle-menu {
   position: relative;
   display: flex;
@@ -20,9 +23,19 @@
   border-radius: 50%;
   z-index: 10;
 }
-.little-circle-center h1 {
+.main-title {
+  display: block;
   margin: 0;
   font-size: 2rem;
+  margin-top: 75px;
+}
+.icon-click {
+  margin-top: 1.5rem;
+  margin-left: .6rem;
+  width: 2rem;
+  opacity: 0;
+  animation: appear 3s linear;
+  animation-iteration-count: 2;
 }
 .little-circle {
   position: absolute;
@@ -55,7 +68,7 @@
   font-size: 1.3rem;
   padding-left: 70px;
   transform: translateX(100px);
-  transition: 0.3s;
+  transition: .3s;
   visibility: hidden;
   opacity: 0;
 }
@@ -70,6 +83,7 @@
   padding-right: 70px;
   transform: translateX(-320px);
   transition: 0.3s;
+  overflow: hidden;
   visibility: hidden;
   opacity: 0;
 }
@@ -209,56 +223,26 @@
   text-decoration: underline;
 }
 
-@media screen and (min-width: 1300px) {
-  .little-circle {
-    font-size: 1.4rem;
-    width: 200px;
-    height: 200px;
+@keyframes appear {
+  0% {
+    opacity: 0;
   }
-  .little-circle-wrapper {
-    width: 200px;
-    height: 200px;
+  30% {
+    opacity: 0;
   }
-  .presentation-btn-wrapper {
-    width: 200px;
-    height: 200px;
-    font-size: 1.3rem;
+  40% {
+    opacity: 1;
   }
-  .name-right {
-    height: 200px;
-    padding-left: 130px;
+  50% {
+    opacity: 0;
   }
-  .name-left {
-    height: 200px;
-    padding-right: 130px;
+  60% {
+    opacity: 1;
   }
-  .btn-2-translate {
-    transform: translate(-100px, -375px);
+  70% {
+    opacity: 0;
   }
-  .btn-3-translate {
-    transform: translate(100px, -300px);
-  }
-  .btn-4-translate {
-    transform: translate(175px, -100px);
-  }
-  .btn-5-translate {
-    transform: translate(100px, 100px);
-  }
-  .btn-6-translate {
-    transform: translate(-100px, 175px);
-  }
-  .btn-7-translate {
-    transform: translate(-300px, 100px);
-  }
-  .btn-8-translate {
-    transform: translate(-375px, -100px);
-  }
-  .btn-9-translate {
-    transform: translate(-300px, -300px);
-  }
-  .translate-left {
-    transform: translateX(calc(-50% + 200px));
+  100% {
+    opacity: 0;
   }
 }
-
-

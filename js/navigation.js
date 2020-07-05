@@ -6,8 +6,7 @@ const pageCratt = document.querySelector('.cratt')
 const pageFr = document.querySelector('.fr')
 const pagePresentation = document.querySelector('.presentation')
 const pageContact = document.querySelector('.contact')
-const wrapper = document.querySelector('.wrapper')
-const translate = document.querySelector('.translate')
+const translate = document.querySelector('.menu')
 const btn1 = document.querySelector('.btn-1')
 const btn2 = document.querySelector('.btn-2')
 const btn3 = document.querySelector('.btn-3')
@@ -17,65 +16,90 @@ const btn6 = document.querySelector('.btn-6')
 const btn7 = document.querySelector('.btn-7')
 const btn8 = document.querySelector('.btn-8')
 const btn9 = document.querySelector('.btn-9')
-const textTops = document.querySelectorAll('.js-text-top')
-const textBottoms = document.querySelectorAll('.js-text-bottom')
+const textTop = document.querySelector('.text-top')
+const textBottom = document.querySelector('.text-bottom')
+const letterTops = document.querySelectorAll('.js-letter-top')
+const letterBottoms = document.querySelectorAll('.js-letter-bottom')
 
 const nameRights = document.querySelectorAll('.name-right')
 const nameLefts = document.querySelectorAll('.name-left')
 
 const namePresentationContacts = document.querySelectorAll('.little-circle-wrapper')
-for (const namePresentationContact of namePresentationContacts) {
-    namePresentationContact.classList.add('hidden')
-}
 
-let tailleEcranX = window.innerWidth;
-for (const nameRight of nameRights) {
-    if (tailleEcranX < 760) {
+let screenWidth = window.innerWidth;
+
+if (screenWidth < 760) {
+    for (const nameRight of nameRights) {
         nameRight.classList.add('hidden')
     }
-}
-for (const nameLeft of nameLefts) {
-    if (tailleEcranX < 760) {
+    for (const nameLeft of nameLefts) {
         nameLeft.classList.add('hidden')
+    }
+    for (const namePresentationContact of namePresentationContacts) {
+        namePresentationContact.classList.add('hidden')
     }
 }
 
 btn1.addEventListener('click', () => {
-    for (const nameRight of nameRights) {
-        if (tailleEcranX < 760) {
+
+    if (screenWidth < 760) {
+        for (const nameRight of nameRights) {
+            if (nameRight.classList.contains('hidden')) {
+                setTimeout(() => {
+                    nameRight.classList.remove('hidden')
+                }, 300);
+            } else {
+                nameRight.classList.add('hidden')
+            }
+        }
+        for (const nameLeft of nameLefts) {
+            if (nameLeft.classList.contains('hidden')) {
+                setTimeout(() => {
+                    nameLeft.classList.remove('hidden')
+                }, 300);
+            } else {
+                nameLeft.classList.add('hidden')
+            }
+        }
+        for (const namePresentationContact of namePresentationContacts) {
+            if (namePresentationContact.classList.contains('hidden')) {
+                setTimeout(() => {
+                    namePresentationContact.classList.remove('hidden')
+                }, 300);
+            } else {
+                namePresentationContact.classList.add('hidden')
+            }
+        }
+        if (textTop.classList.contains('hidden')) {
             setTimeout(() => {
-                nameRight.classList.remove('hidden')
-                namePresentationContact.classList.remove('hidden')
+                textTop.classList.remove('hidden')
             }, 300);
+        } else {
+            textTop.classList.add('hidden')
         }
-    }
-    for (const nameLeft of nameLefts) {
-        if (tailleEcranX < 760) {
+        if (textBottom.classList.contains('hidden')) {
             setTimeout(() => {
-                nameLeft.classList.remove('hidden')
-                namePresentationContact.classList.remove('hidden')
+                textBottom.classList.remove('hidden')
             }, 300);
-        }
-    }
-    for (const namePresentationContact of namePresentationContacts) {
-        setTimeout(() => {
-            namePresentationContact.classList.remove('hidden')
-        }, 300);
-    }
-    for (const textTop of textTops) {
-        if (textTop.classList.contains('text-top-disapear')) {
-            textTop.classList.remove('text-top-disapear')
         } else {
-            textTop.classList.add('text-top-disapear')
+            textBottom.classList.add('hidden')
         }
     }
-    for (const textBottom of textBottoms) {
-        if (textBottom.classList.contains('text-bottom-disapear')) {
-            textBottom.classList.remove('text-bottom-disapear')
+    for (const letterTop of letterTops) {
+        if (letterTop.classList.contains('letter-top-disapear')) {
+            letterTop.classList.remove('letter-top-disapear')
         } else {
-            textBottom.classList.add('text-bottom-disapear')
+            letterTop.classList.add('letter-top-disapear')
         }
     }
+    for (const letterBottom of letterBottoms) {
+        if (letterBottom.classList.contains('letter-bottom-disapear')) {
+            letterBottom.classList.remove('letter-bottom-disapear')
+        } else {
+            letterBottom.classList.add('letter-bottom-disapear')
+        }
+    }
+
     btn1.classList.toggle('btn-1-translate')
     btn2.classList.toggle('btn-2-translate')
     btn3.classList.toggle('btn-3-translate')
@@ -100,51 +124,67 @@ btn1.addEventListener('click', () => {
 
 })
 btn2.addEventListener('click', () => {
-    aminate()
     pagePresentation.classList.add('translate-page-left')
+    if (screenWidth > 760) {
+        aminate()
+    }
 })
 btn3.addEventListener('click', () => {
-    aminate()
     pagePkp.classList.add('translate-page-left')
+    if (screenWidth > 760) {
+        aminate()
+    }
 })
 btn4.addEventListener('click', () => {
-    aminate()
     pageCev.classList.add('translate-page-left')
+    if (screenWidth > 760) {
+        aminate()
+    }
 })
 btn5.addEventListener('click', () => {
-    aminate()
     pageMouffle.classList.add('translate-page-left')
+    if (screenWidth > 760) {
+        aminate()
+    }
 })
 btn6.addEventListener('click', () => {
-    aminate()
     pageContact.classList.add('translate-page-left')
+    if (screenWidth > 760) {
+        aminate()
+    }
 })
 btn7.addEventListener('click', () => {
-    aminate()
     pageCratt.classList.add('translate-page-left')
+    if (screenWidth > 760) {
+        aminate()
+    }
 })
 btn8.addEventListener('click', () => {
-    aminate()
     pageFr.classList.add('translate-page-left')
+    if (screenWidth > 760) {
+        aminate()
+    }
 })
 btn9.addEventListener('click', () => {
-    aminate()
     pageMalle.classList.add('translate-page-left')
+    if (screenWidth > 760) {
+        aminate()
+    }
 })
 
 function aminate() {
-    for (const textTop of textTops) {
-        if (textTop.classList.contains('text-top-disapear')) {
-            textTop.classList.remove('text-top-disapear')
+    for (const letterTop of letterTops) {
+        if (letterTop.classList.contains('letter-top-disapear')) {
+            letterTop.classList.remove('letter-top-disapear')
         } else {
-            textTop.classList.add('text-top-disapear')
+            letterTop.classList.add('letter-top-disapear')
         }
     }
-    for (const textBottom of textBottoms) {
-        if (textBottom.classList.contains('text-bottom-disapear')) {
-            textBottom.classList.remove('text-bottom-disapear')
+    for (const letterBottom of letterBottoms) {
+        if (letterBottom.classList.contains('letter-bottom-disapear')) {
+            letterBottom.classList.remove('letter-bottom-disapear')
         } else {
-            textBottom.classList.add('text-bottom-disapear')
+            letterBottom.classList.add('letter-bottom-disapear')
         }
     }
     translate.classList.add('translate-left')

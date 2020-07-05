@@ -54,7 +54,10 @@
     border-radius: 0;
   }
   .btn-4-translate {
-    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56)));
+    transform: translate(
+      -50%,
+      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56))
+    );
     width: 100vw;
     height: calc(100vw * 0.56);
     border-radius: 0;
@@ -63,30 +66,45 @@
     transform: translate(-50%, 900px);
     width: 100vw;
     height: calc(100vw * 0.56);
-    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 2));
+    transform: translate(
+      -50%,
+      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 2)
+    );
     border-radius: 0;
   }
   .btn-6-translate {
     transform: translate(-50%, 900px);
     width: 100vw;
     height: calc(100vw * 0.4);
-    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 6));
+    transform: translate(
+      -50%,
+      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 6)
+    );
     border-radius: 0;
   }
   .btn-7-translate {
-    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 3));
+    transform: translate(
+      -50%,
+      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 3)
+    );
     width: 100vw;
     height: calc(100vw * 0.56);
     border-radius: 0;
   }
   .btn-8-translate {
-    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 4));
+    transform: translate(
+      -50%,
+      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 4)
+    );
     width: 100vw;
     height: calc(100vw * 0.56);
     border-radius: 0;
   }
   .btn-9-translate {
-    transform: translate(-50%, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 5));
+    transform: translate(
+      -50%,
+      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 5)
+    );
     width: 100vw;
     height: calc(100vw * 0.56);
     border-radius: 0;
@@ -114,5 +132,132 @@
   }
   .name-left p {
     text-align: center;
+  }
+
+  /* PAGE */
+
+  .page-wrapper {
+    width: 100vw;
+    box-shadow: none;
+  }
+  .page {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .title-project {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .title-project-cratt, 
+  .title-project-malle {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .catch-phrase {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-top: 1.2rem;
+  }
+  .columns {
+    display: block;
+    text-align: center;
+  }
+  .has-text-align-right {
+    text-align: center;
+  }
+  .column-third {
+    display: block;
+  }
+  .column-two-third {
+    margin-bottom: 3rem;
+  }
+  .column-one-third {
+    text-align: center;
+  }
+  .title-infos {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .title::before, 
+  .title::after {
+    display: none;
+  }
+  .column-gallery {
+    flex: 50%;
+}
+  .agenda-grid {
+    display: block;
+    text-align: center;
+  }
+  .btn-agenda {
+    float: none;
+    padding: .3rem;
+  }
+  .translate-left {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .little-circle {
+    font-size: 1.4rem;
+    width: 200px;
+    height: 200px;
+  }
+  .little-circle-wrapper {
+    width: 200px;
+    height: 200px;
+  }
+  .presentation-btn-wrapper {
+    width: 200px;
+    height: 200px;
+    font-size: 1.3rem;
+  }
+  .name-right {
+    height: 200px;
+    padding-left: 130px;
+  }
+  .name-left {
+    height: 200px;
+    padding-right: 130px;
+  }
+  .btn-2-translate {
+    transform: translate(-100px, -375px);
+  }
+  .btn-3-translate {
+    transform: translate(100px, -300px);
+  }
+  .btn-4-translate {
+    transform: translate(175px, -100px);
+  }
+  .btn-5-translate {
+    transform: translate(100px, 100px);
+  }
+  .btn-6-translate {
+    transform: translate(-100px, 175px);
+  }
+  .btn-7-translate {
+    transform: translate(-300px, 100px);
+  }
+  .btn-8-translate {
+    transform: translate(-375px, -100px);
+  }
+  .btn-9-translate {
+    transform: translate(-300px, -300px);
+  }
+  .translate-left {
+    transform: translateX(calc(-50% + 200px));
+  }
+
+  /* PAGE */
+
+  .page {
+    padding: 0;
+  }
+  .page-wrapper {
+    width: calc(100vw - 400px);
   }
 }

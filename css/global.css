@@ -4,10 +4,7 @@ body {
   padding: 0;
   font-family: "Open Sans", sans-serif;
   font-size: .9rem;
-}
-h1 {
-  margin: 0;
-  font-size: 2rem;
+  line-height: 1.2rem;
 }
 
 /* LAYOUT */
@@ -102,5 +99,3 @@ h1 {
 .has-background-color-red:hover {
   background-color: #ff2d31;
 }
-
-

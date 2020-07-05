@@ -2,7 +2,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(calc(-50% - 8px), calc(-50% - 155px));
+  transform: translate(calc(-50% - 8px), calc(-50% - 151px));
   background-color: #fff;
 }
 .text-bottom {
@@ -19,7 +19,7 @@
   font-weight: bold;
   text-align: center;
   width: 16px;
-  height: 155px;
+  height: 151px;
   transform-origin: bottom center;
   /* border: 1px solid rgb(0, 0, 0); */
   transition: 0.3s;
@@ -116,74 +116,76 @@
 }
 
 .char26 {
-  transform: rotate(-70deg);
+  transform: rotate(-73deg);
 }
 .char27 {
-  transform: rotate(-63deg);
+  transform: rotate(-66deg);
 }
 .char28 {
-  transform: rotate(-56deg);
+  transform: rotate(-59deg);
 }
 .char29 {
-  transform: rotate(-49deg);
+  transform: rotate(-52deg);
 }
 .char30 {
-  transform: rotate(-42deg);
+  transform: rotate(-45deg);
 }
 .char31 {
-  transform: rotate(-35deg);
+  transform: rotate(-38deg);
 }
 .char32 {
-  transform: rotate(-28deg);
+  transform: rotate(-31deg);
 }
 .char33 {
-  transform: rotate(-21deg);
+  transform: rotate(-24deg);
 }
 .char34 {
-  transform: rotate(-16deg);
+  transform: rotate(-19deg);
 }
 .char35 {
-  transform: rotate(-9deg);
+  transform: rotate(-12deg);
 }
 .char36 {
-  transform: rotate(-2deg);
+  transform: rotate(-5deg);
 }
 .char37 {
-  transform: rotate(5deg);
+  transform: rotate(2deg);
 }
 .char38 {
-  transform: rotate(14deg);
+  transform: rotate(10deg);
 }
 .char39 {
-  transform: rotate(21deg);
+  transform: rotate(17deg);
 }
 .char40 {
-  transform: rotate(28deg);
+  transform: rotate(24deg);
 }
 .char41 {
-  transform: rotate(35deg);
+  transform: rotate(31deg);
 }
 .char42 {
-  transform: rotate(42deg);
+  transform: rotate(38deg);
 }
 .char43 {
-  transform: rotate(49deg);
+  transform: rotate(45deg);
 }
 .char44 {
-  transform: rotate(56deg);
+  transform: rotate(52deg);
 }
 .char45 {
-  transform: rotate(63deg);
+  transform: rotate(59deg);
 }
 .char46 {
-  transform: rotate(70deg);
+  transform: rotate(66deg);
+}
+.char47 {
+  transform: rotate(73deg);
 }
 
-
-.text-top-disapear {
-    transform: translateY(100px);
-    height: 0 !important;
+.letter-top-disapear {
+  height: 0 !important;
+  transform: translateY(125px);
 }
-.text-bottom-disapear {
-    height: 0 !important;
+.letter-bottom-disapear {
+  height: 0 !important;
 }
