@@ -199,6 +199,17 @@
   .translate-left {
     transform: translateX(0);
   }
+
+  /* PRESENTATION */
+
+  .columns-presentation {
+    grid-template-columns: 1fr 2fr;
+}
+.padding-left {
+  padding-left: 1rem;
+}
+.title-section-else {
+  font-size: 2rem;
 }
 
 @media screen and (min-width: 1300px) {
