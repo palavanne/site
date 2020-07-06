@@ -1,21 +1,46 @@
-const lightbox = document.createElement('div')
-lightbox.id = 'lightbox'
-document.body.appendChild(lightbox)
+const lightboxContainer = document.querySelector('.lightbox');
+const lightboxImage = document.querySelector('.lightbox-img');
+const galleryItemsPkp = document.querySelector('.gallery-items-pkp').children;
+const previousBtn = document.querySelector('.previous-btn')
+const nextBtn = document.querySelector('.next-btn')
+let index;
+let imgSrc;
 
-const images = document.querySelectorAll('.gallery-img')
-images.forEach(image => {
-    image.addEventListener('click', e => {
-        lightbox.classList.add('active')
-        const img = document.createElement('img')
-        img.src = image.src
-        while (lightbox.firstChild) {
-            lightbox.removeChild(lightbox.firstChild)
-        }
-        lightbox.appendChild(img)
+for (let i = 0; i < galleryItemsPkp.length; i++) {
+    galleryItemsPkp[i].querySelector('.gallery-img-pkp').addEventListener('click', () => {
+        index = i;
+        lightbox();
+        changeImg();
+        console.log(index);
     })
-});
+}
 
-lightbox.addEventListener('click', e => {
-    if (e.target !== e.currentTarget) return
-    lightbox.classList.remove('active')
+previousBtn.addEventListener('click', () => {
+    if (index === 0) {
+        index = galleryItemsPkp.length-1;
+    } else {
+        index--;
+    }
+    changeImg();
 })
+nextBtn.addEventListener('click', () => {
+    if (index === galleryItemsPkp.length - 1) {
+        index = 0;
+    } else {
+        index++;
+    }
+    changeImg();
+})
+const btnCloseGallery = document.querySelector('.btn-close-gallery')
+btnCloseGallery.addEventListener('click', function () {
+    lightboxContainer.classList.remove('open');
+})
+
+function lightbox () {
+    lightboxContainer.classList.add('open');
+}
+
+function changeImg () {
+    imgSrc = galleryItemsPkp[index].querySelector('.gallery-img-pkp').getAttribute('src');
+    lightboxImage.src = imgSrc;
+}

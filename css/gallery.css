@@ -1,35 +1,63 @@
-.gallery-wrapper {
-    display: flex;
-    justify-content: center;
-}
-.gallery {
+.gallery .gallery-items-pkp {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: .2rem;
 }
-.gallery img {
+.gallery .gallery-items-pkp .item {
     width: 100%;
+}
+.gallery .gallery-items-pkp .item img {
+    width: 100%;
+    display: block;
     cursor: pointer;
 }
-
-#lightbox {
+.lightbox {
     position: fixed;
-    z-index: 10000;
+    left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .8);
     display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
 }
-
-#lightbox.active {
+.lightbox.open {
+    display: flex;
+}
+.lightbox .lightbox-content .lightbox-img {
+    max-width: 50%;
+}
+.lightbox .lightbox-content {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-#lightbox img {
-    max-width: 90%;
-    max-height: 90%;
-    justify-content: center;
-    align-items: center;
+.lightbox .lightbox-content div {
+    position: absolute;
+    top: 50%;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-top: -1.5rem;
+    cursor: pointer;
+}
+.lightbox .lightbox-content div.previous-btn {
+    left: 2rem;
+}
+.lightbox .lightbox-content div.next-btn {
+    right: 2rem;
+}
+
+.lightbox .lightbox-content .chevron-left {
+    margin-top: 0.25rem;
+    margin-right: .3rem;
+    height: 2.5rem;
+}
+.lightbox .lightbox-content .chevron-right {
+    margin-top: 0.25rem;
+    margin-left: .3rem;
+    height: 2.5rem;
+    transform: rotate(180deg);
 }

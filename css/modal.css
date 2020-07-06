@@ -16,7 +16,7 @@
     transform: translate(-50%, -50%);
     z-index: 10000;
 }
-.btn-close {
+.btn-close, .btn-close-gallery {
     position: absolute;
     top: 20px;
     right: 20px;

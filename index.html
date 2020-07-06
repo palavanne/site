@@ -23,8 +23,16 @@
 <body>
   <div class="modal hidden">
     <div class="modal-background-opacity"></div>
-    <img src="./img/icons/close-min.png" class="btn-close" alt="cross">
+    <img src="./img/icons/close-min.png" class="btn-close" alt="Bouton fermer">
     <div class="teaser" id="teaser">
+    </div>
+  </div>
+  <div class="lightbox">
+    <img src="./img/icons/close-min.png" class="btn-close-gallery" alt="Bouton fermer">
+    <div class="lightbox-content">
+      <div class="previous-btn"><img class="chevron-left" src="./img/icons/chevron-white.png" alt=""></div>
+      <img class="lightbox-img" src="" alt="">
+      <div class="next-btn"><img class="chevron-right" src="./img/icons/chevron-white.png" alt=""></div>
     </div>
   </div>
   <div class="wrapper">
@@ -127,7 +135,7 @@
       </div>
     </div>
     <div class="page-wrapper presentation">
-      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron">
+      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron icon-chevron-presentation hidden">
       <div class="page">
         <section class="section">
           <h2 class="title-section-else">PRÉSENTATION</h2>
@@ -289,8 +297,9 @@
       </div>
     </div>
     <div class="page-wrapper pkp">
-      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron">
+      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron icon-chevron-pkp hidden">
       <div class="page">
+
         <section class="section">
           <h2 class="title-project blue">LES POURKOAPAS</h2>
           <h2 class="catch-phrase blue">Brocante musicale à l'affût de chineurs mélomanes</h2>
@@ -346,23 +355,48 @@
             </div>
           </div>
         </section>
+
         <section class="section">
-          <div class="section-wrapper">
-            <h2 class="title blue">GALLERIE PHOTO</h2>
-            <div class="gallery-wrapper">
-              <div class="gallery">
-                <img src="./img/gallerie-pkp/pkp-1.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-2.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-3.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-4.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-5.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-6.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-7.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-8.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-9.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-10.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-11.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallerie-pkp/pkp-12.jpg" alt="" class="gallery-img" loading="lazy">
+          <div class="gallery">
+            <h2 class="title blue">GALERIE PHOTO</h2>
+            <div class="container">
+              <div class="gallery-items-pkp">
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-1.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-2.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-3.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-4.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-5.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-6.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-7.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-8.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-9.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-10.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-11.jpg" alt="phot du groupe" loading="lazy">
+                </div>
+                <div class="item">
+                  <img class="gallery-img-pkp" src="./img/gallerie-pkp/pkp-12.jpg" alt="phot du groupe" loading="lazy">
+                </div>
               </div>
             </div>
           </div>
@@ -418,7 +452,7 @@
       </div>
     </div>
     <div class="page-wrapper cev">
-      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron">
+      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron icon-chevron-cev hidden">
       <div class="page">
         <section class="section">
           <h2 class="title-project orange">CONT'EN VOYAGE</h2>
@@ -469,23 +503,41 @@
           </div>
         </section>
 
-        <section class="section">
-          <div class="section-wrapper">
-            <h2 class="title orange">GALLERIE PHOTO</h2>
-            <div class="gallery-wrapper">
-              <div class="gallery">
-                <img src="./img/gallery-cv/conte-en-voyage-1.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallery-cv/conte-en-voyage-10.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallery-cv/conte-en-voyage-3.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallery-cv/conte-en-voyage-4.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallery-cv/conte-en-voyage-6.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallery-cv/conte-en-voyage-7.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallery-cv/conte-en-voyage-8.jpg" alt="" class="gallery-img" loading="lazy">
-                <img src="./img/gallery-cv/conte-en-voyage-9.jpg" alt="" class="gallery-img" loading="lazy">
+        <!-- <section class="section">
+          <div class="gallery">
+            <h2 class="title orange">GALERIE PHOTO</h2>
+            <div class="container">
+              <div class="row">
+                <div class="gallery-items-cev">
+                  <div class="item">
+                    <img class="gallery-img-cev" src="./img/gallery-cv/conte-en-voyage-1.jpg" alt="Photo cont'en voyage" loading="lazy">
+                  </div>
+                  <div class="item">
+                    <img class="gallery-img-cev" src="./img/gallery-cv/conte-en-voyage-9.jpg" alt="Photo cont'en voyage" loading="lazy">
+                  </div>
+                  <div class="item">
+                    <img class="gallery-img-cev" src="./img/gallery-cv/conte-en-voyage-3.jpg" alt="Photo cont'en voyage" loading="lazy">
+                  </div>
+                  <div class="item">
+                    <img class="gallery-img-cev" src="./img/gallery-cv/conte-en-voyage-4.jpg" alt="Photo cont'en voyage" loading="lazy">
+                  </div>
+                  <div class="item">
+                    <img class="gallery-img-cev" src="./img/gallery-cv/conte-en-voyage-10.jpg" alt="Photo cont'en voyage" loading="lazy">
+                  </div>
+                  <div class="item">
+                    <img class="gallery-img-cev" src="./img/gallery-cv/conte-en-voyage-6.jpg" alt="Photo cont'en voyage" loading="lazy">
+                  </div>
+                  <div class="item">
+                    <img class="gallery-img-cev" src="./img/gallery-cv/conte-en-voyage-7.jpg" alt="Photo cont'en voyage" loading="lazy">
+                  </div>
+                  <div class="item">
+                    <img class="gallery-img-cev" src="./img/gallery-cv/conte-en-voyage-8.jpg" alt="Photo cont'en voyage" loading="lazy">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
 
         <section class="section">
           <h2 class="title orange">AGENDA</h2>
@@ -539,7 +591,7 @@
       </div>
     </div>
     <div class="page-wrapper mouffle">
-      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron">
+      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron icon-chevron-mouffle hidden">
       <div class="page">
         <section class="section">
           <h2 class="title-project green">LA MOUFFLE</h2>
@@ -595,7 +647,7 @@
           </div>
         </section>
 
-        <section class="section">
+        <!-- <section class="section">
           <div class="section-wrapper">
             <h2 class="title blue">GALLERIE PHOTO</h2>
             <div class="gallery-wrapper">
@@ -611,7 +663,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
 
         <section class="section">
           <h2 class="title green">AGENDA</h2>
@@ -665,7 +717,7 @@
       </div>
     </div>
     <div class="page-wrapper align-items-center contact">
-      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron">
+      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron-contact hidden">
       <div class="page has-text-align-center">
         <h2 class="title-section-else">CONTACTEZ-NOUS</h2>
         <h3>ADRESSE</h3>
@@ -680,7 +732,7 @@
       </div>
     </div>
     <div class="page-wrapper cratt">
-      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron">
+      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron icon-chevron-cratt hidden">
       <div class="page">
         <section class="section">
           <h2 class="title-project-cratt brown">ÇA RIME À TOUT TERRIEN</h2>
@@ -740,7 +792,7 @@
           </div>
         </section>
 
-        <section class="section">
+        <!-- <section class="section">
           <div class="section-wrapper">
             <h2 class="title blue">GALLERIE PHOTO</h2>
             <div class="gallery-wrapper">
@@ -756,7 +808,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
 
         <section class="section">
           <h2 class="title brown">AGENDA</h2>
@@ -810,7 +862,7 @@
       </div>
     </div>
     <div class="page-wrapper fr">
-      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron">
+      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron icon-chevron-fr hidden">
       <div class="page">
         <section class="section">
           <h2 class="title-project red">LA FABRIK'RÉCUP</h2>
@@ -875,7 +927,7 @@
           </div>
         </section>
 
-        <section class="section">
+        <!-- <section class="section">
           <div class="section-wrapper">
             <h2 class="title blue">GALLERIE PHOTO</h2>
             <div class="gallery-wrapper">
@@ -891,7 +943,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
 
         <section class="section">
           <h2 class="title red">AGENDA</h2>
@@ -936,7 +988,7 @@
       </div>
     </div>
     <div class="page-wrapper malle">
-      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron">
+      <img src="./img/icons/chevron-left-min.png" alt="chevron" class="icon-chevron icon-chevron-malle hidden">
       <div class="page">
         <section class="section">
           <h2 class="title-project-malle grey">LA MALLE MAGIQUE</h2>
@@ -997,7 +1049,7 @@
           </div>
         </section>
 
-        <section class="section">
+        <!-- <section class="section">
           <div class="section-wrapper">
             <h2 class="title blue">GALLERIE PHOTO</h2>
             <div class="gallery-wrapper">
@@ -1013,7 +1065,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
 
         <section class="section">
           <h2 class="title grey">AGENDA</h2>

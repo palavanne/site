@@ -12,7 +12,7 @@ teaser.addEventListener('click', function () {
     teaserDiv.appendChild(videoSrc)
     setTimeout(() => {
         document.querySelector('.youtube-video').contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
-    }, 500);
+    }, 1000);
 })
 
 const btnClose = document.querySelector('.btn-close')
