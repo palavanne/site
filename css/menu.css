@@ -1,6 +1,9 @@
 .menu {
   transition: 0.5s;
 }
+.return {
+  display: none;
+}
 .circle-menu {
   position: relative;
   display: flex;
@@ -64,7 +67,7 @@
   display: flex;
   align-items: center;
   font-weight: bold;
-  width: 300px;
+  width: 350px;
   height: 150px;
   font-size: 1.3rem;
   padding-left: 70px;
@@ -78,7 +81,7 @@
   align-items: center;
   justify-content: right;
   font-weight: bold;
-  width: 300px;
+  width: 350px;
   height: 150px;
   font-size: 1.3rem;
   padding-right: 70px;
@@ -100,10 +103,6 @@
   overflow: hidden;
 }
 .description {
-  font-size: 1rem;
-  font-weight: 400;
-}
-.description-left {
   font-size: 1rem;
   font-weight: 400;
 }

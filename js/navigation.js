@@ -29,6 +29,7 @@ const btnMenuResponsiveFr = document.querySelector('.icon-chevron-fr')
 const btnMenuResponsiveCratt = document.querySelector('.icon-chevron-cratt')
 const btnMenuResponsivePresentation = document.querySelector('.icon-chevron-presentation')
 const btnMenuResponsiveContact = document.querySelector('.icon-chevron-contact')
+const iconClick = document.querySelector('.icon-click')
 
 const nameRights = document.querySelectorAll('.name-right')
 const nameLefts = document.querySelectorAll('.name-left')
@@ -93,6 +94,9 @@ btn1.addEventListener('click', () => {
         } else {
             textBottom.classList.add('hidden')
         }
+        setTimeout(() => {
+        iconClick.classList.add('hidden')
+        }, 5000);
     }
     for (const letterTop of letterTops) {
         if (letterTop.classList.contains('letter-top-disapear')) {
@@ -134,72 +138,56 @@ btn1.addEventListener('click', () => {
 })
 btn2.addEventListener('click', () => {
     pagePresentation.classList.add('translate-page-left')
-    setTimeout(() => {
         btnMenuResponsivePresentation.classList.remove('hidden')
-    }, 500);
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn3.addEventListener('click', () => {
     pagePkp.classList.add('translate-page-left')
-    setTimeout(() => {
         btnMenuResponsivePkp.classList.remove('hidden')
-    }, 500);
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn4.addEventListener('click', () => {
     pageCev.classList.add('translate-page-left')
-    setTimeout(() => {
         btnMenuResponsiveCev.classList.remove('hidden')
-    }, 500);
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn5.addEventListener('click', () => {
     pageMouffle.classList.add('translate-page-left')
-    setTimeout(() => {
         btnMenuResponsiveMouffle.classList.remove('hidden')
-    }, 500);
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn6.addEventListener('click', () => {
     pageContact.classList.add('translate-page-left')
-    setTimeout(() => {
         btnMenuResponsiveContact.classList.remove('hidden')
-    }, 500);
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn7.addEventListener('click', () => {
     pageCratt.classList.add('translate-page-left')
-    setTimeout(() => {
         btnMenuResponsiveCratt.classList.remove('hidden')
-    }, 500);
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn8.addEventListener('click', () => {
     pageFr.classList.add('translate-page-left')
-    setTimeout(() => {
         btnMenuResponsiveFr.classList.remove('hidden')
-    }, 500);
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn9.addEventListener('click', () => {
     pageMalle.classList.add('translate-page-left')
-    setTimeout(() => {
         btnMenuResponsiveMalle.classList.remove('hidden')
-    }, 500);
     if (screenWidth > 760) {
         aminate()
     }

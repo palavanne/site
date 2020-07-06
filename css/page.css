@@ -30,16 +30,7 @@
   max-width: 1000px;
   padding: 0 3rem;
 }
-.icon-chevron {
-  position: absolute;
-  top: 0rem;
-  left: 0rem;
-  padding: .5rem;
-  width: 2rem;
-  height: 2rem;
-  border: .1px solid rgb(0, 0, 0);
-  cursor: pointer;
-}
+
 .section {
   padding: 2rem 0;
 }
