@@ -56,6 +56,7 @@
       const lien = document.createElement('a')
       lien.href = presta.lien
       lien.setAttribute('target', '_blank')
+      lien.setAttribute('rel', 'noopener')
 
       if (presta.spectacle === 'Les Pourkoapas') {
         lien.classList.add('btn-agenda', 'has-background-color-blue')
