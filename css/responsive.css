@@ -207,6 +207,11 @@
     height: calc(100 * 0.562);
   }
 
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   /* PRESENTATION */
 
   .columns-presentation {
