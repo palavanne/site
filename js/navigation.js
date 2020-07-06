@@ -20,15 +20,7 @@ const textTop = document.querySelector('.text-top')
 const textBottom = document.querySelector('.text-bottom')
 const letterTops = document.querySelectorAll('.js-letter-top')
 const letterBottoms = document.querySelectorAll('.js-letter-bottom')
-
-const btnMenuResponsivePkp = document.querySelector('.icon-chevron-pkp')
-const btnMenuResponsiveCev = document.querySelector('.icon-chevron-cev')
-const btnMenuResponsiveMouffle = document.querySelector('.icon-chevron-mouffle')
-const btnMenuResponsiveMalle = document.querySelector('.icon-chevron-malle')
-const btnMenuResponsiveFr = document.querySelector('.icon-chevron-fr')
-const btnMenuResponsiveCratt = document.querySelector('.icon-chevron-cratt')
-const btnMenuResponsivePresentation = document.querySelector('.icon-chevron-presentation')
-const btnMenuResponsiveContact = document.querySelector('.icon-chevron-contact')
+const btnMenuResponsives = document.querySelectorAll('.js-return')
 const iconClick = document.querySelector('.icon-click')
 
 const nameRights = document.querySelectorAll('.name-right')
@@ -138,101 +130,59 @@ btn1.addEventListener('click', () => {
 })
 btn2.addEventListener('click', () => {
     pagePresentation.classList.add('translate-page-left')
-        btnMenuResponsivePresentation.classList.remove('hidden')
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn3.addEventListener('click', () => {
     pagePkp.classList.add('translate-page-left')
-        btnMenuResponsivePkp.classList.remove('hidden')
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn4.addEventListener('click', () => {
     pageCev.classList.add('translate-page-left')
-        btnMenuResponsiveCev.classList.remove('hidden')
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn5.addEventListener('click', () => {
     pageMouffle.classList.add('translate-page-left')
-        btnMenuResponsiveMouffle.classList.remove('hidden')
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn6.addEventListener('click', () => {
     pageContact.classList.add('translate-page-left')
-        btnMenuResponsiveContact.classList.remove('hidden')
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn7.addEventListener('click', () => {
     pageCratt.classList.add('translate-page-left')
-        btnMenuResponsiveCratt.classList.remove('hidden')
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn8.addEventListener('click', () => {
     pageFr.classList.add('translate-page-left')
-        btnMenuResponsiveFr.classList.remove('hidden')
     if (screenWidth > 760) {
         aminate()
     }
 })
 btn9.addEventListener('click', () => {
     pageMalle.classList.add('translate-page-left')
-        btnMenuResponsiveMalle.classList.remove('hidden')
     if (screenWidth > 760) {
         aminate()
     }
 })
 
-btnMenuResponsivePkp.addEventListener('click', () => {
-    btnMenuResponsivePkp.classList.add('hidden')
-    pagePkp.classList.remove('translate-page-left')
-})
-btnMenuResponsiveCev.addEventListener('click', () => {
-    btnMenuResponsiveCev.classList.add('hidden')
-    pageCev.classList.remove('translate-page-left')
-})
-btnMenuResponsiveMouffle.addEventListener('click', () => {
-    btnMenuResponsiveMouffle.classList.add('hidden')
-    pageMouffle.classList.remove('translate-page-left')
-})
-btnMenuResponsiveMalle.addEventListener('click', () => {
-    btnMenuResponsiveMalle.classList.add('hidden')
-    pageMalle.classList.remove('translate-page-left')
-})
-btnMenuResponsiveCratt.addEventListener('click', () => {
-    btnMenuResponsiveCratt.classList.add('hidden')
-    pageCratt.classList.remove('translate-page-left')
-})
-btnMenuResponsiveFr.addEventListener('click', () => {
-    btnMenuResponsiveFr.classList.add('hidden')
-    pageFr.classList.remove('translate-page-left')
-})
-btnMenuResponsivePresentation.addEventListener('click', () => {
-    btnMenuResponsivePresentation.classList.add('hidden')
-    pagePresentation.classList.remove('translate-page-left')
-})
-btnMenuResponsiveContact.addEventListener('click', () => {
-    btnMenuResponsiveContact.classList.add('hidden')
-    pageContact.classList.remove('translate-page-left')
-})
-// pageCev.classList.remove('translate-page-left')
-// pageMouffle.classList.remove('translate-page-left')
-// pageMalle.classList.remove('translate-page-left')
-// pageCratt.classList.remove('translate-page-left')
-// pageFr.classList.remove('translate-page-left')
-// pagePresentation.classList.remove('translate-page-left')
-// pageContact.classList.remove('translate-page-left')
-
+for (const btnMenuResponsive of btnMenuResponsives) {
+    btnMenuResponsive.addEventListener('click', function () {
+        this.parentNode.parentNode.classList.remove('translate-page-left')
+        this.classList.add('hidden')
+    })
+}
 
 function aminate() {
     for (const letterTop of letterTops) {
