@@ -121,7 +121,7 @@
   .name-left {
     width: 100vw;
     height: calc(100vw * 0.56);
-    padding-left: 0;
+    padding: 0;
     text-align: center;
     justify-content: center;
     align-items: flex-end;
@@ -136,6 +136,36 @@
     text-align: center;
   }
 
+  /* MENU */
+
+  .return {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 0.1rem solid rgb(200, 200, 200);
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 3rem;
+  }
+  .return p {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+  }
+  .icon-chevron {
+    padding: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    margin-left: -3rem;
+    background-color: #fff;
+    border: 0.1px solid rgb(0, 0, 0);
+    cursor: pointer;
+  }
+
   /* PAGE */
 
   .page-wrapper {
@@ -144,7 +174,7 @@
   }
   .page {
     width: 100%;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
   }
   .title-project {
     font-size: 2rem;
@@ -190,9 +220,13 @@
   .column-gallery {
     flex: 50%;
   }
+
+  /* AGENDA */
+
   .agenda-grid {
     display: block;
     text-align: center;
+    width: 100%;
   }
   .btn-agenda {
     float: none;
