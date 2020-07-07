@@ -45,7 +45,7 @@ if (screenWidth < 770) {
 
 btn1.addEventListener('click', () => {
 
-    if (screenWidth < 760) {
+    if (screenWidth < 770) {
         for (const nameRight of nameRights) {
             if (nameRight.classList.contains('hidden')) {
                 setTimeout(() => {
