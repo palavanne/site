@@ -184,28 +184,28 @@
   visibility: visible;
 }
 .btn-2-translate {
-  transform: translate(-75px, -295px);
+  transform: translate(-75px, -300px);
 }
 .btn-3-translate {
-  transform: translate(85px, -225px);
+  transform: translate(85px, -235px);
 }
 .btn-4-translate {
-  transform: translate(145px, -70px);
+  transform: translate(150px, -70px);
 }
 .btn-5-translate {
   transform: translate(85px, 85px);
 }
 .btn-6-translate {
-  transform: translate(-75px, 145px);
+  transform: translate(-75px, 150px);
 }
 .btn-7-translate {
   transform: translate(-235px, 85px);
 }
 .btn-8-translate {
-  transform: translate(-295px, -70px);
+  transform: translate(-300px, -70px);
 }
 .btn-9-translate {
-  transform: translate(-235px, -225px);
+  transform: translate(-235px, -235px);
 }
 
 /* JS INTERACTION */
