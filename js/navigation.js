@@ -22,11 +22,12 @@ const letterTops = document.querySelectorAll('.js-letter-top')
 const letterBottoms = document.querySelectorAll('.js-letter-bottom')
 const btnMenuResponsives = document.querySelectorAll('.js-return')
 const iconClick = document.querySelector('.icon-click')
-
 const nameRights = document.querySelectorAll('.name-right')
 const nameLefts = document.querySelectorAll('.name-left')
-
 const namePresentationContacts = document.querySelectorAll('.little-circle-wrapper')
+const linkFabriks = document.querySelectorAll('.js-link-fabrik')
+const linkPkp = document.querySelector('.js-link-pkp')
+const linkMalle = document.querySelector('.js-link-malle')
 
 let screenWidth = window.innerWidth;
 
@@ -210,7 +211,6 @@ function aminate() {
     btn9.classList.remove('btn-9-translate')
 }
 
-const linkFabriks = document.querySelectorAll('.js-link-fabrik')
 for (const linkFabrik of linkFabriks) {
     linkFabrik.addEventListener('click', () => {
         pagePkp.classList.remove('translate-page-left')
@@ -218,12 +218,10 @@ for (const linkFabrik of linkFabriks) {
         pageFr.classList.add('translate-page-left')
     })
 }
-const linkPkp = document.querySelector('.js-link-pkp')
 linkPkp.addEventListener('click', () => {
     pageFr.classList.remove('translate-page-left')
     pagePkp.classList.add('translate-page-left')
 })
-const linkMalle = document.querySelector('.js-link-malle')
 linkMalle.addEventListener('click', () => {
     pageFr.classList.remove('translate-page-left')
     pageMalle.classList.add('translate-page-left')
