@@ -43,7 +43,8 @@
     border-bottom: 0.1rem solid rgb(199, 199, 199);
   }
   .btn-2-translate {
-    transform: translate(-30%, calc(-50vh + 70px));
+    transform: translateX(-50%);
+    transform: translateY(calc(-50vh + 70px));
     width: 100vw;
     height: calc(100vw * 0.4);
     border-radius: 0;
