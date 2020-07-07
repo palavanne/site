@@ -16,27 +16,27 @@
       const agendaFabrik = document.querySelector('.agenda-fabrik')
       const agendaMalle = document.querySelector('.agenda-malle')
 
-      for (let i = 0; i < prestas.length; i++) {
-        if (!prestas[i].option && prestas[i].spectacle === 'Les Pourkoapas') {
-          const dates = createRow(prestas[i])
+      prestas.forEach(presta => {
+        if (!presta.option && presta.spectacle === 'Les Pourkoapas') {
+          const dates = createRow(presta)
           agendaPkp.appendChild(dates)
-        } else if (!prestas[i].option && prestas[i].spectacle === 'Cont\'en Voyage') {
-          const dates = createRow(prestas[i])
+        } else if (!presta.option && presta.spectacle === 'Cont\'en Voyage') {
+          const dates = createRow(presta)
           agendaCev.appendChild(dates)
-        } else if (!prestas[i].option && prestas[i].spectacle === 'La Mouffle') {
-          const dates = createRow(prestas[i])
+        } else if (!presta.option && presta.spectacle === 'La Mouffle') {
+          const dates = createRow(presta)
           agendaMouffle.appendChild(dates)
-        } else if (!prestas[i].option && prestas[i].spectacle === 'Ca Rime à Tout Terrien') {
-          const dates = createRow(prestas[i])
+        } else if (!presta.option && presta.spectacle === 'Ca Rime à Tout Terrien') {
+          const dates = createRow(presta)
           agendaCratt.appendChild(dates)
-        } else if (!prestas[i].option && prestas[i].spectacle === 'La Fabrik\'Récup') {
-          const dates = createRow(prestas[i])
+        } else if (!presta.option && presta.spectacle === 'La Fabrik\'Récup') {
+          const dates = createRow(presta)
           agendaFabrik.appendChild(dates)
-        } else if (!prestas[i].option && prestas[i].spectacle === 'La Malle Magique') {
-          const dates = createRow(prestas[i])
+        } else if (!presta.option && presta.spectacle === 'La Malle Magique') {
+          const dates = createRow(presta)
           agendaMalle.appendChild(dates)
         }
-      }
+      });
     })
 
   function createRow(presta) {
