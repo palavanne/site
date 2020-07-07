@@ -180,7 +180,6 @@ btn9.addEventListener('click', () => {
 for (const btnMenuResponsive of btnMenuResponsives) {
     btnMenuResponsive.addEventListener('click', function () {
         this.parentNode.parentNode.classList.remove('translate-page-left')
-        this.classList.add('hidden')
     })
 }
 
