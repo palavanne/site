@@ -46,8 +46,8 @@
     justify-content: center;
 }
 .lightbox .lightbox-content .lightbox-img {
+    display: block;
     max-width: 60%;
-    height: 100%;
 }
 .lightbox .lightbox-content .previous-btn, 
 .lightbox .lightbox-content .next-btn {
