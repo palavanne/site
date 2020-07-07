@@ -77,8 +77,12 @@
   margin: 0 2rem;
   background-color: #000000;
 }
-.download {
+.download-pdf {
+  line-height: 2rem;
+}
+.download-link {
   color: #000000;
+  margin-bottom: -.15rem;
 }
 
 /* IMAGES */
@@ -92,8 +96,9 @@
   margin-bottom: 2rem;
   cursor: pointer;
 }
-.icon {
+.icon-pdf {
   height: 1rem;
+  margin-bottom: -.15rem;
   margin-right: .2rem;
 }
 
