@@ -55,56 +55,42 @@
     border-radius: 0;
   }
   .btn-4-translate {
-    transform: translate(
-      -50%,
-      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56))
+    transform: translate(-50vw,  calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56))
     );
     width: 100vw;
     height: calc(100vw * 0.56);
     border-radius: 0;
   }
   .btn-5-translate {
-    transform: translate(-50%, 900px);
+    transform: translate(-50vw, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 2)
+    );
     width: 100vw;
     height: calc(100vw * 0.56);
-    transform: translate(
-      -50%,
-      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 2)
-    );
     border-radius: 0;
   }
   .btn-6-translate {
-    transform: translate(-50%, 900px);
+    transform: translate(-50vw, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 6)
+    );
     width: 100vw;
     height: calc(100vw * 0.4);
-    transform: translate(
-      -50%,
-      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 6)
-    );
     border-radius: 0;
   }
   .btn-7-translate {
-    transform: translate(
-      -50%,
-      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 3)
+    transform: translate(-50vw, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 3)
     );
     width: 100vw;
     height: calc(100vw * 0.56);
     border-radius: 0;
   }
   .btn-8-translate {
-    transform: translate(
-      -50%,
-      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 4)
+    transform: translate(-50vw, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 4)
     );
     width: 100vw;
     height: calc(100vw * 0.56);
     border-radius: 0;
   }
   .btn-9-translate {
-    transform: translate(
-      -50%,
-      calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 5)
+    transform: translate(-50vw, calc(calc(-50vh + 70px) + (100vw * 0.4) + (100vw * 0.56) * 5)
     );
     width: 100vw;
     height: calc(100vw * 0.56);
