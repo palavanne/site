@@ -1,15 +1,27 @@
 .gallery .gallery-items-pkp, 
-.gallery .gallery-items-cev {
+.gallery .gallery-items-cev, 
+.gallery .gallery-items-mouffle, 
+.gallery .gallery-items-cratt, 
+.gallery .gallery-items-fr, 
+.gallery .gallery-items-malle {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: .2rem;
 }
 .gallery .gallery-items-pkp .item, 
-.gallery .gallery-items-cev .item {
+.gallery .gallery-items-cev .item, 
+.gallery .gallery-items-mouffle .item, 
+.gallery .gallery-items-cratt .item, 
+.gallery .gallery-items-fr .item, 
+.gallery .gallery-items-malle .item {
     width: 100%;
 }
-.gallery .gallery-items-pkp .item img,
-.gallery .gallery-items-cev .item img {
+.gallery .gallery-items-pkp .item img, 
+.gallery .gallery-items-cev .item img, 
+.gallery .gallery-items-mouffle .item img, 
+.gallery .gallery-items-cratt .item img, 
+.gallery .gallery-items-fr .item img, 
+.gallery .gallery-items-malle .item img {
     width: 100%;
     display: block;
     cursor: pointer;
@@ -20,7 +32,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .9);
     display: none;
     justify-content: center;
     align-items: center;

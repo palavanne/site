@@ -251,7 +251,11 @@
   /* GALERIE */
 
   .gallery .gallery-items-pkp, 
-  .gallery .gallery-items-cev {
+  .gallery .gallery-items-cev, 
+  .gallery .gallery-items-mouffle, 
+  .gallery .gallery-items-cratt, 
+  .gallery .gallery-items-fr, 
+  .gallery .gallery-items-malle {
     grid-template-columns: 1fr 1fr;
   }
   .lightbox .lightbox-content .lightbox-img {
