@@ -130,49 +130,49 @@ btn1.addEventListener('click', () => {
 })
 btn2.addEventListener('click', () => {
     pagePresentation.classList.add('translate-page-left')
-    if (screenWidth > 760) {
+    if (screenWidth > 770) {
         aminate()
     }
 })
 btn3.addEventListener('click', () => {
     pagePkp.classList.add('translate-page-left')
-    if (screenWidth > 760) {
+    if (screenWidth > 770) {
         aminate()
     }
 })
 btn4.addEventListener('click', () => {
     pageCev.classList.add('translate-page-left')
-    if (screenWidth > 760) {
+    if (screenWidth > 770) {
         aminate()
     }
 })
 btn5.addEventListener('click', () => {
     pageMouffle.classList.add('translate-page-left')
-    if (screenWidth > 760) {
+    if (screenWidth > 770) {
         aminate()
     }
 })
 btn6.addEventListener('click', () => {
     pageContact.classList.add('translate-page-left')
-    if (screenWidth > 760) {
+    if (screenWidth > 770) {
         aminate()
     }
 })
 btn7.addEventListener('click', () => {
     pageCratt.classList.add('translate-page-left')
-    if (screenWidth > 760) {
+    if (screenWidth > 770) {
         aminate()
     }
 })
 btn8.addEventListener('click', () => {
     pageFr.classList.add('translate-page-left')
-    if (screenWidth > 760) {
+    if (screenWidth > 770) {
         aminate()
     }
 })
 btn9.addEventListener('click', () => {
     pageMalle.classList.add('translate-page-left')
-    if (screenWidth > 760) {
+    if (screenWidth > 770) {
         aminate()
     }
 })
