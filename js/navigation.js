@@ -31,7 +31,7 @@ const linkMalle = document.querySelector('.js-link-malle')
 
 let screenWidth = window.innerWidth;
 
-if (screenWidth < 760) {
+if (screenWidth < 770) {
     for (const nameRight of nameRights) {
         nameRight.classList.add('hidden')
     }
