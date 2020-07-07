@@ -42,13 +42,14 @@
     display: flex;
 }
 .lightbox .lightbox-content .lightbox-img {
-    max-width: 50%;
+    max-width: 60%;
 }
 .lightbox .lightbox-content {
     display: flex;
     justify-content: center;
 }
-.lightbox .lightbox-content div {
+.lightbox .lightbox-content .previous-btn, 
+.lightbox .lightbox-content .next-btn {
     position: absolute;
     top: 50%;
     height: 3rem;
@@ -58,10 +59,10 @@
     margin-top: -1.5rem;
     cursor: pointer;
 }
-.lightbox .lightbox-content div.previous-btn {
+.lightbox .lightbox-content .previous-btn {
     left: 2rem;
 }
-.lightbox .lightbox-content div.next-btn {
+.lightbox .lightbox-content .next-btn {
     right: 2rem;
 }
 

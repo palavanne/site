@@ -260,11 +260,12 @@
   }
   .lightbox .lightbox-content .lightbox-img {
     max-width: 100%;
+    height: calc(100% * .56);
   }
-  .lightbox .lightbox-content div.previous-btn {
+  .lightbox .lightbox-content .previous-btn {
     left: 0;
   }
-  .lightbox .lightbox-content div.next-btn {
+  .lightbox .lightbox-content .next-btn {
     right: 0;
   }
 }
