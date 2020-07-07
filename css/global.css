@@ -45,6 +45,7 @@ body {
   gap: 1rem;
 }
 .align-items-center {
+  display: flex;
   align-items: center;
 }
 

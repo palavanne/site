@@ -1,12 +1,15 @@
-.gallery .gallery-items-pkp {
+.gallery .gallery-items-pkp, 
+.gallery .gallery-items-cev {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: .2rem;
 }
-.gallery .gallery-items-pkp .item {
+.gallery .gallery-items-pkp .item, 
+.gallery .gallery-items-cev .item {
     width: 100%;
 }
-.gallery .gallery-items-pkp .item img {
+.gallery .gallery-items-pkp .item img,
+.gallery .gallery-items-cev .item img {
     width: 100%;
     display: block;
     cursor: pointer;

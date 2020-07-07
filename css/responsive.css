@@ -149,6 +149,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     height: 3rem;
+    z-index: 1;
   }
   .return p {
     display: inline-block;

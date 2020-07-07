@@ -2,14 +2,14 @@
 
 const lightboxContainer = document.querySelector('.lightbox');
 const lightboxImage = document.querySelector('.lightbox-img');
-const galleryItemsPkp = document.querySelector('.gallery-items-pkp').children;
+const galleryItemsCev = document.querySelector('.gallery-items-cev').children;
 const previousBtn = document.querySelector('.previous-btn')
 const nextBtn = document.querySelector('.next-btn')
 let index;
 let imgSrc;
 
-for (let i = 0; i < galleryItemsPkp.length; i++) {
-    galleryItemsPkp[i].querySelector('.gallery-img-pkp').addEventListener('click', () => {
+for (let i = 0; i < galleryItemsCev.length; i++) {
+    galleryItemsCev[i].querySelector('.gallery-img-cev').addEventListener('click', () => {
         index = i;
         lightbox();
         changeImg();
@@ -18,14 +18,14 @@ for (let i = 0; i < galleryItemsPkp.length; i++) {
 
 previousBtn.addEventListener('click', () => {
     if (index === 0) {
-        index = galleryItemsPkp.length-1;
+        index = galleryItemsCev.length-1;
     } else {
         index--;
     }
     changeImg();
 })
 nextBtn.addEventListener('click', () => {
-    if (index === galleryItemsPkp.length - 1) {
+    if (index === galleryItemsCev.length - 1) {
         index = 0;
     } else {
         index++;
@@ -33,7 +33,7 @@ nextBtn.addEventListener('click', () => {
     changeImg();
 })
 const btnCloseGallery = document.querySelector('.btn-close-gallery')
-btnCloseGallery.addEventListener('click', function () {
+btnCloseGallery.addEventListener('click', () => {
     lightboxContainer.classList.remove('open');
 })
 
@@ -42,7 +42,7 @@ function lightbox () {
 }
 
 function changeImg () {
-    imgSrc = galleryItemsPkp[index].querySelector('.gallery-img-pkp').getAttribute('src');
+    imgSrc = galleryItemsCev[index].querySelector('.gallery-img-cev').getAttribute('src');
     lightboxImage.src = imgSrc;
 }
 
