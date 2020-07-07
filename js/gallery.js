@@ -32,6 +32,7 @@ nextBtn.addEventListener('click', () => {
     }
     changeImg();
 })
+
 const btnCloseGallery = document.querySelector('.btn-close-gallery')
 btnCloseGallery.addEventListener('click', function () {
     lightboxContainer.classList.remove('open');
