@@ -127,7 +127,6 @@ btn1.addEventListener('click', () => {
         pagePresentation.classList.remove('translate-page-left')
         pageContact.classList.remove('translate-page-left')
     }
-
 })
 btn2.addEventListener('click', () => {
     pagePresentation.classList.add('translate-page-left')

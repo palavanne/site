@@ -259,8 +259,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .lightbox .lightbox-content .lightbox-img {
-    max-width: 80vw;
-    max-height: 100%;
+    max-width: 100%;
   }
   .lightbox .lightbox-content div.previous-btn {
     left: 0;
