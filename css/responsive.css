@@ -260,7 +260,6 @@
   }
   .lightbox .lightbox-content .lightbox-img {
     max-width: 100%;
-    height: calc(100% * .56);
   }
   .lightbox .lightbox-content .previous-btn {
     left: 0;

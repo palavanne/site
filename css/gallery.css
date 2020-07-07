@@ -41,12 +41,13 @@
 .lightbox.open {
     display: flex;
 }
-.lightbox .lightbox-content .lightbox-img {
-    max-width: 60%;
-}
 .lightbox .lightbox-content {
     display: flex;
     justify-content: center;
+}
+.lightbox .lightbox-content .lightbox-img {
+    max-width: 60%;
+    height: 100%;
 }
 .lightbox .lightbox-content .previous-btn, 
 .lightbox .lightbox-content .next-btn {
