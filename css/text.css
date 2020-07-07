@@ -10,7 +10,6 @@
   top: 50%;
   left: 50%;
   transform: translate(calc(-50% - 8px), calc(-50%));
-  /* background-color: rgb(235, 235, 235); */
 }
 .text-top span {
   position: absolute;
@@ -21,7 +20,6 @@
   width: 16px;
   height: 151px;
   transform-origin: bottom center;
-  /* border: 1px solid rgb(0, 0, 0); */
   transition: 0.3s;
 }
 .text-bottom span {
@@ -35,7 +33,6 @@
   width: 16px;
   height: 151px;
   transform-origin: top center;
-  /* border: 1px solid rgb(0, 0, 0); */
   transition: 0.3s;
 }
 
@@ -114,7 +111,6 @@
 .char25 {
   transform: rotate(84deg);
 }
-
 .char26 {
   transform: rotate(-73deg);
 }
@@ -181,7 +177,6 @@
 .char47 {
   transform: rotate(73deg);
 }
-
 .letter-top-disapear {
   height: 0 !important;
   transform: translateY(125px);

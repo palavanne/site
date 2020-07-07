@@ -3,12 +3,10 @@
   overflow: hidden;
   height: 100%;
   width: 100%;
-  /* background-color: rgb(129, 129, 129); */
   background-image: url("../img/couleurs-progressive.jpeg");
   background-position: center;
   background-size: cover;
 }
-
 .translate-page-left {
   right: 0 !important;
 }
@@ -30,7 +28,6 @@
   max-width: 1000px;
   padding: 0 3rem;
 }
-
 .section {
   padding: 2rem 0;
 }
@@ -106,5 +103,3 @@
   margin-top: 2rem;
   border-top: .1rem solid rgb(200, 200, 200);
 }
-
-

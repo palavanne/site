@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 20% 80%;
     margin: 0 auto;
-    max-width: 1200px;
 }
 .columns-presentation .case {
     padding: 1rem;

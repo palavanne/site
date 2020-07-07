@@ -66,10 +66,11 @@
 .name-right {
   display: flex;
   align-items: center;
+  font-size: 1.3rem;
   font-weight: bold;
+  color: rgb(255, 255, 255);
   width: 350px;
   height: 150px;
-  font-size: 1.3rem;
   padding-left: 70px;
   transform: translateX(100px);
   transition: .3s;
@@ -80,14 +81,14 @@
   display: flex;
   align-items: center;
   justify-content: right;
+  font-size: 1.3rem;
   font-weight: bold;
+  color: rgb(255, 255, 255);
   width: 350px;
   height: 150px;
-  font-size: 1.3rem;
   padding-right: 70px;
-  transform: translateX(-320px);
+  transform: translateX(-300px);
   transition: 0.3s;
-  overflow: hidden;
   visibility: hidden;
   opacity: 0;
 }
@@ -118,7 +119,6 @@
   background-image: url("../img/round/card-pkp-square.jpg");
   background-position: center;
   background-size: cover;
-  color: #fff;
   transition: 0.5s;
 }
 .btn-3:hover .name-right {
@@ -129,7 +129,6 @@
   background-image: url("../img/round/card-conte-square.jpg");
   background-position: center;
   background-size: cover;
-  color: #fff;
   transition: 0.5s;
 }
 .btn-4:hover .name-right {
@@ -140,7 +139,6 @@
   background-image: url("../img/round/card-mouffle-square.jpg");
   background-position: center;
   background-size: cover;
-  color: #fff;
   transition: 0.5s;
 }
 .btn-5:hover .name-right {
@@ -154,7 +152,6 @@
   background-image: url("../img/round/card-cratt-square.jpg");
   background-position: center;
   background-size: cover;
-  color: #fff;
   transition: 0.5s;
 }
 .btn-7:hover .name-left {
@@ -165,7 +162,6 @@
   background-image: url("../img/round/card-fabrik-recup-square.jpg");
   background-position: center;
   background-size: cover;
-  color: #fff;
   transition: 0.5s;
 }
 .btn-8:hover .name-left {
@@ -176,7 +172,6 @@
   background-image: url("../img/round/card-malle-square.jpg");
   background-position: center;
   background-size: cover;
-  color: #fff;
   transition: 0.5s;
 }
 .btn-9:hover .name-left {

@@ -1,9 +1,12 @@
 @media screen and (max-width: 760px) {
+
+  /* MENU */
+
   .circle-menu {
     overflow: auto;
   }
   .little-circle {
-    box-shadow: 0 0 0px 0px rgb(0, 0, 0);
+    box-shadow: none;
   }
   .little-circle-center {
     justify-content: center;
@@ -12,7 +15,6 @@
     width: 100vw;
     height: calc(100vw * 0.4);
   }
-
   .btn-2 {
     align-items: center;
   }
@@ -34,7 +36,6 @@
   .btn-9 {
     background-image: url("../img/card-malle-800.jpg");
   }
-
   .btn-1-translate {
     transform: translate(-50vw, -50vh);
     width: 100vw;
@@ -249,11 +250,13 @@
 
   /* GALERIE */
 
-  .gallery .gallery-items-pkp {
+  .gallery .gallery-items-pkp, 
+  .gallery .gallery-items-cev {
     grid-template-columns: 1fr 1fr;
   }
   .lightbox .lightbox-content .lightbox-img {
-    max-width: 80%;
+    max-width: 80vw;
+    max-height: 100%;
   }
   .lightbox .lightbox-content div.previous-btn {
     left: 0;
