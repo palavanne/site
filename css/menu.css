@@ -38,7 +38,7 @@
   margin-left: .6rem;
   width: 2rem;
   opacity: 0;
-  animation: appear 3s linear;
+  animation: appear 5s linear;
   animation-iteration-count: 2;
 }
 .little-circle {
