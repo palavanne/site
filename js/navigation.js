@@ -1,3 +1,5 @@
+(function () {
+
 const pagePkp = document.querySelector('.pkp')
 const pageCev = document.querySelector('.cev')
 const pageMouffle = document.querySelector('.mouffle')
@@ -224,3 +226,5 @@ linkMalle.addEventListener('click', () => {
     pageFr.classList.remove('translate-page-left')
     pageMalle.classList.add('translate-page-left')
 })
+
+}())
