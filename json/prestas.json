@@ -162,7 +162,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "Cont'en Voyage",
@@ -173,7 +173,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "Cont'en Voyage",
@@ -184,7 +184,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "La Mouffle",
@@ -195,7 +195,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "La Mouffle",
@@ -206,7 +206,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "La Mouffle",
@@ -217,7 +217,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "La Moufle",
@@ -239,7 +239,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "La Malle Magique",
@@ -250,7 +250,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "La Malle Magique",
@@ -261,7 +261,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "Ca Rime à Tout Terrien",
@@ -272,7 +272,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "Ca Rime à Tout Terrien",
@@ -283,7 +283,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "Ca Rime à Tout Terrien",
@@ -294,7 +294,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "La Fabrik'Récup",
@@ -305,7 +305,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "La Fabrik'Récup",
@@ -316,7 +316,7 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     },
     {
         "spectacle": "La Fabrik'Récup",
@@ -327,6 +327,6 @@
         "equipe": "Equipe titulaire",
         "infos": "Départ la veille",
         "option": false,
-        "annulee": true
+        "annulee": false
     }
 ]

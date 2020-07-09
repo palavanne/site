@@ -1,4 +1,7 @@
 @media screen and (max-width: 770px) {
+  .wrapper {
+    background-image: url("../img/background-img/couleurs-small.jpg");
+  }
 
   /* MENU */
 
@@ -136,6 +139,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     height: 3rem;
+    cursor: pointer;
     z-index: 1;
   }
   .return p {
@@ -150,8 +154,6 @@
     margin-right: 1rem;
     margin-left: -3rem;
     background-color: #fff;
-    border: 0.1px solid rgb(0, 0, 0);
-    cursor: pointer;
   }
 
   /* PAGE */
@@ -259,7 +261,8 @@
     grid-template-columns: 1fr 1fr;
   }
   .lightbox .lightbox-content .lightbox-img {
-    max-width: 100%;
+    width: 100vw;
+    max-height: 100vh
   }
   .lightbox .lightbox-content .previous-btn {
     left: 0;

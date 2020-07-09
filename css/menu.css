@@ -34,7 +34,7 @@
   margin-top: 75px;
 }
 .icon-click {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   margin-left: .6rem;
   width: 2rem;
   opacity: 0;
@@ -222,7 +222,7 @@
   0% {
     opacity: 0;
   }
-  30% {
+  35% {
     opacity: 0;
   }
   40% {
