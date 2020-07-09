@@ -126,7 +126,7 @@
     text-align: center;
   }
 
-  /* MENU */
+  /* RETURN */
 
   .return {
     position: fixed;
@@ -140,7 +140,7 @@
     font-weight: bold;
     height: 3rem;
     cursor: pointer;
-    z-index: 1;
+    z-index: 1000000;
   }
   .return p {
     display: inline-block;
