@@ -270,6 +270,12 @@
   .lightbox .lightbox-content .next-btn {
     right: 0;
   }
+
+  /* LOADER */
+
+  .loader .loader-title {
+    margin-top: -.2rem;
+  }
 }
 
 @media screen and (min-width: 1300px) {
