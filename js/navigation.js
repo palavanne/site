@@ -8,7 +8,7 @@
     const pageFr = document.querySelector('.fr')
     const pagePresentation = document.querySelector('.presentation')
     const pageContact = document.querySelector('.contact')
-    const translate = document.querySelector('.menu')
+    const menu = document.querySelector('.menu')
     const btn1 = document.querySelector('.btn-1')
     const btn2 = document.querySelector('.btn-2')
     const btn3 = document.querySelector('.btn-3')
@@ -118,8 +118,8 @@
         btn8.classList.toggle('btn-8-translate')
         btn9.classList.toggle('btn-9-translate')
 
-        if (translate.classList.contains('translate-left')) {
-            translate.classList.remove('translate-left')
+        if (menu.classList.contains('translate-left')) {
+            menu.classList.remove('translate-left')
             pagePkp.classList.remove('translate-page-left')
             pageCev.classList.remove('translate-page-left')
             pageMouffle.classList.remove('translate-page-left')
@@ -200,7 +200,7 @@
                 letterBottom.classList.add('letter-bottom-disapear')
             }
         }
-        translate.classList.add('translate-left')
+        menu.classList.add('translate-left')
         btn2.classList.remove('btn-2-translate')
         btn3.classList.remove('btn-3-translate')
         btn4.classList.remove('btn-4-translate')
