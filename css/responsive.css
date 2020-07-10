@@ -4,7 +4,6 @@
   }
 
   /* MENU */
-
   .circle-menu {
     overflow: auto;
   }
@@ -139,7 +138,6 @@
   }
 
   /* RETURN */
-
   .return {
     position: fixed;
     display: flex;
@@ -169,7 +167,6 @@
   }
 
   /* PAGE */
-
   .page-wrapper {
     width: 100vw;
     box-shadow: none;
