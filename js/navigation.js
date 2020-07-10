@@ -33,7 +33,7 @@ const linkMalle = document.querySelector('.js-link-malle')
 
 let screenWidth = window.innerWidth;
 
-if (screenWidth < 768) {
+if (screenWidth < 767) {
     for (const nameRight of nameRights) {
         nameRight.classList.add('hidden')
     }
@@ -132,49 +132,49 @@ btn1.addEventListener('click', () => {
 })
 btn2.addEventListener('click', () => {
     pagePresentation.classList.add('translate-page-left')
-    if (screenWidth > 767) {
+    if (screenWidth > 899) {
         aminate()
     }
 })
 btn3.addEventListener('click', () => {
     pagePkp.classList.add('translate-page-left')
-    if (screenWidth > 767) {
+    if (screenWidth > 899) {
         aminate()
     }
 })
 btn4.addEventListener('click', () => {
     pageCev.classList.add('translate-page-left')
-    if (screenWidth > 767) {
+    if (screenWidth > 899) {
         aminate()
     }
 })
 btn5.addEventListener('click', () => {
     pageMouffle.classList.add('translate-page-left')
-    if (screenWidth > 767) {
+    if (screenWidth > 899) {
         aminate()
     }
 })
 btn6.addEventListener('click', () => {
     pageContact.classList.add('translate-page-left')
-    if (screenWidth > 767) {
+    if (screenWidth > 899) {
         aminate()
     }
 })
 btn7.addEventListener('click', () => {
     pageCratt.classList.add('translate-page-left')
-    if (screenWidth > 767) {
+    if (screenWidth > 899) {
         aminate()
     }
 })
 btn8.addEventListener('click', () => {
     pageFr.classList.add('translate-page-left')
-    if (screenWidth > 767) {
+    if (screenWidth > 899) {
         aminate()
     }
 })
 btn9.addEventListener('click', () => {
     pageMalle.classList.add('translate-page-left')
-    if (screenWidth > 767) {
+    if (screenWidth > 899) {
         aminate()
     }
 })
