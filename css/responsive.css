@@ -219,12 +219,8 @@
   .title::after {
     display: none;
   }
-  .column-gallery {
-    flex: 50%;
-  }
 
   /* AGENDA */
-
   .agenda-grid {
     display: block;
     text-align: center;
@@ -237,14 +233,12 @@
   .translate-left {
     transform: translateX(0);
   }
-
   .youtube-video {
     width: 100vw;
     height: calc(100 * 0.562);
   }
 
   /* PRESENTATION */
-
   .columns-presentation {
     grid-template-columns: 40% 60%;
   }
@@ -263,7 +257,6 @@
   }
 
   /* GALERIE */
-
   .gallery .gallery-items-pkp,
   .gallery .gallery-items-cev,
   .gallery .gallery-items-mouffle,
@@ -342,6 +335,10 @@
   }
   .lightbox .lightbox-content .next-btn {
     right: 0;
+  }
+  .youtube-video {
+    width: 100vw;
+    height: calc(100 * 0.562);
   }
 }
 
