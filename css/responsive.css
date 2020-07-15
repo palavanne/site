@@ -130,6 +130,7 @@
     visibility: visible;
     opacity: 1;
   }
+  
   .name-wrapper {
     height: 3rem;
   }
@@ -340,6 +341,10 @@
 }
 
 @media screen and (min-width: 1300px) {
+  .little-circle-center {
+    width: 250px;
+    height: 250px;
+  }
   .little-circle {
     font-size: 1.4rem;
     width: 200px;
@@ -356,11 +361,12 @@
   }
   .name-right {
     height: 200px;
+    width: 450px;
     padding-left: 130px;
   }
   .name-left {
     height: 200px;
-    padding-right: 0px;
+    padding-right: 80px;
   }
   .btn-2-translate {
     transform: translate(-100px, -375px);
@@ -388,6 +394,22 @@
   }
   .translate-left {
     transform: translateX(calc(-50% + 200px));
+  }
+
+  /* TEXT */
+
+  .text-top {
+    transform: translate(calc(-50% - 8px), calc(-50% - 150px)) !important;
+    background-color: #fff;
+  }
+  .text-bottom {
+    transform: translate(calc(-50% - 8px), calc(-50%));
+  }
+  .text-top span {
+    height: 150px !important;
+  }
+  .text-bottom span {
+    height: 150px !important;
   }
 
   /* PAGE */

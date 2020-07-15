@@ -2,7 +2,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(calc(-50% - 8px), calc(-50% - 151px));
+  transform: translate(calc(-50% - 8px), calc(-50% - 140px));
   background-color: #fff;
 }
 .text-bottom {
@@ -18,7 +18,7 @@
   font-weight: bold;
   text-align: center;
   width: 16px;
-  height: 151px;
+  height: 140px;
   transform-origin: bottom center;
   transition: 0.3s;
 }
@@ -31,150 +31,145 @@
   color: rgb(255, 255, 255);
   font-weight: bold;
   width: 16px;
-  height: 151px;
+  height: 140px;
   transform-origin: top center;
   transition: 0.3s;
 }
 
 .char1 {
-  transform: rotate(-84deg);
-}
-.char2 {
   transform: rotate(-77deg);
 }
-.char3 {
+.char2 {
   transform: rotate(-70deg);
 }
-.char4 {
+.char3 {
   transform: rotate(-63deg);
 }
-.char5 {
+.char4 {
   transform: rotate(-56deg);
 }
-.char6 {
+.char5 {
   transform: rotate(-49deg);
 }
-.char7 {
+.char6 {
   transform: rotate(-42deg);
 }
-.char8 {
+.char7 {
   transform: rotate(-35deg);
 }
-.char9 {
+.char8 {
   transform: rotate(-28deg);
 }
-.char10 {
+.char9 {
   transform: rotate(-21deg);
 }
-.char11 {
+.char10 {
   transform: rotate(-14deg);
 }
-.char12 {
+.char11 {
   transform: rotate(-7deg);
 }
-.char13 {
-  transform: rotate(0deg);
+.char12 {
+  transform: rotate(-0deg);
 }
-.char14 {
+.char13 {
   transform: rotate(7deg);
 }
-.char15 {
+.char14 {
   transform: rotate(14deg);
 }
-.char16 {
+.char15 {
   transform: rotate(21deg);
 }
-.char17 {
+.char16 {
   transform: rotate(28deg);
 }
-.char18 {
+.char17 {
   transform: rotate(35deg);
 }
-.char19 {
+.char18 {
   transform: rotate(42deg);
 }
-.char20 {
+.char19 {
   transform: rotate(49deg);
 }
-.char21 {
+.char20 {
   transform: rotate(56deg);
 }
-.char22 {
+.char21 {
   transform: rotate(63deg);
 }
-.char23 {
+.char22 {
   transform: rotate(70deg);
 }
-.char24 {
+.char23 {
   transform: rotate(77deg);
 }
-.char25 {
-  transform: rotate(84deg);
-}
-.char26 {
+
+.char24 {
   transform: rotate(-73deg);
 }
-.char27 {
+.char25 {
   transform: rotate(-66deg);
 }
-.char28 {
+.char26 {
   transform: rotate(-59deg);
 }
-.char29 {
+.char27 {
   transform: rotate(-52deg);
 }
-.char30 {
+.char28 {
   transform: rotate(-45deg);
 }
-.char31 {
+.char29 {
   transform: rotate(-38deg);
 }
-.char32 {
+.char30 {
   transform: rotate(-31deg);
 }
-.char33 {
+.char31 {
   transform: rotate(-24deg);
 }
-.char34 {
+.char32 {
   transform: rotate(-19deg);
 }
-.char35 {
+.char33 {
   transform: rotate(-12deg);
 }
-.char36 {
+.char34 {
   transform: rotate(-5deg);
 }
-.char37 {
+.char35 {
   transform: rotate(2deg);
 }
-.char38 {
+.char36 {
   transform: rotate(10deg);
 }
-.char39 {
+.char37 {
   transform: rotate(17deg);
 }
-.char40 {
+.char38 {
   transform: rotate(24deg);
 }
-.char41 {
+.char39 {
   transform: rotate(31deg);
 }
-.char42 {
+.char40 {
   transform: rotate(38deg);
 }
-.char43 {
+.char41 {
   transform: rotate(45deg);
 }
-.char44 {
+.char42 {
   transform: rotate(52deg);
 }
-.char45 {
+.char43 {
   transform: rotate(59deg);
 }
-.char46 {
+.char44 {
   transform: rotate(66deg);
 }
-.char47 {
+.char45 {
   transform: rotate(73deg);
 }
 .letter-top-disapear {

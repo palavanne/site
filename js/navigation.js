@@ -20,8 +20,8 @@
     const btn9 = document.querySelector('.btn-9')
     const textTop = document.querySelector('.text-top')
     const textBottom = document.querySelector('.text-bottom')
-    const letterTops = document.querySelectorAll('.js-letter-top')
-    const letterBottoms = document.querySelectorAll('.js-letter-bottom')
+    // const letterTops = document.querySelectorAll('.js-letter-top')
+    // const letterBottoms = document.querySelectorAll('.js-letter-bottom')
     const btnMenuResponsives = document.querySelectorAll('.js-return')
     const iconClick = document.querySelector('.icon-click')
     const nameRights = document.querySelectorAll('.name-right')
@@ -89,24 +89,21 @@
             } else {
                 textBottom.classList.add('hidden')
             }
-            setTimeout(() => {
-                iconClick.classList.add('hidden')
-            }, 5000);
         }
-        for (const letterTop of letterTops) {
-            if (letterTop.classList.contains('letter-top-disapear')) {
-                letterTop.classList.remove('letter-top-disapear')
-            } else {
-                letterTop.classList.add('letter-top-disapear')
-            }
-        }
-        for (const letterBottom of letterBottoms) {
-            if (letterBottom.classList.contains('letter-bottom-disapear')) {
-                letterBottom.classList.remove('letter-bottom-disapear')
-            } else {
-                letterBottom.classList.add('letter-bottom-disapear')
-            }
-        }
+        // for (const letterTop of letterTops) {
+        //     if (letterTop.classList.contains('letter-top-disapear')) {
+        //         letterTop.classList.remove('letter-top-disapear')
+        //     } else {
+        //         letterTop.classList.add('letter-top-disapear')
+        //     }
+        // }
+        // for (const letterBottom of letterBottoms) {
+        //     if (letterBottom.classList.contains('letter-bottom-disapear')) {
+        //         letterBottom.classList.remove('letter-bottom-disapear')
+        //     } else {
+        //         letterBottom.classList.add('letter-bottom-disapear')
+        //     }
+        // }
 
         btn1.classList.toggle('btn-1-translate')
         btn2.classList.toggle('btn-2-translate')
@@ -128,6 +125,11 @@
             pageFr.classList.remove('translate-page-left')
             pagePresentation.classList.remove('translate-page-left')
             pageContact.classList.remove('translate-page-left')
+        }
+        if (iconClick.classList.contains('visibility-hidden')) {
+            return
+        } else {
+            iconClick.classList.add('visibility-hidden')
         }
     })
     btn2.addEventListener('click', () => {
@@ -186,20 +188,20 @@
     }
 
     function aminate() {
-        for (const letterTop of letterTops) {
-            if (letterTop.classList.contains('letter-top-disapear')) {
-                letterTop.classList.remove('letter-top-disapear')
-            } else {
-                letterTop.classList.add('letter-top-disapear')
-            }
-        }
-        for (const letterBottom of letterBottoms) {
-            if (letterBottom.classList.contains('letter-bottom-disapear')) {
-                letterBottom.classList.remove('letter-bottom-disapear')
-            } else {
-                letterBottom.classList.add('letter-bottom-disapear')
-            }
-        }
+        // for (const letterTop of letterTops) {
+        //     if (letterTop.classList.contains('letter-top-disapear')) {
+        //         letterTop.classList.remove('letter-top-disapear')
+        //     } else {
+        //         letterTop.classList.add('letter-top-disapear')
+        //     }
+        // }
+        // for (const letterBottom of letterBottoms) {
+        //     if (letterBottom.classList.contains('letter-bottom-disapear')) {
+        //         letterBottom.classList.remove('letter-bottom-disapear')
+        //     } else {
+        //         letterBottom.classList.add('letter-bottom-disapear')
+        //     }
+        // }
         menu.classList.add('translate-left')
         btn2.classList.remove('btn-2-translate')
         btn3.classList.remove('btn-3-translate')

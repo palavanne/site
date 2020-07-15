@@ -2,7 +2,7 @@
 
   var prestas = []
 
-  fetch('https://raw.githubusercontent.com/palavanne/site/master/json/prestas.json')
+  fetch('./json/prestas.json')
     .then(function (response) {
       return response.json()
     })

@@ -1,12 +1,3 @@
-.wrapper {
-  position: absolute;
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  background-image: url("../img/background-img/couleurs-progressive.jpeg");
-  background-position: center;
-  background-size: cover;
-}
 .translate-page-left {
   right: 0 !important;
 }
@@ -17,8 +8,8 @@
   top: 0;
   right: -100%;
   width: calc(100vw - 320px);
-  height: 100vh;
-  background-color: #fff;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 0 50px -20px;
   overflow: auto;
   z-index: 1000;

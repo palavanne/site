@@ -41,6 +41,16 @@ body {
        font-display: swap;
 }
 
+.wrapper {
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/background-img/couleurs-progressive.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
 /* LAYOUT */
 
 .columns {
