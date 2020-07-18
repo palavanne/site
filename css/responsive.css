@@ -420,3 +420,9 @@
     width: calc(100vw - 400px);
   }
 }
+
+@media (orientation: landscape) {
+  .message {
+    visibility: visible;
+  }
+}
