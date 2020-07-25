@@ -1,0 +1,24 @@
+.row {
+  width: calc(100% - 1rem);
+  padding: 10px;
+  line-height: 2em;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.agenda-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 25% 40% 15%;
+      grid-template-columns: 20% 25% 40% 15%;
+}
+
+.btn-agenda {
+  float: right;
+  text-decoration: none;
+  padding: 0px 5px;
+  color: inherit;
+  color: white;
+  border-radius: 5px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}

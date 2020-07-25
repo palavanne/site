@@ -1,8 +1,14 @@
 .landscape-lock {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100vw;
   height: 100vh;
   background-color: #fff;
@@ -13,27 +19,37 @@
 .translate-page-left {
   right: 0 !important;
 }
+
 .page-wrapper {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   top: 0;
   right: -100%;
   width: calc(100vw - 320px);
   height: 100%;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 50px -20px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 50px -20px;
+          box-shadow: 0 0 50px -20px;
   overflow: auto;
   z-index: 1000;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 .page {
   max-width: 1000px;
   padding: 0 3rem;
 }
+
 .section {
   padding: 2rem 0;
 }
+
 .title-project {
   display: block;
   font-size: 5rem;
@@ -41,13 +57,15 @@
   text-align: center;
   margin: 0px;
 }
-.title-project-cratt, 
+
+.title-project-cratt,
 .title-project-malle {
   font-size: 4rem;
   line-height: 4rem;
   text-align: center;
   margin: 0px;
 }
+
 .catch-phrase {
   font-size: 1.5rem;
   line-height: 3rem;
@@ -55,6 +73,7 @@
   margin-top: 0;
   margin-bottom: 2rem;
 }
+
 .title-section-else {
   text-align: center;
   font-size: 3rem;
@@ -62,16 +81,28 @@
   margin-top: 0;
   margin-bottom: 2rem;
 }
+
+.banner {
+  width: 100%;
+}
+
 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 3rem;
   line-height: 3rem;
   text-align: center;
   margin-top: 0;
 }
-.title::before, 
+
+.title::before,
 .title::after {
   content: "";
   display: block;
@@ -80,22 +111,24 @@
   margin: 0 2rem;
   background-color: #000000;
 }
+
 .download-link {
   color: #000000;
   margin-bottom: -.15rem;
 }
 
 /* IMAGES */
-
 .img-presentation {
   width: 100%;
   margin-bottom: 1rem;
 }
+
 .teaser-img {
   width: 100%;
   margin-bottom: 2rem;
   cursor: pointer;
 }
+
 .icon-pdf {
   height: 1.2rem;
   margin-bottom: -.25rem;
@@ -105,5 +138,5 @@
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-  border-top: .1rem solid rgb(200, 200, 200);
+  border-top: 0.1rem solid #c8c8c8;
 }

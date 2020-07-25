@@ -1,0 +1,102 @@
+.gallery .gallery-items-pkp,
+.gallery .gallery-items-cev,
+.gallery .gallery-items-mouffle,
+.gallery .gallery-items-cratt,
+.gallery .gallery-items-fr,
+.gallery .gallery-items-malle {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: .2rem;
+}
+
+.gallery .gallery-items-pkp .item,
+.gallery .gallery-items-cev .item,
+.gallery .gallery-items-mouffle .item,
+.gallery .gallery-items-cratt .item,
+.gallery .gallery-items-fr .item,
+.gallery .gallery-items-malle .item {
+  width: 100%;
+}
+.gallery .gallery-items-pkp .item img,
+.gallery .gallery-items-cev .item img,
+.gallery .gallery-items-mouffle .item img,
+.gallery .gallery-items-cratt .item img,
+.gallery .gallery-items-fr .item img,
+.gallery .gallery-items-malle .item img {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+.lightbox {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10000;
+}
+
+.lightbox.open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lightbox .lightbox-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lightbox .lightbox-content .lightbox-img {
+  display: block;
+  max-width: 100vw;
+  height: 80vh;
+}
+
+.lightbox .lightbox-content .previous-btn,
+.lightbox .lightbox-content .next-btn {
+  position: absolute;
+  top: 50%;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  line-height: 2.5rem;
+  margin-top: -1.5rem;
+  cursor: pointer;
+}
+
+.lightbox .lightbox-content .previous-btn {
+  left: 2rem;
+}
+
+.lightbox .lightbox-content .next-btn {
+  right: 2rem;
+}
+
+.lightbox .lightbox-content .chevron-left {
+  margin-top: 0.25rem;
+  margin-right: .3rem;
+  height: 2.5rem;
+}
+
+.lightbox .lightbox-content .chevron-right {
+  margin-top: 0.25rem;
+  margin-left: .3rem;
+  height: 2.5rem;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
