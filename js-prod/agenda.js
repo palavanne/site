@@ -41,6 +41,7 @@
 
   function createRow(presta) {
     const divDate = document.createElement('div')
+    if ()
     divDate.classList.add('row', 'agenda-grid')
     divDate.appendChild(createCell(presta.date))
     divDate.appendChild(createCell(presta.ville))
